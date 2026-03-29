@@ -375,7 +375,7 @@
     <div class="tab-panel active" id="tab-stale">
       <div class="table-wrap">
         <table id="stale-table">
-          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th><th>Assignees</th></tr></thead>
+          <thead><tr><th>#</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th><th>Assignees</th></tr></thead>
           <tbody id="stale-body"></tbody>
         </table>
       </div>
@@ -383,7 +383,7 @@
     <div class="tab-panel" id="tab-unassigned">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th></tr></thead>
+          <thead><tr><th>#</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th></tr></thead>
           <tbody id="unassigned-body"></tbody>
         </table>
       </div>
@@ -391,7 +391,7 @@
     <div class="tab-panel" id="tab-all">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Kind</th><th>Team</th><th>Assignees</th><th>Milestone</th><th>Age</th></tr></thead>
+          <thead><tr><th>#</th><th>Status</th><th>Kind</th><th>Team</th><th>Assignees</th><th>Milestone</th><th>Age</th></tr></thead>
           <tbody id="all-body"></tbody>
         </table>
       </div>
@@ -735,7 +735,7 @@ function renderStaleTable(items) {
   document.getElementById('stale-body').innerHTML = stale.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
+
       <td>${pillStatus(i.status)}</td>
       <td>${pillTeam(i.labels)}</td>
       <td style="color:#8b949e">${i.milestone || '—'}</td>
@@ -753,7 +753,7 @@ function renderUnassignedTable(items) {
   document.getElementById('unassigned-body').innerHTML = unassigned.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
+
       <td>${pillStatus(i.status)}</td>
       <td>${pillTeam(i.labels)}</td>
       <td style="color:#8b949e">${i.milestone || '—'}</td>
@@ -767,7 +767,7 @@ function renderAllTable(items) {
   document.getElementById('all-body').innerHTML = sorted.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
+
       <td>${pillStatus(i.status)}</td>
       <td style="color:#8b949e">${i.kind || '—'}</td>
       <td>${pillTeam(i.labels)}</td>
