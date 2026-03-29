@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glotale · Project Metrics</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface2: #1c2128;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --green: #3fb950;
+      --yellow: #d29922;
+      --orange: #f0883e;
+      --red: #f85149;
+      --purple: #bc8cff;
+      --teal: #39d353;
+      --radius: 10px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    header .logo { display: flex; align-items: center; gap: 10px; }
+    header .logo svg { width: 28px; height: 28px; }
+    header h1 { font-size: 16px; font-weight: 600; }
+    header .meta { font-size: 12px; color: var(--muted); }
+    #last-updated { color: var(--accent); }
+
+    /* ── Layout ── */
+    main { max-width: 1280px; margin: 0 auto; padding: 24px; }
+
+    /* ── Summary Cards ── */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      text-align: center;
+    }
+    .card .value {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+    .card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .card .sub { font-size: 11px; color: var(--muted); margin-top: 4px; }
+    .card.green .value { color: var(--green); }
+    .card.yellow .value { color: var(--yellow); }
+    .card.orange .value { color: var(--orange); }
+    .card.red .value { color: var(--red); }
+    .card.blue .value { color: var(--accent); }
+    .card.purple .value { color: var(--purple); }
+
+    /* ── Section headers ── */
+    .section-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title .badge {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 1px 8px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* ── Grid layouts ── */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+    @media (max-width: 900px) {
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    }
+
+    /* ── Chart panels ── */
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .panel canvas { max-height: 260px; }
+
+    /* ── Table ── */
+    .table-wrap { overflow-x: auto; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th {
+      text-align: left;
+      padding: 8px 12px;
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    td {
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: var(--surface2); }
+    .truncate { max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+    /* ── Badges / pills ── */
+    .pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 11px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .pill-todo     { background: #21262d; color: #8b949e; border: 1px solid #30363d; }
+    .pill-inprog   { background: #1c2e4a; color: #58a6ff; border: 1px solid #1f6feb; }
+    .pill-inrev    { background: #2d2a00; color: #d29922; border: 1px solid #9e6a03; }
+    .pill-done     { background: #12261e; color: #3fb950; border: 1px solid #1a7f37; }
+    .pill-unset    { background: #21262d; color: #8b949e; border: 1px solid #30363d; }
+    .pill-ops      { background: #1e1247; color: #bc8cff; }
+    .pill-dm       { background: #0a1628; color: #58a6ff; }
+    .pill-sales    { background: #0e2417; color: #3fb950; }
+    .pill-coach    { background: #2d1700; color: #f0883e; }
+    .pill-product  { background: #2d1b1b; color: #f85149; }
+
+    /* ── Progress bar ── */
+    .progress-bar { background: var(--border); border-radius: 4px; height: 6px; overflow: hidden; margin-top: 4px; }
+    .progress-fill { height: 100%; border-radius: 4px; transition: width 0.3s ease; }
+
+    /* ── Funnel ── */
+    .funnel { display: flex; flex-direction: column; gap: 8px; }
+    .funnel-row { display: flex; align-items: center; gap: 12px; }
+    .funnel-label { width: 90px; font-size: 12px; color: var(--muted); text-align: right; flex-shrink: 0; }
+    .funnel-bar-wrap { flex: 1; background: var(--surface2); border-radius: 4px; height: 28px; overflow: hidden; }
+    .funnel-bar { height: 100%; border-radius: 4px; display: flex; align-items: center; padding: 0 10px; font-size: 12px; font-weight: 600; transition: width 0.6s ease; min-width: 40px; }
+    .funnel-count { width: 36px; font-size: 13px; font-weight: 600; text-align: right; flex-shrink: 0; }
+
+    /* ── Leaderboard ── */
+    .leaderboard { list-style: none; }
+    .leaderboard li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .leaderboard li:last-child { border-bottom: none; }
+    .leaderboard .rank { font-size: 12px; color: var(--muted); width: 20px; text-align: center; flex-shrink: 0; }
+    .leaderboard .avatar {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--purple));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 700; color: white; flex-shrink: 0;
+      text-transform: uppercase;
+    }
+    .leaderboard .name { flex: 1; font-size: 13px; }
+    .leaderboard .count { font-size: 13px; font-weight: 600; color: var(--accent); flex-shrink: 0; }
+    .leaderboard .bar-wrap { width: 80px; }
+
+    /* ── Risk alert ── */
+    .alert {
+      background: rgba(248, 81, 73, 0.1);
+      border: 1px solid rgba(248, 81, 73, 0.3);
+      border-radius: var(--radius);
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .alert .icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+    .alert .title { font-weight: 600; color: var(--red); font-size: 13px; }
+    .alert .body  { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+    /* ── Age indicator ── */
+    .age-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; }
+    .age-fresh  { background: var(--green); }
+    .age-ok     { background: var(--yellow); }
+    .age-stale  { background: var(--orange); }
+    .age-old    { background: var(--red); }
+
+    /* ── Stale issues table ── */
+    #stale-table td a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    #stale-table td a:hover { text-decoration: underline; }
+
+    /* ── Tabs ── */
+    .tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .tab {
+      padding: 8px 14px;
+      font-size: 13px;
+      color: var(--muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      transition: color 0.2s;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      color: var(--muted);
+      font-size: 12px;
+      border-top: 1px solid var(--border);
+      margin-top: 32px;
+    }
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="32" height="32" rx="8" fill="#238636"/>
+      <text x="6" y="22" font-size="16" font-weight="bold" fill="white">G</text>
+    </svg>
+    <h1>Glotale · Project Metrics</h1>
+  </div>
+  <div class="meta">Last updated: <span id="last-updated">—</span></div>
+</header>
+
+<main>
+
+  <!-- Alerts -->
+  <div id="alerts-container"></div>
+
+  <!-- Summary Cards -->
+  <div class="cards" id="summary-cards">
+    <div class="card blue"><div class="value" id="c-total">—</div><div class="label">Total Items</div></div>
+    <div class="card green"><div class="value" id="c-done">—</div><div class="label">Done</div><div class="sub" id="c-rate">—% complete</div></div>
+    <div class="card yellow"><div class="value" id="c-inrev">—</div><div class="label">In Review</div></div>
+    <div class="card orange"><div class="value" id="c-inprog">—</div><div class="label">In Progress</div></div>
+    <div class="card red"><div class="value" id="c-unset">—</div><div class="label">Unplanned</div><div class="sub">no status set</div></div>
+    <div class="card purple"><div class="value" id="c-unassigned">—</div><div class="label">Unassigned</div><div class="sub">need an owner</div></div>
+    <div class="card blue"><div class="value" id="c-age">—</div><div class="label">Avg Age (days)</div><div class="sub">open items</div></div>
+    <div class="card green"><div class="value" id="c-cycle">—</div><div class="label">Avg Cycle</div><div class="sub">days to close</div></div>
+  </div>
+
+  <!-- Milestone Progress -->
+  <div class="panel" style="margin-bottom:16px;">
+    <div class="section-title">Milestone Progress</div>
+    <div class="grid-2">
+      <div>
+        <div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#58a6ff;">Q1 2026 <span style="font-size:11px;color:#f85149;">· Deadline: Mar 31</span></div>
+        <div id="q1-funnel" class="funnel"></div>
+      </div>
+      <div>
+        <div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#8b949e;">Q2 2026</div>
+        <div id="q2-funnel" class="funnel"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 1: Status + Team -->
+  <div class="grid-2" style="margin-bottom:16px;">
+    <div class="panel">
+      <div class="section-title">Status Distribution</div>
+      <canvas id="chart-status"></canvas>
+    </div>
+    <div class="panel">
+      <div class="section-title">Items by Team</div>
+      <canvas id="chart-teams"></canvas>
+    </div>
+  </div>
+
+  <!-- Row 2: Team detail table -->
+  <div class="panel" style="margin-bottom:16px;">
+    <div class="section-title">Team Breakdown by Status</div>
+    <div class="table-wrap">
+      <table id="team-table">
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>To Do</th>
+            <th>In Progress</th>
+            <th>In Review</th>
+            <th>Done</th>
+            <th>Unset</th>
+            <th>Total</th>
+            <th>Active %</th>
+          </tr>
+        </thead>
+        <tbody id="team-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Row 3: Leaderboards -->
+  <div class="grid-2" style="margin-bottom:16px;">
+    <div class="panel">
+      <div class="section-title">Ticket Creators <span class="badge">who opens work</span></div>
+      <ul class="leaderboard" id="creator-list"></ul>
+    </div>
+    <div class="panel">
+      <div class="section-title">Assignee Workload <span class="badge">who owns work</span></div>
+      <ul class="leaderboard" id="assignee-list"></ul>
+    </div>
+  </div>
+
+  <!-- Row 4: Kind + Age buckets -->
+  <div class="grid-2" style="margin-bottom:16px;">
+    <div class="panel">
+      <div class="section-title">Work Kind</div>
+      <canvas id="chart-kind"></canvas>
+    </div>
+    <div class="panel">
+      <div class="section-title">Open Item Age</div>
+      <canvas id="chart-age"></canvas>
+    </div>
+  </div>
+
+  <!-- Row 5: Activity timeline -->
+  <div class="panel" style="margin-bottom:16px;">
+    <div class="section-title">Items Created (last 60 days)</div>
+    <canvas id="chart-timeline" style="max-height:180px;"></canvas>
+  </div>
+
+  <!-- Tabs: All Items / Stale / Unassigned -->
+  <div class="panel">
+    <div class="tabs">
+      <div class="tab active" data-tab="stale">Stale Items</div>
+      <div class="tab" data-tab="unassigned">Unassigned</div>
+      <div class="tab" data-tab="all">All Items</div>
+    </div>
+    <div class="tab-panel active" id="tab-stale">
+      <div class="table-wrap">
+        <table id="stale-table">
+          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th><th>Assignees</th></tr></thead>
+          <tbody id="stale-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-panel" id="tab-unassigned">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th></tr></thead>
+          <tbody id="unassigned-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-panel" id="tab-all">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Kind</th><th>Team</th><th>Assignees</th><th>Milestone</th><th>Age</th></tr></thead>
+          <tbody id="all-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>Auto-refreshed every 6 hours via GitHub Actions ·
+  <a href="https://github.com/orgs/Glotale/projects/10" target="_blank">View Project Board</a> ·
+  <a href="https://github.com/Glotale/project-metrics" target="_blank">View Source</a></p>
+</footer>
+
+<script>
+// ─────────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────────
+const STATUSES = ['To Do', 'In progress', 'In review', 'Done', 'Unset'];
+const TEAMS = ['Operations', 'Digital marketing', 'Sales', 'Coaching/Delivery', 'Product'];
+
+const STATUS_COLORS = {
+  'To Do':       '#8b949e',
+  'In progress': '#58a6ff',
+  'In review':   '#d29922',
+  'Done':        '#3fb950',
+  'Unset':       '#30363d',
+};
+
+const TEAM_COLORS = {
+  'Operations':      '#bc8cff',
+  'Digital marketing': '#58a6ff',
+  'Sales':           '#3fb950',
+  'Coaching/Delivery': '#f0883e',
+  'Product':         '#f85149',
+};
+
+function pillStatus(s) {
+  const map = {
+    'To Do': 'pill-todo',
+    'In progress': 'pill-inprog',
+    'In review': 'pill-inrev',
+    'Done': 'pill-done',
+  };
+  return `<span class="pill ${map[s] || 'pill-unset'}">${s || 'Unset'}</span>`;
+}
+
+function pillTeam(labels) {
+  const teamLabels = labels.filter(l => TEAMS.includes(l));
+  if (!teamLabels.length) return '<span style="color:#8b949e">—</span>';
+  const map = {
+    'Operations': 'pill-ops',
+    'Digital marketing': 'pill-dm',
+    'Sales': 'pill-sales',
+    'Coaching/Delivery': 'pill-coach',
+    'Product': 'pill-product',
+  };
+  return teamLabels.map(l => `<span class="pill ${map[l] || ''}">${l}</span>`).join(' ');
+}
+
+function ageDot(days) {
+  if (days <= 7) return '<span class="age-dot age-fresh"></span>';
+  if (days <= 14) return '<span class="age-dot age-ok"></span>';
+  if (days <= 30) return '<span class="age-dot age-stale"></span>';
+  return '<span class="age-dot age-old"></span>';
+}
+
+function avatarInitials(name) {
+  return name.substring(0, 2).toUpperCase();
+}
+
+function formatDate(iso) {
+  if (!iso) return '—';
+  return new Date(iso).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+// ─────────────────────────────────────────────────────────────
+// Chart defaults
+// ─────────────────────────────────────────────────────────────
+Chart.defaults.color = '#8b949e';
+Chart.defaults.borderColor = '#30363d';
+Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
+Chart.defaults.font.size = 12;
+
+// ─────────────────────────────────────────────────────────────
+// Load data & render
+// ─────────────────────────────────────────────────────────────
+async function loadMetrics() {
+  const res = await fetch(`data/metrics.json?t=${Date.now()}`);
+  return res.json();
+}
+
+function renderSummary(m) {
+  const s = m.summary;
+  document.getElementById('last-updated').textContent = new Date(m.lastUpdated).toLocaleString('en-GB');
+  document.getElementById('c-total').textContent      = s.total;
+  document.getElementById('c-done').textContent       = s.done;
+  document.getElementById('c-rate').textContent       = `${s.completionRate}% complete`;
+  document.getElementById('c-inrev').textContent      = s.inReview;
+  document.getElementById('c-inprog').textContent     = s.inProgress;
+  document.getElementById('c-unset').textContent      = s.unset;
+  document.getElementById('c-unassigned').textContent = s.unassignedCount;
+  document.getElementById('c-age').textContent        = s.avgAgeDays ?? '—';
+  document.getElementById('c-cycle').textContent      = s.avgCycleDays ?? 'N/A';
+}
+
+function renderAlerts(m) {
+  const container = document.getElementById('alerts-container');
+  const alerts = [];
+
+  // Q1 deadline risk
+  const q1 = m.milestoneStatus?.['Q1 2026'] || {};
+  const q1Total = Object.values(q1).reduce((a,b)=>a+b,0);
+  const q1Done = q1['Done'] || 0;
+  if (q1Total > 0 && q1Done < q1Total) {
+    alerts.push({
+      icon: '⚠️',
+      title: `Q1 2026 deadline: ${q1Total - q1Done} of ${q1Total} items not Done`,
+      body: `Deadline is March 31. Only ${q1Done} item(s) completed. ${q1['Unset']||0} items still have no status.`
+    });
+  }
+
+  // High unassigned
+  if (m.summary.unassignedCount > m.summary.total * 0.5) {
+    alerts.push({
+      icon: '👤',
+      title: `${m.summary.unassignedCount}/${m.summary.total} items have no assignee`,
+      body: 'Most work items lack ownership. Assign team members to improve accountability.'
+    });
+  }
+
+  // No priorities
+  const hasPriority = m.items?.some(i => i.priority);
+  if (!hasPriority) {
+    alerts.push({
+      icon: '🔴',
+      title: 'No priorities set on any item',
+      body: 'Use P1/P2/P3 priority field to help teams focus on what matters most.'
+    });
+  }
+
+  container.innerHTML = alerts.map(a => `
+    <div class="alert">
+      <div class="icon">${a.icon}</div>
+      <div>
+        <div class="title">${a.title}</div>
+        <div class="body">${a.body}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderFunnel(containerId, data, total) {
+  const maxVal = total || 1;
+  const rows = [
+    { label: 'To Do',       count: data['To Do']||0,       color: '#8b949e' },
+    { label: 'In Progress', count: data['In progress']||0, color: '#58a6ff' },
+    { label: 'In Review',   count: data['In review']||0,   color: '#d29922' },
+    { label: 'Done',        count: data['Done']||0,         color: '#3fb950' },
+    { label: 'Unset',       count: data['Unset']||0,        color: '#30363d' },
+  ].filter(r => r.count > 0);
+
+  document.getElementById(containerId).innerHTML = rows.map(r => {
+    const pct = Math.max(8, Math.round((r.count / maxVal) * 100));
+    return `
+      <div class="funnel-row">
+        <div class="funnel-label">${r.label}</div>
+        <div class="funnel-bar-wrap">
+          <div class="funnel-bar" style="width:${pct}%;background:${r.color}20;color:${r.color};border:1px solid ${r.color}40;">
+            ${Math.round(r.count/total*100)}%
+          </div>
+        </div>
+        <div class="funnel-count" style="color:${r.color}">${r.count}</div>
+      </div>`;
+  }).join('');
+}
+
+function renderChartStatus(m) {
+  const labels = Object.keys(m.byStatus).filter(k => m.byStatus[k] > 0);
+  const values = labels.map(k => m.byStatus[k]);
+  const colors = labels.map(l => STATUS_COLORS[l] || '#8b949e');
+
+  new Chart(document.getElementById('chart-status'), {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{ data: values, backgroundColor: colors, borderColor: '#161b22', borderWidth: 3 }]
+    },
+    options: {
+      cutout: '65%',
+      plugins: {
+        legend: { position: 'right', labels: { boxWidth: 12, padding: 12 } },
+        tooltip: { callbacks: {
+          label: ctx => ` ${ctx.label}: ${ctx.raw} (${Math.round(ctx.raw/values.reduce((a,b)=>a+b)*100)}%)`
+        }}
+      }
+    }
+  });
+}
+
+function renderChartTeams(m) {
+  const labels = TEAMS;
+  const statusKeys = ['Done', 'In review', 'In progress', 'To Do', 'Unset'];
+  const statusColors = ['#3fb950', '#d29922', '#58a6ff', '#8b949e', '#30363d'];
+
+  const datasets = statusKeys.map((s, i) => ({
+    label: s,
+    data: labels.map(t => (m.teamStatus?.[t]?.[s] || 0)),
+    backgroundColor: statusColors[i],
+    borderRadius: 3,
+  }));
+
+  new Chart(document.getElementById('chart-teams'), {
+    type: 'bar',
+    data: { labels, datasets },
+    options: {
+      indexAxis: 'y',
+      scales: {
+        x: { stacked: true, grid: { color: '#30363d' } },
+        y: { stacked: true, grid: { display: false } }
+      },
+      plugins: { legend: { position: 'top', labels: { boxWidth: 10, padding: 10 } } }
+    }
+  });
+}
+
+function renderChartKind(m) {
+  const labels = Object.keys(m.byKind).filter(k => m.byKind[k] > 0);
+  const values = labels.map(k => m.byKind[k]);
+  const colors = { 'Story': '#bc8cff', 'Task': '#58a6ff', 'Unset': '#30363d' };
+
+  new Chart(document.getElementById('chart-kind'), {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{ data: values, backgroundColor: labels.map(l => colors[l] || '#8b949e'), borderColor: '#161b22', borderWidth: 3 }]
+    },
+    options: {
+      cutout: '60%',
+      plugins: {
+        legend: { position: 'right', labels: { boxWidth: 12, padding: 12 } }
+      }
+    }
+  });
+}
+
+function renderChartAge(m) {
+  const labels = Object.keys(m.ageBuckets);
+  const values = labels.map(k => m.ageBuckets[k]);
+  const colors = ['#3fb950', '#d29922', '#f0883e', '#f85149'];
+
+  new Chart(document.getElementById('chart-age'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{ data: values, backgroundColor: colors, borderRadius: 6 }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { grid: { color: '#30363d' }, ticks: { stepSize: 1 } },
+        x: { grid: { display: false } }
+      }
+    }
+  });
+}
+
+function renderChartTimeline(m) {
+  const sorted = Object.keys(m.byDate || {}).sort();
+  const values = sorted.map(k => m.byDate[k]);
+
+  new Chart(document.getElementById('chart-timeline'), {
+    type: 'bar',
+    data: {
+      labels: sorted.map(d => new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })),
+      datasets: [{
+        label: 'Items created',
+        data: values,
+        backgroundColor: '#1f6feb',
+        borderColor: '#58a6ff',
+        borderWidth: 1,
+        borderRadius: 3,
+      }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { grid: { color: '#30363d' }, ticks: { stepSize: 1 } },
+        x: { grid: { display: false }, ticks: { maxRotation: 45 } }
+      }
+    }
+  });
+}
+
+function renderTeamTable(m) {
+  const tbody = document.getElementById('team-table-body');
+  tbody.innerHTML = TEAMS.map(t => {
+    const d = m.teamStatus?.[t] || {};
+    const total = STATUSES.reduce((a, s) => a + (d[s] || 0), 0);
+    const active = (d['In progress'] || 0) + (d['In review'] || 0);
+    const activePct = total ? Math.round((active / total) * 100) : 0;
+    const donePct = total ? Math.round(((d['Done']||0) / total) * 100) : 0;
+    return `<tr>
+      <td><span class="pill" style="background:${TEAM_COLORS[t]}20;color:${TEAM_COLORS[t]};border:1px solid ${TEAM_COLORS[t]}40">${t}</span></td>
+      <td>${d['To Do'] || 0}</td>
+      <td>${d['In progress'] || 0}</td>
+      <td>${d['In review'] || 0}</td>
+      <td style="color:#3fb950">${d['Done'] || 0}</td>
+      <td style="color:#8b949e">${d['Unset'] || 0}</td>
+      <td><strong>${total}</strong></td>
+      <td>
+        <div style="font-size:11px;color:#8b949e;margin-bottom:3px">${activePct}% active</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${activePct}%;background:#58a6ff;"></div></div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+function renderLeaderboard(containerId, dataObj, linkType) {
+  const sorted = Object.entries(dataObj || {}).sort((a,b) => b[1]-a[1]);
+  const max = sorted[0]?.[1] || 1;
+  document.getElementById(containerId).innerHTML = sorted.map(([name, count], i) => `
+    <li>
+      <span class="rank">${i + 1}</span>
+      <div class="avatar" style="background:hsl(${(i*60+200)%360},60%,40%)">${avatarInitials(name)}</div>
+      <span class="name">${name}</span>
+      <div class="bar-wrap">
+        <div class="progress-bar"><div class="progress-fill" style="width:${Math.round(count/max*100)}%;background:#58a6ff;"></div></div>
+      </div>
+      <span class="count">${count}</span>
+    </li>
+  `).join('') || '<li style="color:#8b949e;padding:12px 0">No data yet</li>';
+}
+
+function renderStaleTable(items) {
+  const stale = [...items]
+    .filter(i => i.state === 'OPEN')
+    .sort((a, b) => b.ageDays - a.ageDays)
+    .slice(0, 20);
+
+  document.getElementById('stale-body').innerHTML = stale.map(i => `
+    <tr>
+      <td style="color:#8b949e">#${i.number}</td>
+      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
+      <td>${pillStatus(i.status)}</td>
+      <td>${pillTeam(i.labels)}</td>
+      <td style="color:#8b949e">${i.milestone || '—'}</td>
+      <td>${ageDot(i.ageDays)}<strong>${i.ageDays}</strong></td>
+      <td>${i.assignees?.length ? i.assignees.join(', ') : '<span style="color:#f85149">None</span>'}</td>
+    </tr>
+  `).join('');
+}
+
+function renderUnassignedTable(items) {
+  const unassigned = items
+    .filter(i => i.state === 'OPEN' && (!i.assignees || i.assignees.length === 0))
+    .sort((a, b) => b.ageDays - a.ageDays);
+
+  document.getElementById('unassigned-body').innerHTML = unassigned.map(i => `
+    <tr>
+      <td style="color:#8b949e">#${i.number}</td>
+      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
+      <td>${pillStatus(i.status)}</td>
+      <td>${pillTeam(i.labels)}</td>
+      <td style="color:#8b949e">${i.milestone || '—'}</td>
+      <td>${ageDot(i.ageDays)}<strong>${i.ageDays}</strong></td>
+    </tr>
+  `).join('');
+}
+
+function renderAllTable(items) {
+  const sorted = [...items].sort((a, b) => b.ageDays - a.ageDays);
+  document.getElementById('all-body').innerHTML = sorted.map(i => `
+    <tr>
+      <td style="color:#8b949e">#${i.number}</td>
+      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
+      <td>${pillStatus(i.status)}</td>
+      <td style="color:#8b949e">${i.kind || '—'}</td>
+      <td>${pillTeam(i.labels)}</td>
+      <td>${i.assignees?.length ? i.assignees.join(', ') : '<span style="color:#f85149">None</span>'}</td>
+      <td style="color:#8b949e">${i.milestone || '—'}</td>
+      <td>${ageDot(i.ageDays)}${i.ageDays}d</td>
+    </tr>
+  `).join('');
+}
+
+// ─────────────────────────────────────────────────────────────
+// Tabs
+// ─────────────────────────────────────────────────────────────
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    const target = tab.dataset.tab;
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById(`tab-${target}`).classList.add('active');
+  });
+});
+
+// ─────────────────────────────────────────────────────────────
+// Main
+// ─────────────────────────────────────────────────────────────
+loadMetrics().then(m => {
+  renderSummary(m);
+  renderAlerts(m);
+
+  const q1Status = m.milestoneStatus?.['Q1 2026'] || {};
+  const q2Status = m.milestoneStatus?.['Q2 2026'] || {};
+  renderFunnel('q1-funnel', q1Status, m.byMilestone?.['Q1 2026'] || 1);
+  renderFunnel('q2-funnel', q2Status, m.byMilestone?.['Q2 2026'] || 1);
+
+  renderChartStatus(m);
+  renderChartTeams(m);
+  renderChartKind(m);
+  renderChartAge(m);
+  renderChartTimeline(m);
+  renderTeamTable(m);
+
+  renderLeaderboard('creator-list', m.byAuthor);
+  renderLeaderboard('assignee-list', m.byAssignee);
+
+  renderStaleTable(m.items || []);
+  renderUnassignedTable(m.items || []);
+  renderAllTable(m.items || []);
+}).catch(err => {
+  console.error('Failed to load metrics:', err);
+  document.getElementById('alerts-container').innerHTML = `
+    <div class="alert">
+      <div class="icon">❌</div>
+      <div>
+        <div class="title">Failed to load metrics data</div>
+        <div class="body">${err.message}. The GitHub Action may not have run yet.</div>
+      </div>
+    </div>`;
+});
+</script>
+</body>
+</html>

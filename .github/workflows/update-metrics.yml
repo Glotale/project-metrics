@@ -1,0 +1,39 @@
+name: Update Project Metrics
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  workflow_dispatch:          # manual trigger
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-metrics.js'
+
+permissions:
+  contents: write
+
+jobs:
+  update-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch project metrics
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+        run: node scripts/fetch-metrics.js
+
+      - name: Commit updated metrics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/metrics.json
+          git diff --cached --quiet && echo "No changes to commit" || \
+            git commit -m "chore: update project metrics [skip ci]"
+          git push
