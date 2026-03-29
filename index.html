@@ -326,13 +326,13 @@
     <div class="section-title">Milestone Progress</div>
     <div class="grid-2">
       <div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#58a6ff;">Q1 2026 <span style="font-size:11px;color:#f85149;">· Deadline: Mar 31</span></div>
+        <div id="q1-funnel-wrap"><div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#58a6ff;">Q1 2026 <span style="font-size:11px;color:#f85149;">· Deadline: Mar 31</span></div>
         <div id="q1-funnel" class="funnel"></div>
-      </div>
+      </div></div>
       <div>
-        <div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#8b949e;">Q2 2026</div>
+        <div id="q2-funnel-wrap"><div style="font-size:13px;font-weight:600;margin-bottom:8px;color:#8b949e;">Q2 2026</div>
         <div id="q2-funnel" class="funnel"></div>
-      </div>
+      </div></div>
     </div>
   </div>
 
@@ -373,7 +373,7 @@
   <!-- Row 3: Leaderboards -->
   <div class="grid-2" style="margin-bottom:16px;">
     <div class="panel">
-      <div class="section-title">Ticket Creators <span class="badge">who opens work</span></div>
+      <div class="section-title">Ticket Creators <span class="badge">who opens work</span><span style="font-size:11px;color:var(--muted);margin-left:8px;">populates after Action runs with token</span></div>
       <ul class="leaderboard" id="creator-list"></ul>
     </div>
     <div class="panel">
@@ -445,7 +445,7 @@
     <div class="tab-panel active" id="tab-stale">
       <div class="table-wrap">
         <table id="stale-table">
-          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th><th>Assignees</th></tr></thead>
+          <thead><tr><th>#</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th><th>Assignees</th></tr></thead>
           <tbody id="stale-body"></tbody>
         </table>
       </div>
@@ -453,7 +453,7 @@
     <div class="tab-panel" id="tab-unassigned">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th></tr></thead>
+          <thead><tr><th>#</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th></tr></thead>
           <tbody id="unassigned-body"></tbody>
         </table>
       </div>
@@ -461,7 +461,7 @@
     <div class="tab-panel" id="tab-all">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Kind</th><th>Team</th><th>Assignees</th><th>Milestone</th><th>Age</th></tr></thead>
+          <thead><tr><th>#</th><th>Status</th><th>Kind</th><th>Team</th><th>Assignees</th><th>Milestone</th><th>Age</th></tr></thead>
           <tbody id="all-body"></tbody>
         </table>
       </div>
@@ -845,14 +845,20 @@ function renderCycleStats() {
   if (!cs) { if (badge) badge.textContent = "no data yet"; return; }
   var overall = cs.overall;
   if (overall !== null && overall !== undefined) {
-    badge.textContent = overall + " days avg (" + cs.completedCount + " completed)";
+    var fc = filteredC || cs.completed || []; badge.textContent = overall + " days avg (" + fc.length + " completed)";
     badge.style.cssText = "background:#12261e;color:#3fb950;border:1px solid #1a7f37;border-radius:20px;padding:1px 8px;font-size:11px;";
   } else {
     badge.textContent = "tracking started — data builds as items complete";
   }
   var TC = {Operations:"#bc8cff","Digital marketing":"#58a6ff",Sales:"#3fb950","Coaching/Delivery":"#f0883e",Product:"#f85149"};
+  // Re-compute averages from filtered completed items so milestone toggle applies
+  var filteredC = (cs.completed||[]).filter(function(i){return activeMilestone==="all"||(i.milestone||"None")===activeMilestone;});
+  function avgC(arr){return arr.length?Math.round(arr.reduce(function(a,b){return a+b;},0)/arr.length):null;}
+  var filtTeam = {};
+  Object.keys(TC).forEach(function(t){var ti=filteredC.filter(function(i){return i.labels&&i.labels.includes(t);});filtTeam[t]=avgC(ti.map(function(i){return i.cycleDays;}));});
+  var filtKind = {Task:avgC(filteredC.filter(function(i){return i.kind==="Task";}).map(function(i){return i.cycleDays;})),Story:avgC(filteredC.filter(function(i){return i.kind==="Story";}).map(function(i){return i.cycleDays;}))};
   var teamEl = document.getElementById("cycle-by-team");
-  var teamEntries = Object.entries(cs.byTeam || {});
+  var teamEntries = Object.entries(filtTeam);
   if (!teamEntries.length) {
     teamEl.innerHTML = "<div style='color:var(--muted);font-size:13px'>No data yet</div>";
   } else {
@@ -869,7 +875,7 @@ function renderCycleStats() {
   var kindEl = document.getElementById("cycle-by-kind");
   kindEl.innerHTML = [["Task","#58a6ff"],["Story","#bc8cff"]].map(function(e) {
     var k = e[0], c = e[1];
-    var d = (cs.byKind && cs.byKind[k] !== undefined) ? cs.byKind[k] : null;
+    var d = (filtKind && filtKind[k] !== undefined) ? filtKind[k] : null;
     var val = d !== null ? d + " days" : "—";
     var col = d !== null ? "#e6edf3" : "#8b949e";
     return '<div style="display:flex;align-items:center;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);">'
@@ -915,7 +921,6 @@ function renderStaleTable(items) {
   document.getElementById('stale-body').innerHTML = stale.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
       <td>${pillStatus(i.status)}</td>
       <td>${pillTeam(i.labels)}</td>
       <td style="color:#8b949e">${i.milestone || '—'}</td>
@@ -933,7 +938,6 @@ function renderUnassignedTable(items) {
   document.getElementById('unassigned-body').innerHTML = unassigned.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
       <td>${pillStatus(i.status)}</td>
       <td>${pillTeam(i.labels)}</td>
       <td style="color:#8b949e">${i.milestone || '—'}</td>
@@ -947,7 +951,6 @@ function renderAllTable(items) {
   document.getElementById('all-body').innerHTML = sorted.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
       <td>${pillStatus(i.status)}</td>
       <td style="color:#8b949e">${i.kind || '—'}</td>
       <td>${pillTeam(i.labels)}</td>
@@ -974,14 +977,24 @@ function renderAll() {
   renderUnassignedTable(filteredItems);
   renderAllTable(filteredItems);
   renderCycleStats();
-  const panel = document.getElementById('milestone-progress-panel');
+  // Milestone progress: show both when All, show selected when filtered
+  const milestonePanel = document.getElementById('milestone-progress-panel');
+  const q1Wrap = document.getElementById('q1-funnel-wrap');
+  const q2Wrap = document.getElementById('q2-funnel-wrap');
+  const full = computeFromItems(rawMetrics.items);
   if (activeMilestone === 'all') {
-    panel.style.display = '';
-    const full = computeFromItems(rawMetrics.items);
+    if (q1Wrap) q1Wrap.style.display = '';
+    if (q2Wrap) q2Wrap.style.display = '';
     renderFunnel('q1-funnel', full.milestoneStatus['Q1 2026'], full.byMilestone['Q1 2026']||1);
     renderFunnel('q2-funnel', full.milestoneStatus['Q2 2026'], full.byMilestone['Q2 2026']||1);
   } else {
-    panel.style.display = 'none';
+    const isQ1 = activeMilestone === 'Q1 2026';
+    if (q1Wrap) q1Wrap.style.display = isQ1 ? '' : 'none';
+    if (q2Wrap) q2Wrap.style.display = isQ1 ? 'none' : '';
+    const mStatus = full.milestoneStatus[activeMilestone] || {};
+    const mTotal  = full.byMilestone[activeMilestone] || 1;
+    if (isQ1) renderFunnel('q1-funnel', mStatus, mTotal);
+    else      renderFunnel('q2-funnel', mStatus, mTotal);
   }
 }
 
