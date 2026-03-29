@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T12:00:00.000Z",
+  "lastUpdated": "2026-03-29T19:24:49.122Z",
   "summary": {
     "total": 68,
     "done": 1,
@@ -8,8 +8,9 @@
     "toDo": 7,
     "unset": 49,
     "completionRate": 1,
-    "avgCycleDays": null,
-    "avgAgeDays": 9
+    "avgCycleDays": 19,
+    "avgAgeDays": 9,
+    "unassignedCount": 61
   },
   "byStatus": {
     "Done": 1,
@@ -40,6 +41,12 @@
     "Iyanumi": 2,
     "Marxlyte": 1
   },
+  "byAuthor": {
+    "MaryleenAmaizu": 44,
+    "Glotale-Project": 22,
+    "SemiloreCmd": 1,
+    "Iyanumi": 1
+  },
   "byMilestone": {
     "Q1 2026": 26,
     "Q2 2026": 42
@@ -58,6 +65,13 @@
       "In review": 0,
       "Done": 0,
       "Unset": 42
+    },
+    "None": {
+      "To Do": 0,
+      "In progress": 0,
+      "In review": 0,
+      "Done": 0,
+      "Unset": 0
     }
   },
   "teamStatus": {
@@ -100,10 +114,10 @@
   "ageBuckets": {
     "0-7 days": 43,
     "8-14 days": 0,
-    "15-30 days": 25,
+    "15-30 days": 24,
     "30+ days": 0
   },
-  "byWeek": {
+  "byDate": {
     "2026-03-10": 6,
     "2026-03-04": 10,
     "2026-03-09": 2,
@@ -113,1075 +127,11 @@
     "2026-03-27": 1,
     "2026-03-28": 42
   },
-  "items": [
-    {
-      "number": 29,
-      "title": "Organise Github board",
-      "state": "OPEN",
-      "status": "Done",
-      "kind": null,
-      "labels": [],
-      "assignees": [
-        "OLUWADAMILOLA-24"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T10:57:48Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 11,
-      "title": "STORY: Follow-up on learners and coached clients",
-      "state": "OPEN",
-      "status": "In review",
-      "kind": "Story",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:44:13Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 9,
-      "title": "Sprint 2: Follow up on learners and coached clients",
-      "state": "OPEN",
-      "status": "In review",
-      "kind": null,
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [
-        "OLUWADAMILOLA-24"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:08:53Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 8,
-      "title": "Leads Ownership",
-      "state": "OPEN",
-      "status": "In review",
-      "kind": null,
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [
-        "VeraEzike",
-        "Rachaelakoteyon"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:04:48Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 23,
-      "title": "Post Training Support Tracker Template",
-      "state": "OPEN",
-      "status": "In review",
-      "kind": null,
-      "labels": [],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-09T11:59:50Z",
-      "closedAt": null,
-      "ageDays": 20
-    },
-    {
-      "number": 7,
-      "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
-      "state": "OPEN",
-      "status": "In review",
-      "kind": null,
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-03T19:39:49Z",
-      "closedAt": null,
-      "ageDays": 26
-    },
-    {
-      "number": 17,
-      "title": "STORY: Revisit and review Glotale Vision & Mission",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T16:42:00Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 25,
-      "title": "Work out IR35 contracting model with Accountant",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T09:55:11Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 27,
-      "title": "STORY: Launch “The Global Talent Simulation Experience” (The Eligibility Tool)",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "labels": [
-        "Digital marketing",
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T10:06:35Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 28,
-      "title": "STORY: shortlist 2-3 suitable UK based trainers to Oscar Associates",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "labels": [],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T10:08:56Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 4,
-      "title": "Sprint 1: Create product marketing roadmap for Glotale web APP development and marketing",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-03T17:56:01Z",
-      "closedAt": null,
-      "ageDays": 26
-    },
-    {
-      "number": 24,
-      "title": "Evidence Cross-Walking (UK Tech Nation ↔ US NIW)",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T09:44:56Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 1,
-      "title": "Secure partnership worth £7500",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-02T18:56:22Z",
-      "closedAt": null,
-      "ageDays": 27
-    },
-    {
-      "number": 2,
-      "title": "Sell our services worth £6000",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-02T18:57:04Z",
-      "closedAt": null,
-      "ageDays": 27
-    },
-    {
-      "number": 3,
-      "title": "Create a student influencer referral program",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-03T17:26:27Z",
-      "closedAt": null,
-      "ageDays": 26
-    },
-    {
-      "number": 10,
-      "title": "2 DIY course sales worth £198",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:26:15Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 13,
-      "title": "Facebook & Instagram Ads for Global Talent Awareness",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:55:02Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 15,
-      "title": "Explore Live streaming alternative",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T11:05:53Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 16,
-      "title": "Document client testimonials/success stories",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "labels": [],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T11:08:30Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 18,
-      "title": "STORY: Create product marketing roadmap for Glotale web APP development and marketing",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Story",
-      "labels": [
-        "Operations",
-        "Digital marketing",
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T17:02:26Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 5,
-      "title": "STORY: Partnership Outreach",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Story",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [
-        "OLUWADAMILOLA-24"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-03T18:24:06Z",
-      "closedAt": null,
-      "ageDays": 26
-    },
-    {
-      "number": 12,
-      "title": "[Product Development] EB2-NIW Service Integration",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:47:26Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 19,
-      "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-06T08:27:15Z",
-      "closedAt": null,
-      "ageDays": 23
-    },
-    {
-      "number": 22,
-      "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "labels": [],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-09T11:14:30Z",
-      "closedAt": null,
-      "ageDays": 20
-    },
-    {
-      "number": 26,
-      "title": "Competitor Customer Journey Research (Mystery Shopper Exercise)",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "labels": [
-        "Digital marketing",
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T10:02:12Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 31,
-      "title": "Standardise GBP to NGN pricing conversion across all service offerings",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "labels": [],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-27T12:43:40Z",
-      "closedAt": null,
-      "ageDays": 2
-    },
-    {
-      "number": 32,
-      "title": "CRM & Lead Capture Automation",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T12:59:48Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 33,
-      "title": "Sales Process & Conversion Improvement",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:00:28Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 34,
-      "title": "Digital Marketing: Content & SEO",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:01:21Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 35,
-      "title": "Webinar & Community Reactivation",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:01:35Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 36,
-      "title": "Partnership Outreach & Pipeline",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:01:48Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 37,
-      "title": "Coaching Infrastructure & Delivery",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:02:02Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 38,
-      "title": "Web App & Product Development",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Product"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:02:13Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 39,
-      "title": "Internal SOPs & Workflow",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Story",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:02:23Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 40,
-      "title": "Integrate Google Forms with CRM to auto-import leads",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:04:21Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 41,
-      "title": "Give marketing team direct access to lead source data",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:04:22Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 42,
-      "title": "Build lead segmentation by readiness (hot / warm / cold)",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:04:23Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 43,
-      "title": "Audit and consolidate all active lead capture forms",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:04:25Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 44,
-      "title": "Separate B2B and B2C revenue in sales reporting",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Sales",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:04:59Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 45,
-      "title": "Create objection-handling playbook for sales team",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:00Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 46,
-      "title": "Strengthen and enforce CRM follow-up discipline",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Sales",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:02Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 47,
-      "title": "Build client testimonials and case studies for sales follow-up",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:03Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 48,
-      "title": "Establish and maintain a structured content calendar",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:25Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 49,
-      "title": "Restart email marketing with structured newsletter sequence",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:26Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 50,
-      "title": "Implement SEO improvement strategy (target score 7–10)",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:28Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 51,
-      "title": "Add 2025 benchmark comparisons to all marketing reports",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:30Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 52,
-      "title": "Launch GTV Clinic as monthly recurring webinar",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:57Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 53,
-      "title": "Define webinar KPIs with specific targets (not ranges)",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:05:58Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 54,
-      "title": "Define 'active member' criteria and plan to reach 200 community members",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:00Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 55,
-      "title": "Delivery team to contribute one educational content piece per month",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:01Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 56,
-      "title": "Revamp cold outreach script using pain-point framework",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:30Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 57,
-      "title": "Set up daily partnership progress reporting in Slack",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:31Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 58,
-      "title": "Create Splendid Cake recruitment case study",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:32Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 59,
-      "title": "Close at least 2 SME recruitment partnerships in Q2",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:34Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 60,
-      "title": "Automate Zoom recording backup to Google Drive via Zapier",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:04Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 61,
-      "title": "Implement in-session feedback process at start and end of every session",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:05Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 62,
-      "title": "Complete AGT Cohort 1 — final 2 sessions and wrap-up",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:07Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 64,
-      "title": "Update the DIY Kit",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:09Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 63,
-      "title": "Complete EB2 Visa course material development",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:08Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 65,
-      "title": "Develop client case studies from coaching outcomes",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Coaching/Delivery"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:11Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 66,
-      "title": "Define AI integration plan for coaching operations",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:12Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 67,
-      "title": "Define and publish web app roadmap to the whole team",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "task",
-        "Product"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:52Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 68,
-      "title": "Optimise website and integrate with web app",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Product"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:54Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 69,
-      "title": "Push user survey to collect meaningful responses (currently 2)",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:55Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 70,
-      "title": "Automate lead capture flow within the web app pipeline",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "enhancement",
-        "Product"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:56Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 71,
-      "title": "Document SOPs for each department",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:09:35Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 72,
-      "title": "Define and document the end-to-end client journey",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:09:36Z",
-      "closedAt": null,
-      "ageDays": 1
-    },
-    {
-      "number": 73,
-      "title": "Set and communicate Q2 priorities before team-wide rollout",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:09:37Z",
-      "closedAt": null,
-      "ageDays": 1
-    }
-  ],
   "cycleStats": {
-    "overall": null,
+    "overall": 19,
     "overallHistory": null,
-    "overallClosed": null,
-    "completedCount": 0,
+    "overallClosed": 19,
+    "completedCount": 1,
     "byTeam": {
       "Operations": null,
       "Digital marketing": null,
@@ -1194,10 +144,25 @@
       "Story": null
     },
     "byMilestone": {
-      "Q1 2026": null,
+      "Q1 2026": 19,
       "Q2 2026": null
     },
-    "completed": [],
+    "completed": [
+      {
+        "number": 29,
+        "title": "Organise Github board",
+        "labels": [],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "OLUWADAMILOLA-24"
+        ],
+        "cycleDays": 19,
+        "historyDays": null,
+        "closedDays": 19,
+        "source": "closedAt"
+      }
+    ],
     "inFlight": [
       {
         "number": 4,
@@ -1444,5 +409,1137 @@
         "daysInFlight": null
       }
     ]
-  }
+  },
+  "items": [
+    {
+      "number": 29,
+      "title": "Organise Github board",
+      "state": "CLOSED",
+      "status": "Done",
+      "kind": null,
+      "author": "MaryleenAmaizu",
+      "labels": [],
+      "assignees": [
+        "OLUWADAMILOLA-24"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-10T10:57:48Z",
+      "closedAt": "2026-03-29T19:00:18Z",
+      "ageDays": 19
+    },
+    {
+      "number": 11,
+      "title": "STORY: Follow-up on learners and coached clients",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": "Story",
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T10:44:13Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 9,
+      "title": "Sprint 2: Follow up on learners and coached clients",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [
+        "OLUWADAMILOLA-24"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T10:08:53Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 8,
+      "title": "Leads Ownership",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [
+        "VeraEzike",
+        "Rachaelakoteyon"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T10:04:48Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 23,
+      "title": "Post Training Support Tracker Template",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "SemiloreCmd",
+      "labels": [],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-09T11:59:50Z",
+      "closedAt": null,
+      "ageDays": 20
+    },
+    {
+      "number": 7,
+      "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-03T19:39:49Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 17,
+      "title": "STORY: Revisit and review Glotale Vision & Mission",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": "Story",
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T16:42:00Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 25,
+      "title": "Work out IR35 contracting model with Accountant",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": "Story",
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-10T09:55:11Z",
+      "closedAt": null,
+      "ageDays": 19
+    },
+    {
+      "number": 27,
+      "title": "STORY: Launch “The Global Talent Simulation Experience” (The Eligibility Tool)",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": "Story",
+      "author": "Glotale-Project",
+      "labels": [
+        "Digital marketing",
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-10T10:06:35Z",
+      "closedAt": null,
+      "ageDays": 19
+    },
+    {
+      "number": 28,
+      "title": "STORY: shortlist 2-3 suitable UK based trainers to Oscar Associates",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": "Story",
+      "author": "Glotale-Project",
+      "labels": [],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-10T10:08:56Z",
+      "closedAt": null,
+      "ageDays": 19
+    },
+    {
+      "number": 4,
+      "title": "Sprint 1: Create product marketing roadmap for Glotale web APP development and marketing",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-03T17:56:01Z",
+      "closedAt": null,
+      "ageDays": 26
+    },
+    {
+      "number": 24,
+      "title": "Evidence Cross-Walking (UK Tech Nation ↔ US NIW)",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-10T09:44:56Z",
+      "closedAt": null,
+      "ageDays": 19
+    },
+    {
+      "number": 1,
+      "title": "Secure partnership worth £7500",
+      "state": "OPEN",
+      "status": null,
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-02T18:56:22Z",
+      "closedAt": null,
+      "ageDays": 27
+    },
+    {
+      "number": 2,
+      "title": "Sell our services worth £6000",
+      "state": "OPEN",
+      "status": null,
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-02T18:57:04Z",
+      "closedAt": null,
+      "ageDays": 27
+    },
+    {
+      "number": 3,
+      "title": "Create a student influencer referral program",
+      "state": "OPEN",
+      "status": null,
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-03T17:26:27Z",
+      "closedAt": null,
+      "ageDays": 26
+    },
+    {
+      "number": 10,
+      "title": "2 DIY course sales worth £198",
+      "state": "OPEN",
+      "status": null,
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T10:26:15Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 13,
+      "title": "Facebook & Instagram Ads for Global Talent Awareness",
+      "state": "OPEN",
+      "status": null,
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T10:55:02Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 15,
+      "title": "Explore Live streaming alternative",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T11:05:53Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 16,
+      "title": "Document client testimonials/success stories",
+      "state": "OPEN",
+      "status": null,
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T11:08:30Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 18,
+      "title": "STORY: Create product marketing roadmap for Glotale web APP development and marketing",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": "Story",
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations",
+        "Digital marketing",
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T17:02:26Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 5,
+      "title": "STORY: Partnership Outreach",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": "Story",
+      "author": "Glotale-Project",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [
+        "OLUWADAMILOLA-24"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-03T18:24:06Z",
+      "closedAt": null,
+      "ageDays": 26
+    },
+    {
+      "number": 12,
+      "title": "[Product Development] EB2-NIW Service Integration",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-04T10:47:26Z",
+      "closedAt": null,
+      "ageDays": 25
+    },
+    {
+      "number": 19,
+      "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-06T08:27:15Z",
+      "closedAt": null,
+      "ageDays": 23
+    },
+    {
+      "number": 22,
+      "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-09T11:14:30Z",
+      "closedAt": null,
+      "ageDays": 20
+    },
+    {
+      "number": 26,
+      "title": "Competitor Customer Journey Research (Mystery Shopper Exercise)",
+      "state": "OPEN",
+      "status": null,
+      "kind": null,
+      "author": "Glotale-Project",
+      "labels": [
+        "Digital marketing",
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-10T10:02:12Z",
+      "closedAt": null,
+      "ageDays": 19
+    },
+    {
+      "number": 31,
+      "title": "Standardise GBP to NGN pricing conversion across all service offerings",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "MaryleenAmaizu",
+      "labels": [],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-27T12:43:40Z",
+      "closedAt": null,
+      "ageDays": 2
+    },
+    {
+      "number": 32,
+      "title": "CRM & Lead Capture Automation",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T12:59:48Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 33,
+      "title": "Sales Process & Conversion Improvement",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:00:28Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 34,
+      "title": "Digital Marketing: Content & SEO",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:01:21Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 35,
+      "title": "Webinar & Community Reactivation",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:01:35Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 36,
+      "title": "Partnership Outreach & Pipeline",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:01:48Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 37,
+      "title": "Coaching Infrastructure & Delivery",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:02:02Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 38,
+      "title": "Web App & Product Development",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Product"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:02:13Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 39,
+      "title": "Internal SOPs & Workflow",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Story",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:02:23Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 40,
+      "title": "Integrate Google Forms with CRM to auto-import leads",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:04:21Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 41,
+      "title": "Give marketing team direct access to lead source data",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:04:22Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 42,
+      "title": "Build lead segmentation by readiness (hot / warm / cold)",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:04:23Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 43,
+      "title": "Audit and consolidate all active lead capture forms",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:04:25Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 44,
+      "title": "Separate B2B and B2C revenue in sales reporting",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Sales",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:04:59Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 45,
+      "title": "Create objection-handling playbook for sales team",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:00Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 46,
+      "title": "Strengthen and enforce CRM follow-up discipline",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Sales",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:02Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 47,
+      "title": "Build client testimonials and case studies for sales follow-up",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:03Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 48,
+      "title": "Establish and maintain a structured content calendar",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:25Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 49,
+      "title": "Restart email marketing with structured newsletter sequence",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:26Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 50,
+      "title": "Implement SEO improvement strategy (target score 7–10)",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:28Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 51,
+      "title": "Add 2025 benchmark comparisons to all marketing reports",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:30Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 52,
+      "title": "Launch GTV Clinic as monthly recurring webinar",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:57Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 53,
+      "title": "Define webinar KPIs with specific targets (not ranges)",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:05:58Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 54,
+      "title": "Define 'active member' criteria and plan to reach 200 community members",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:06:00Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 55,
+      "title": "Delivery team to contribute one educational content piece per month",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:06:01Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 56,
+      "title": "Revamp cold outreach script using pain-point framework",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:06:30Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 57,
+      "title": "Set up daily partnership progress reporting in Slack",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:06:31Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 58,
+      "title": "Create Splendid Cake recruitment case study",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:06:32Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 59,
+      "title": "Close at least 2 SME recruitment partnerships in Q2",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:06:34Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 60,
+      "title": "Automate Zoom recording backup to Google Drive via Zapier",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:04Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 61,
+      "title": "Implement in-session feedback process at start and end of every session",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:05Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 62,
+      "title": "Complete AGT Cohort 1 — final 2 sessions and wrap-up",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:07Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 64,
+      "title": "Update the DIY Kit",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:09Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 63,
+      "title": "Complete EB2 Visa course material development",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:08Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 65,
+      "title": "Develop client case studies from coaching outcomes",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Coaching/Delivery"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:11Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 66,
+      "title": "Define AI integration plan for coaching operations",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:12Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 67,
+      "title": "Define and publish web app roadmap to the whole team",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "task",
+        "Product"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:52Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 68,
+      "title": "Optimise website and integrate with web app",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Product"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:54Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 69,
+      "title": "Push user survey to collect meaningful responses (currently 2)",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:55Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 70,
+      "title": "Automate lead capture flow within the web app pipeline",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "enhancement",
+        "Product"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:56Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 71,
+      "title": "Document SOPs for each department",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:09:35Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 72,
+      "title": "Define and document the end-to-end client journey",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:09:36Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 73,
+      "title": "Set and communicate Q2 priorities before team-wide rollout",
+      "state": "OPEN",
+      "status": null,
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Operations",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:09:37Z",
+      "closedAt": null,
+      "ageDays": 1
+    }
+  ]
 }
