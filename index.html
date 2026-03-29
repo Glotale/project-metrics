@@ -49,6 +49,32 @@
     header .meta { font-size: 12px; color: var(--muted); }
     #last-updated { color: var(--accent); }
 
+
+    /* ── Milestone filter bar ── */
+    .filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 0 0;
+      margin-bottom: 20px;
+    }
+    .filter-label {
+      font-size: 12px; color: var(--muted); text-transform: uppercase;
+      letter-spacing: 0.05em; margin-right: 4px; white-space: nowrap;
+    }
+    .filter-btn {
+      padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--muted); font-size: 13px;
+      cursor: pointer; transition: all 0.15s ease; white-space: nowrap;
+    }
+    .filter-btn:hover { border-color: var(--accent); color: var(--text); }
+    .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #0d1117; font-weight: 600; }
+    .filter-btn[data-m="Q1 2026"].active { background: #f85149; border-color: #f85149; color: #fff; }
+    .filter-btn[data-m="Q2 2026"].active { background: #3fb950; border-color: #3fb950; color: #0d1117; }
+    .filter-count {
+      font-size: 11px; background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 20px; padding: 1px 7px; color: var(--muted); margin-left: 4px;
+    }
     /* ── Layout ── */
     main { max-width: 1280px; margin: 0 auto; padding: 24px; }
 
@@ -274,6 +300,15 @@
   <!-- Alerts -->
   <div id="alerts-container"></div>
 
+
+  <!-- Milestone filter -->
+  <div class="filter-bar">
+    <span class="filter-label">Milestone</span>
+    <button class="filter-btn active" data-m="all">All</button>
+    <button class="filter-btn" data-m="Q1 2026">Q1 2026 <span class="filter-count" id="fc-q1">--</span></button>
+    <button class="filter-btn" data-m="Q2 2026">Q2 2026 <span class="filter-count" id="fc-q2">--</span></button>
+  </div>
+
   <!-- Summary Cards -->
   <div class="cards" id="summary-cards">
     <div class="card blue"><div class="value" id="c-total">—</div><div class="label">Total Items</div></div>
@@ -287,7 +322,7 @@
   </div>
 
   <!-- Milestone Progress -->
-  <div class="panel" style="margin-bottom:16px;">
+  <div class="panel" style="margin-bottom:16px;" id="milestone-progress-panel">
     <div class="section-title">Milestone Progress</div>
     <div class="grid-2">
       <div>
@@ -375,7 +410,7 @@
     <div class="tab-panel active" id="tab-stale">
       <div class="table-wrap">
         <table id="stale-table">
-          <thead><tr><th>#</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th><th>Assignees</th></tr></thead>
+          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th><th>Assignees</th></tr></thead>
           <tbody id="stale-body"></tbody>
         </table>
       </div>
@@ -383,7 +418,7 @@
     <div class="tab-panel" id="tab-unassigned">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th></tr></thead>
+          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Team</th><th>Milestone</th><th>Age (days)</th></tr></thead>
           <tbody id="unassigned-body"></tbody>
         </table>
       </div>
@@ -391,7 +426,7 @@
     <div class="tab-panel" id="tab-all">
       <div class="table-wrap">
         <table>
-          <thead><tr><th>#</th><th>Status</th><th>Kind</th><th>Team</th><th>Assignees</th><th>Milestone</th><th>Age</th></tr></thead>
+          <thead><tr><th>#</th><th>Title</th><th>Status</th><th>Kind</th><th>Team</th><th>Assignees</th><th>Milestone</th><th>Age</th></tr></thead>
           <tbody id="all-body"></tbody>
         </table>
       </div>
@@ -407,6 +442,50 @@
 </footer>
 
 <script>
+
+// ----- State -----
+let rawMetrics = null;
+let activeMilestone = 'all';
+const charts = {};
+function destroyChart(id) { if (charts[id]) { charts[id].destroy(); delete charts[id]; } }
+
+// ----- Compute metrics from item list -----
+function computeFromItems(items) {
+  const now = new Date();
+  const byStatus={}, byKind={}, byLabel={}, byAssignee={}, byAuthor={};
+  items.forEach(r => {
+    const s=r.status||'Unset'; byStatus[s]=(byStatus[s]||0)+1;
+    const k=r.kind||'Unset';   byKind[k]=(byKind[k]||0)+1;
+    r.labels.forEach(l    => { byLabel[l]=(byLabel[l]||0)+1; });
+    r.assignees.forEach(a => { byAssignee[a]=(byAssignee[a]||0)+1; });
+    if(r.author) byAuthor[r.author]=(byAuthor[r.author]||0)+1;
+  });
+  const teamStatus={};
+  TEAMS.forEach(t => {
+    teamStatus[t]={}; STATUSES.forEach(s=>teamStatus[t][s]=0);
+    items.filter(r=>r.labels.includes(t)).forEach(r=>{teamStatus[t][r.status||'Unset']++;});
+  });
+  const milestoneStatus={};
+  ['Q1 2026','Q2 2026','None'].forEach(m => {
+    milestoneStatus[m]={}; STATUSES.forEach(s=>milestoneStatus[m][s]=0);
+    items.filter(r=>(r.milestone||'None')===m).forEach(r=>{milestoneStatus[m][r.status||'Unset']++;});
+  });
+  const byMilestone={};
+  items.forEach(r=>{const m=r.milestone||'None'; byMilestone[m]=(byMilestone[m]||0)+1;});
+  const closedItems=items.filter(r=>r.closedAt&&r.createdAt);
+  const avgCycleDays=closedItems.length?Math.round(closedItems.reduce((a,r)=>a+(new Date(r.closedAt)-new Date(r.createdAt))/864e5,0)/closedItems.length):null;
+  const openItems=items.filter(r=>r.state==='OPEN');
+  const avgAgeDays=openItems.length?Math.round(openItems.reduce((a,r)=>a+(now-new Date(r.createdAt))/864e5,0)/openItems.length):0;
+  const ageBuckets={'0-7 days':0,'8-14 days':0,'15-30 days':0,'30+ days':0};
+  openItems.forEach(r=>{const age=Math.floor((now-new Date(r.createdAt))/864e5);if(age<=7)ageBuckets['0-7 days']++;else if(age<=14)ageBuckets['8-14 days']++;else if(age<=30)ageBuckets['15-30 days']++;else ageBuckets['30+ days']++;});
+  const cutoff=new Date(now.getTime()-60*864e5); const byDate={};
+  items.forEach(r=>{const d=new Date(r.createdAt);if(d>=cutoff){const k=d.toISOString().substring(0,10);byDate[k]=(byDate[k]||0)+1;}});
+  return {
+    summary:{total:items.length,done:byStatus['Done']||0,inProgress:byStatus['In progress']||0,inReview:byStatus['In review']||0,toDo:byStatus['To Do']||0,unset:byStatus['Unset']||0,completionRate:items.length?Math.round(((byStatus['Done']||0)/items.length)*100):0,avgCycleDays,avgAgeDays,unassignedCount:items.filter(r=>!r.assignees||r.assignees.length===0).length},
+    byStatus,byKind,byLabel,byAssignee,byAuthor,byMilestone,milestoneStatus,teamStatus,ageBuckets,byDate,items,
+  };
+}
+
 // ─────────────────────────────────────────────────────────────
 // Helpers
 // ─────────────────────────────────────────────────────────────
@@ -479,14 +558,8 @@ Chart.defaults.font.size = 12;
 // ─────────────────────────────────────────────────────────────
 // Load data & render
 // ─────────────────────────────────────────────────────────────
-async function loadMetrics() {
-  const res = await fetch(`data/metrics.json?t=${Date.now()}`);
-  return res.json();
-}
-
 function renderSummary(m) {
   const s = m.summary;
-  document.getElementById('last-updated').textContent = new Date(m.lastUpdated).toLocaleString('en-GB');
   document.getElementById('c-total').textContent      = s.total;
   document.getElementById('c-done').textContent       = s.done;
   document.getElementById('c-rate').textContent       = `${s.completionRate}% complete`;
@@ -570,11 +643,12 @@ function renderFunnel(containerId, data, total) {
 }
 
 function renderChartStatus(m) {
+  destroyChart('status');
   const labels = Object.keys(m.byStatus).filter(k => m.byStatus[k] > 0);
   const values = labels.map(k => m.byStatus[k]);
   const colors = labels.map(l => STATUS_COLORS[l] || '#8b949e');
 
-  new Chart(document.getElementById('chart-status'), {
+  charts['status'] = new Chart(document.getElementById('chart-status'), {
     type: 'doughnut',
     data: {
       labels,
@@ -593,6 +667,7 @@ function renderChartStatus(m) {
 }
 
 function renderChartTeams(m) {
+  destroyChart('teams');
   const labels = TEAMS;
   const statusKeys = ['Done', 'In review', 'In progress', 'To Do', 'Unset'];
   const statusColors = ['#3fb950', '#d29922', '#58a6ff', '#8b949e', '#30363d'];
@@ -604,7 +679,7 @@ function renderChartTeams(m) {
     borderRadius: 3,
   }));
 
-  new Chart(document.getElementById('chart-teams'), {
+  charts['teams'] = new Chart(document.getElementById('chart-teams'), {
     type: 'bar',
     data: { labels, datasets },
     options: {
@@ -619,6 +694,7 @@ function renderChartTeams(m) {
 }
 
 function renderChartKind(m) {
+  destroyChart('kind');
   const labels = Object.keys(m.byKind).filter(k => m.byKind[k] > 0);
   const values = labels.map(k => m.byKind[k]);
   const colors = { 'Story': '#bc8cff', 'Task': '#58a6ff', 'Unset': '#30363d' };
@@ -639,11 +715,12 @@ function renderChartKind(m) {
 }
 
 function renderChartAge(m) {
+  destroyChart('age');
   const labels = Object.keys(m.ageBuckets);
   const values = labels.map(k => m.ageBuckets[k]);
   const colors = ['#3fb950', '#d29922', '#f0883e', '#f85149'];
 
-  new Chart(document.getElementById('chart-age'), {
+  charts['age'] = new Chart(document.getElementById('chart-age'), {
     type: 'bar',
     data: {
       labels,
@@ -660,10 +737,11 @@ function renderChartAge(m) {
 }
 
 function renderChartTimeline(m) {
+  destroyChart('timeline');
   const sorted = Object.keys(m.byDate || {}).sort();
   const values = sorted.map(k => m.byDate[k]);
 
-  new Chart(document.getElementById('chart-timeline'), {
+  charts['timeline'] = new Chart(document.getElementById('chart-timeline'), {
     type: 'bar',
     data: {
       labels: sorted.map(d => new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })),
@@ -735,7 +813,7 @@ function renderStaleTable(items) {
   document.getElementById('stale-body').innerHTML = stale.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-
+      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
       <td>${pillStatus(i.status)}</td>
       <td>${pillTeam(i.labels)}</td>
       <td style="color:#8b949e">${i.milestone || '—'}</td>
@@ -753,7 +831,7 @@ function renderUnassignedTable(items) {
   document.getElementById('unassigned-body').innerHTML = unassigned.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-
+      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
       <td>${pillStatus(i.status)}</td>
       <td>${pillTeam(i.labels)}</td>
       <td style="color:#8b949e">${i.milestone || '—'}</td>
@@ -767,7 +845,7 @@ function renderAllTable(items) {
   document.getElementById('all-body').innerHTML = sorted.map(i => `
     <tr>
       <td style="color:#8b949e">#${i.number}</td>
-
+      <td class="truncate"><a href="https://github.com/Glotale/Glotale-2026/issues/${i.number}" target="_blank">${i.title}</a></td>
       <td>${pillStatus(i.status)}</td>
       <td style="color:#8b949e">${i.kind || '—'}</td>
       <td>${pillTeam(i.labels)}</td>
@@ -777,6 +855,42 @@ function renderAllTable(items) {
     </tr>
   `).join('');
 }
+
+// ----- renderAll: re-render everything for active milestone -----
+function renderAll() {
+  const filteredItems = activeMilestone === 'all'
+    ? rawMetrics.items
+    : rawMetrics.items.filter(i => (i.milestone||'None') === activeMilestone);
+  const c = computeFromItems(filteredItems);
+  renderSummary(c);
+  renderChartStatus(c); renderChartTeams(c); renderChartKind(c);
+  renderChartAge(c); renderChartTimeline(c);
+  renderTeamTable(c);
+  renderLeaderboard('creator-list', c.byAuthor);
+  renderLeaderboard('assignee-list', c.byAssignee);
+  renderStaleTable(filteredItems);
+  renderUnassignedTable(filteredItems);
+  renderAllTable(filteredItems);
+  const panel = document.getElementById('milestone-progress-panel');
+  if (activeMilestone === 'all') {
+    panel.style.display = '';
+    const full = computeFromItems(rawMetrics.items);
+    renderFunnel('q1-funnel', full.milestoneStatus['Q1 2026'], full.byMilestone['Q1 2026']||1);
+    renderFunnel('q2-funnel', full.milestoneStatus['Q2 2026'], full.byMilestone['Q2 2026']||1);
+  } else {
+    panel.style.display = 'none';
+  }
+}
+
+// ----- Milestone toggle -----
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    activeMilestone = btn.dataset.m;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderAll();
+  });
+});
 
 // ─────────────────────────────────────────────────────────────
 // Tabs
@@ -791,42 +905,22 @@ document.querySelectorAll('.tab').forEach(tab => {
   });
 });
 
-// ─────────────────────────────────────────────────────────────
-// Main
-// ─────────────────────────────────────────────────────────────
-loadMetrics().then(m => {
-  renderSummary(m);
-  renderAlerts(m);
-
-  const q1Status = m.milestoneStatus?.['Q1 2026'] || {};
-  const q2Status = m.milestoneStatus?.['Q2 2026'] || {};
-  renderFunnel('q1-funnel', q1Status, m.byMilestone?.['Q1 2026'] || 1);
-  renderFunnel('q2-funnel', q2Status, m.byMilestone?.['Q2 2026'] || 1);
-
-  renderChartStatus(m);
-  renderChartTeams(m);
-  renderChartKind(m);
-  renderChartAge(m);
-  renderChartTimeline(m);
-  renderTeamTable(m);
-
-  renderLeaderboard('creator-list', m.byAuthor);
-  renderLeaderboard('assignee-list', m.byAssignee);
-
-  renderStaleTable(m.items || []);
-  renderUnassignedTable(m.items || []);
-  renderAllTable(m.items || []);
-}).catch(err => {
-  console.error('Failed to load metrics:', err);
-  document.getElementById('alerts-container').innerHTML = `
-    <div class="alert">
-      <div class="icon">❌</div>
-      <div>
-        <div class="title">Failed to load metrics data</div>
-        <div class="body">${err.message}. The GitHub Action may not have run yet.</div>
-      </div>
-    </div>`;
-});
+// ----- Boot -----
+fetch('data/metrics.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(m => {
+    rawMetrics = m;
+    document.getElementById('last-updated').textContent = new Date(m.lastUpdated).toLocaleString('en-GB');
+    document.getElementById('fc-q1').textContent = m.items.filter(i=>i.milestone==='Q1 2026').length;
+    document.getElementById('fc-q2').textContent = m.items.filter(i=>i.milestone==='Q2 2026').length;
+    renderAlerts(computeFromItems(m.items));
+    renderAll();
+  })
+  .catch(err => {
+    document.getElementById('alerts-container').innerHTML =
+      '<div class="alert"><div class="icon">x</div><div><div class="title">Failed to load metrics data</div>' +
+      '<div class="body">' + err.message + '. The GitHub Action may not have run yet.</div></div></div>';
+  });
 </script>
 </body>
 </html>
