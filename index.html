@@ -400,6 +400,41 @@
     <canvas id="chart-timeline" style="max-height:180px;"></canvas>
   </div>
 
+
+  <!-- Cycle Time -->
+  <div class="panel" style="margin-bottom:16px;" id="cycle-panel">
+    <div class="section-title">Cycle Time: To Do → Done <span class="badge" id="cycle-badge">loading...</span></div>
+    <div class="grid-2" style="margin-bottom:16px;">
+      <div>
+        <div style="font-size:12px;color:var(--muted);margin-bottom:10px;text-transform:uppercase;letter-spacing:.05em;">Avg days by team</div>
+        <div id="cycle-by-team"></div>
+      </div>
+      <div>
+        <div style="font-size:12px;color:var(--muted);margin-bottom:10px;text-transform:uppercase;letter-spacing:.05em;">Avg days by kind</div>
+        <div id="cycle-by-kind"></div>
+      </div>
+    </div>
+    <div style="font-size:13px;font-weight:600;margin-bottom:8px;padding-top:8px;border-top:1px solid var(--border);">
+      In-Flight Items
+      <span style="font-size:11px;font-weight:400;color:var(--muted);margin-left:6px;">sorted by total days in flight from To Do</span>
+    </div>
+    <div class="table-wrap" style="margin-bottom:16px;">
+      <table>
+        <thead><tr>
+          <th>#</th><th>Current Status</th><th>Days in Status</th>
+          <th>Total in Flight</th><th>Team</th><th>Milestone</th><th>Assignees</th>
+        </tr></thead>
+        <tbody id="inflight-body"></tbody>
+      </table>
+    </div>
+    <div style="font-size:13px;font-weight:600;margin-bottom:8px;padding-top:8px;border-top:1px solid var(--border);">Completed Items</div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>#</th><th>Cycle (days)</th><th>Source</th><th>Team</th><th>Kind</th><th>Milestone</th></tr></thead>
+        <tbody id="completed-body"></tbody>
+      </table>
+    </div>
+  </div>
   <!-- Tabs: All Items / Stale / Unassigned -->
   <div class="panel">
     <div class="tabs">
@@ -804,6 +839,73 @@ function renderLeaderboard(containerId, dataObj, linkType) {
   `).join('') || '<li style="color:#8b949e;padding:12px 0">No data yet</li>';
 }
 
+function renderCycleStats() {
+  var cs = rawMetrics && rawMetrics.cycleStats;
+  var badge = document.getElementById("cycle-badge");
+  if (!cs) { if (badge) badge.textContent = "no data yet"; return; }
+  var overall = cs.overall;
+  if (overall !== null && overall !== undefined) {
+    badge.textContent = overall + " days avg (" + cs.completedCount + " completed)";
+    badge.style.cssText = "background:#12261e;color:#3fb950;border:1px solid #1a7f37;border-radius:20px;padding:1px 8px;font-size:11px;";
+  } else {
+    badge.textContent = "tracking started — data builds as items complete";
+  }
+  var TC = {Operations:"#bc8cff","Digital marketing":"#58a6ff",Sales:"#3fb950","Coaching/Delivery":"#f0883e",Product:"#f85149"};
+  var teamEl = document.getElementById("cycle-by-team");
+  var teamEntries = Object.entries(cs.byTeam || {});
+  if (!teamEntries.length) {
+    teamEl.innerHTML = "<div style='color:var(--muted);font-size:13px'>No data yet</div>";
+  } else {
+    teamEl.innerHTML = teamEntries.map(function(e) {
+      var t = e[0], d = e[1], c = TC[t] || "#8b949e";
+      var val = d !== null ? d + " days" : "—";
+      var col = d !== null ? "#e6edf3" : "#8b949e";
+      return '<div style="display:flex;align-items:center;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);">'
+        + '<span class="pill" style="background:' + c + '20;color:' + c + ';border:1px solid ' + c + '40">' + t + '</span>'
+        + '<span style="font-weight:600;color:' + col + '">' + val + '</span>'
+        + '</div>';
+    }).join("");
+  }
+  var kindEl = document.getElementById("cycle-by-kind");
+  kindEl.innerHTML = [["Task","#58a6ff"],["Story","#bc8cff"]].map(function(e) {
+    var k = e[0], c = e[1];
+    var d = (cs.byKind && cs.byKind[k] !== undefined) ? cs.byKind[k] : null;
+    var val = d !== null ? d + " days" : "—";
+    var col = d !== null ? "#e6edf3" : "#8b949e";
+    return '<div style="display:flex;align-items:center;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);">'
+      + '<span class="pill" style="background:' + c + '20;color:' + c + ';border:1px solid ' + c + '40">' + k + '</span>'
+      + '<span style="font-weight:600;color:' + col + '">' + val + '</span>'
+      + '</div>';
+  }).join("");
+  var inFlight = (cs.inFlight || []).filter(function(i) {
+    return activeMilestone === "all" || (i.milestone || "None") === activeMilestone;
+  });
+  document.getElementById("inflight-body").innerHTML = inFlight.length ? inFlight.map(function(i) {
+    return "<tr>"
+      + '<td style="color:#8b949e">#' + i.number + '</td>'
+      + "<td>" + pillStatus(i.currentStatus) + "</td>"
+      + "<td>" + ageDot(i.currentStatusDays) + "<strong>" + i.currentStatusDays + "</strong></td>"
+      + "<td>" + (i.daysInFlight !== null ? '<strong style="color:var(--orange)">' + i.daysInFlight + "</strong>" : "—") + "</td>"
+      + "<td>" + pillTeam(i.labels) + "</td>"
+      + '<td style="color:#8b949e">' + (i.milestone || "—") + "</td>"
+      + "<td>" + (i.assignees && i.assignees.length ? i.assignees.join(", ") : '<span style="color:#f85149">None</span>') + "</td>"
+      + "</tr>";
+  }).join("") : '<tr><td colspan="7" style="color:var(--muted);text-align:center;padding:16px">No in-flight items for this milestone</td></tr>';
+  var completed = (cs.completed || []).filter(function(i) {
+    return activeMilestone === "all" || (i.milestone || "None") === activeMilestone;
+  });
+  document.getElementById("completed-body").innerHTML = completed.length ? completed.map(function(i) {
+    return "<tr>"
+      + '<td style="color:#8b949e">#' + i.number + '</td>'
+      + '<td><strong style="color:#3fb950">' + i.cycleDays + "</strong></td>"
+      + '<td><span style="font-size:11px;color:var(--muted)">' + (i.source === "history" ? "status tracking" : "issue closed") + "</span></td>"
+      + "<td>" + pillTeam(i.labels) + "</td>"
+      + '<td style="color:#8b949e">' + (i.kind || "—") + "</td>"
+      + '<td style="color:#8b949e">' + (i.milestone || "—") + "</td>"
+      + "</tr>";
+  }).join("") : '<tr><td colspan="6" style="color:var(--muted);text-align:center;padding:16px">No completed items yet. Cycle times appear here once items move To Do → Done.</td></tr>';
+}
+
 function renderStaleTable(items) {
   const stale = [...items]
     .filter(i => i.state === 'OPEN')
@@ -871,6 +973,7 @@ function renderAll() {
   renderStaleTable(filteredItems);
   renderUnassignedTable(filteredItems);
   renderAllTable(filteredItems);
+  renderCycleStats();
   const panel = document.getElementById('milestone-progress-panel');
   if (activeMilestone === 'all') {
     panel.style.display = '';

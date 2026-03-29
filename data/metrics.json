@@ -1176,5 +1176,273 @@
       "closedAt": null,
       "ageDays": 1
     }
-  ]
+  ],
+  "cycleStats": {
+    "overall": null,
+    "overallHistory": null,
+    "overallClosed": null,
+    "completedCount": 0,
+    "byTeam": {
+      "Operations": null,
+      "Digital marketing": null,
+      "Sales": null,
+      "Coaching/Delivery": null,
+      "Product": null
+    },
+    "byKind": {
+      "Task": null,
+      "Story": null
+    },
+    "byMilestone": {
+      "Q1 2026": null,
+      "Q2 2026": null
+    },
+    "completed": [],
+    "inFlight": [
+      {
+        "number": 4,
+        "title": "Sprint 1: Create product marketing roadmap for Glotale web APP development and marketing",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 26,
+        "daysInFlight": 26
+      },
+      {
+        "number": 17,
+        "title": "STORY: Revisit and review Glotale Vision & Mission",
+        "labels": [
+          "Operations"
+        ],
+        "kind": "Story",
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 25,
+        "daysInFlight": 25
+      },
+      {
+        "number": 25,
+        "title": "Work out IR35 contracting model with Accountant",
+        "labels": [
+          "Operations"
+        ],
+        "kind": "Story",
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 19,
+        "daysInFlight": 19
+      },
+      {
+        "number": 27,
+        "title": "STORY: Launch “The Global Talent Simulation Experience” (The Eligibility Tool)",
+        "labels": [
+          "Digital marketing",
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 19,
+        "daysInFlight": 19
+      },
+      {
+        "number": 28,
+        "title": "STORY: shortlist 2-3 suitable UK based trainers to Oscar Associates",
+        "labels": [],
+        "kind": "Story",
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 19,
+        "daysInFlight": 19
+      },
+      {
+        "number": 24,
+        "title": "Evidence Cross-Walking (UK Tech Nation ↔ US NIW)",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 19,
+        "daysInFlight": 19
+      },
+      {
+        "number": 31,
+        "title": "Standardise GBP to NGN pricing conversion across all service offerings",
+        "labels": [],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 2,
+        "daysInFlight": 2
+      },
+      {
+        "number": 11,
+        "title": "STORY: Follow-up on learners and coached clients",
+        "labels": [
+          "Operations"
+        ],
+        "kind": "Story",
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 9,
+        "title": "Sprint 2: Follow up on learners and coached clients",
+        "labels": [
+          "Operations"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "OLUWADAMILOLA-24"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 8,
+        "title": "Leads Ownership",
+        "labels": [
+          "Sales"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "VeraEzike",
+          "Rachaelakoteyon"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 23,
+        "title": "Post Training Support Tracker Template",
+        "labels": [],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 7,
+        "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
+        "labels": [
+          "Sales"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 15,
+        "title": "Explore Live streaming alternative",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 18,
+        "title": "STORY: Create product marketing roadmap for Glotale web APP development and marketing",
+        "labels": [
+          "Operations",
+          "Digital marketing",
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 5,
+        "title": "STORY: Partnership Outreach",
+        "labels": [
+          "Operations"
+        ],
+        "kind": "Story",
+        "milestone": "Q1 2026",
+        "assignees": [
+          "OLUWADAMILOLA-24"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 12,
+        "title": "[Product Development] EB2-NIW Service Integration",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 19,
+        "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 22,
+        "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
+        "labels": [],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      }
+    ]
+  }
 }
