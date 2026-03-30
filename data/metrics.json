@@ -1,27 +1,27 @@
 {
-  "lastUpdated": "2026-03-30T07:22:28.989Z",
+  "lastUpdated": "2026-03-30T13:10:56.958Z",
   "summary": {
-    "total": 68,
+    "total": 69,
     "done": 1,
     "inProgress": 6,
-    "inReview": 5,
+    "inReview": 6,
     "toDo": 7,
     "unset": 49,
     "completionRate": 1,
     "avgCycleDays": 19,
     "avgAgeDays": 10,
-    "unassignedCount": 61
+    "unassignedCount": 62
   },
   "byStatus": {
     "Done": 1,
-    "In review": 5,
+    "In review": 6,
     "To Do": 7,
     "Unset": 49,
     "In progress": 6
   },
   "byKind": {
     "Unset": 19,
-    "Story": 15,
+    "Story": 16,
     "Task": 34
   },
   "byLabel": {
@@ -42,20 +42,20 @@
     "Marxlyte": 1
   },
   "byAuthor": {
-    "MaryleenAmaizu": 44,
+    "MaryleenAmaizu": 45,
     "Glotale-Project": 22,
     "SemiloreCmd": 1,
     "Iyanumi": 1
   },
   "byMilestone": {
-    "Q1 2026": 26,
+    "Q1 2026": 27,
     "Q2 2026": 42
   },
   "milestoneStatus": {
     "Q1 2026": {
       "To Do": 7,
       "In progress": 6,
-      "In review": 5,
+      "In review": 6,
       "Done": 1,
       "Unset": 7
     },
@@ -112,7 +112,7 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 43,
+    "0-7 days": 44,
     "8-14 days": 0,
     "15-30 days": 24,
     "30+ days": 0
@@ -125,7 +125,8 @@
     "2026-03-02": 2,
     "2026-03-06": 1,
     "2026-03-27": 1,
-    "2026-03-28": 42
+    "2026-03-28": 42,
+    "2026-03-30": 1
   },
   "cycleStats": {
     "overall": 19,
@@ -372,7 +373,7 @@
         "labels": [
           "Coaching/Delivery"
         ],
-        "kind": null,
+        "kind": "Story",
         "milestone": "Q1 2026",
         "assignees": [
           "SemiloreCmd",
@@ -407,6 +408,17 @@
         "currentStatus": "In progress",
         "currentStatusDays": 1,
         "daysInFlight": null
+      },
+      {
+        "number": 74,
+        "title": "Complete Module-by-Module review of the Blueprint course.",
+        "labels": [],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
@@ -425,7 +437,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:57:48Z",
       "closedAt": "2026-03-29T19:00:18Z",
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 11,
@@ -441,7 +453,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 9,
@@ -459,7 +471,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:08:53Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 8,
@@ -478,7 +490,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:04:48Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 23,
@@ -492,7 +504,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:59:50Z",
       "closedAt": null,
-      "ageDays": 20
+      "ageDays": 21
     },
     {
       "number": 7,
@@ -540,7 +552,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 27,
@@ -557,7 +569,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 28,
@@ -571,7 +583,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 4,
@@ -606,7 +618,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:44:56Z",
       "closedAt": null,
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 1,
@@ -670,7 +682,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 13,
@@ -686,7 +698,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 15,
@@ -702,7 +714,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:05:53Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 16,
@@ -716,7 +728,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:08:30Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 18,
@@ -759,7 +771,7 @@
       "title": "[Product Development] EB2-NIW Service Integration",
       "state": "OPEN",
       "status": "In progress",
-      "kind": null,
+      "kind": "Story",
       "author": "Glotale-Project",
       "labels": [
         "Coaching/Delivery"
@@ -771,7 +783,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 19,
@@ -789,7 +801,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-06T08:27:15Z",
       "closedAt": null,
-      "ageDays": 23
+      "ageDays": 24
     },
     {
       "number": 22,
@@ -803,7 +815,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:14:30Z",
       "closedAt": null,
-      "ageDays": 20
+      "ageDays": 21
     },
     {
       "number": 26,
@@ -820,7 +832,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 31,
@@ -834,7 +846,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 2
+      "ageDays": 3
     },
     {
       "number": 32,
@@ -850,7 +862,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 33,
@@ -866,7 +878,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 34,
@@ -882,7 +894,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 35,
@@ -898,7 +910,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 36,
@@ -914,7 +926,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 37,
@@ -930,7 +942,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 38,
@@ -946,7 +958,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 39,
@@ -962,7 +974,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 40,
@@ -979,7 +991,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 41,
@@ -996,7 +1008,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 42,
@@ -1013,7 +1025,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 43,
@@ -1030,7 +1042,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 44,
@@ -1047,7 +1059,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 45,
@@ -1064,7 +1076,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 46,
@@ -1081,7 +1093,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 47,
@@ -1098,7 +1110,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 48,
@@ -1115,7 +1127,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 49,
@@ -1132,7 +1144,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 50,
@@ -1149,7 +1161,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 51,
@@ -1166,7 +1178,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 52,
@@ -1183,7 +1195,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 53,
@@ -1200,7 +1212,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 54,
@@ -1217,7 +1229,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 55,
@@ -1234,7 +1246,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 56,
@@ -1251,7 +1263,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 57,
@@ -1268,7 +1280,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 58,
@@ -1285,7 +1297,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 59,
@@ -1301,7 +1313,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 60,
@@ -1318,7 +1330,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 61,
@@ -1335,7 +1347,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:05Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 62,
@@ -1352,7 +1364,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:07Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 64,
@@ -1369,7 +1381,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 63,
@@ -1386,7 +1398,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 65,
@@ -1403,7 +1415,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 66,
@@ -1420,7 +1432,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 67,
@@ -1437,7 +1449,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 68,
@@ -1454,7 +1466,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 69,
@@ -1471,7 +1483,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 70,
@@ -1488,7 +1500,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 71,
@@ -1505,7 +1517,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 72,
@@ -1522,7 +1534,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 73,
@@ -1539,7 +1551,21 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
+    },
+    {
+      "number": 74,
+      "title": "Complete Module-by-Module review of the Blueprint course.",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "MaryleenAmaizu",
+      "labels": [],
+      "assignees": [],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-30T12:46:03Z",
+      "closedAt": null,
+      "ageDays": 0
     }
   ]
 }
