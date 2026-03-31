@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-03-30T18:57:57.522Z",
+  "lastUpdated": "2026-03-31T02:02:06.703Z",
   "summary": {
     "total": 69,
     "done": 1,
-    "inProgress": 6,
+    "inProgress": 7,
     "inReview": 6,
     "toDo": 7,
-    "unset": 49,
+    "unset": 48,
     "completionRate": 1,
     "avgCycleDays": 19,
     "avgAgeDays": 10,
@@ -16,8 +16,8 @@
     "Done": 1,
     "In review": 6,
     "To Do": 7,
-    "Unset": 49,
-    "In progress": 6
+    "Unset": 48,
+    "In progress": 7
   },
   "byKind": {
     "Unset": 19,
@@ -61,10 +61,10 @@
     },
     "Q2 2026": {
       "To Do": 0,
-      "In progress": 0,
+      "In progress": 1,
       "In review": 0,
       "Done": 0,
-      "Unset": 42
+      "Unset": 41
     },
     "None": {
       "To Do": 0,
@@ -84,10 +84,10 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 3,
+      "In progress": 4,
       "In review": 0,
       "Done": 0,
-      "Unset": 14
+      "Unset": 13
     },
     "Sales": {
       "To Do": 1,
@@ -201,8 +201,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 20,
-        "daysInFlight": 20
+        "currentStatusDays": 21,
+        "daysInFlight": 21
       },
       {
         "number": 27,
@@ -215,8 +215,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 20,
-        "daysInFlight": 20
+        "currentStatusDays": 21,
+        "daysInFlight": 21
       },
       {
         "number": 28,
@@ -226,8 +226,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 20,
-        "daysInFlight": 20
+        "currentStatusDays": 21,
+        "daysInFlight": 21
       },
       {
         "number": 24,
@@ -242,8 +242,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 20,
-        "daysInFlight": 20
+        "currentStatusDays": 21,
+        "daysInFlight": 21
       },
       {
         "number": 31,
@@ -253,8 +253,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 3,
-        "daysInFlight": 3
+        "currentStatusDays": 4,
+        "daysInFlight": 4
       },
       {
         "number": 11,
@@ -410,6 +410,20 @@
         "daysInFlight": null
       },
       {
+        "number": 69,
+        "title": "Push user survey to collect meaningful responses (currently 2)",
+        "labels": [
+          "Digital marketing",
+          "task"
+        ],
+        "kind": "Task",
+        "milestone": "Q2 2026",
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 74,
         "title": "Complete Module-by-Module review of the Blueprint course.",
         "labels": [],
@@ -520,7 +534,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 26
+      "ageDays": 27
     },
     {
       "number": 17,
@@ -1472,7 +1486,7 @@
       "number": 69,
       "title": "Push user survey to collect meaningful responses (currently 2)",
       "state": "OPEN",
-      "status": null,
+      "status": "In progress",
       "kind": "Task",
       "author": "MaryleenAmaizu",
       "labels": [
