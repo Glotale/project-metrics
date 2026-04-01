@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-04-01T13:13:21.281Z",
+  "lastUpdated": "2026-04-01T18:56:33.648Z",
   "summary": {
-    "total": 70,
+    "total": 75,
     "done": 1,
     "inProgress": 9,
     "inReview": 5,
-    "toDo": 7,
+    "toDo": 12,
     "unset": 48,
     "completionRate": 1,
     "avgCycleDays": 19,
-    "avgAgeDays": 12,
-    "unassignedCount": 62
+    "avgAgeDays": 11,
+    "unassignedCount": 66
   },
   "byStatus": {
     "Done": 1,
     "In review": 5,
-    "To Do": 7,
+    "To Do": 12,
     "Unset": 48,
     "In progress": 9
   },
   "byKind": {
-    "Unset": 20,
+    "Unset": 25,
     "Story": 16,
     "Task": 34
   },
   "byLabel": {
     "Operations": 21,
-    "Sales": 11,
+    "Sales": 14,
     "Digital marketing": 20,
     "Coaching/Delivery": 11,
     "Product": 4,
@@ -35,8 +35,8 @@
   },
   "byAssignee": {
     "OLUWADAMILOLA-24": 3,
-    "VeraEzike": 1,
-    "Rachaelakoteyon": 1,
+    "VeraEzike": 2,
+    "Rachaelakoteyon": 2,
     "SemiloreCmd": 2,
     "Iyanumi": 2,
     "Marxlyte": 2
@@ -46,12 +46,13 @@
     "Glotale-Project": 22,
     "Iyanumi": 1,
     "Marxlyte": 1,
-    "SemiloreCmd": 1
+    "SemiloreCmd": 1,
+    "VeraEzike": 5
   },
   "byMilestone": {
     "Q1 2026": 27,
     "Q2 2026": 42,
-    "None": 1
+    "None": 6
   },
   "milestoneStatus": {
     "Q1 2026": {
@@ -69,7 +70,7 @@
       "Unset": 41
     },
     "None": {
-      "To Do": 0,
+      "To Do": 5,
       "In progress": 1,
       "In review": 0,
       "Done": 0,
@@ -92,7 +93,7 @@
       "Unset": 13
     },
     "Sales": {
-      "To Do": 1,
+      "To Do": 4,
       "In progress": 1,
       "In review": 2,
       "Done": 0,
@@ -114,7 +115,7 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 45,
+    "0-7 days": 50,
     "8-14 days": 0,
     "15-30 days": 24,
     "30+ days": 0
@@ -129,7 +130,8 @@
     "2026-03-27": 1,
     "2026-03-28": 42,
     "2026-03-30": 1,
-    "2026-03-31": 1
+    "2026-03-31": 1,
+    "2026-04-01": 5
   },
   "cycleStats": {
     "overall": 19,
@@ -451,6 +453,70 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 76,
+        "title": "Sales Qualified Leads Criteria Review and Process Improvement",
+        "labels": [
+          "Sales"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "VeraEzike",
+          "Rachaelakoteyon"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 78,
+        "title": "Objection Handling Review and Playbook Update",
+        "labels": [
+          "Sales"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
       }
     ]
   },
@@ -554,7 +620,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 27
+      "ageDays": 28
     },
     {
       "number": 25,
@@ -617,7 +683,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
-      "ageDays": 28
+      "ageDays": 29
     },
     {
       "number": 24,
@@ -652,7 +718,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 2,
@@ -684,7 +750,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 28
+      "ageDays": 29
     },
     {
       "number": 10,
@@ -764,7 +830,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 27
+      "ageDays": 28
     },
     {
       "number": 5,
@@ -782,7 +848,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 28
+      "ageDays": 29
     },
     {
       "number": 12,
@@ -1616,6 +1682,85 @@
       "createdAt": "2026-03-09T11:59:50Z",
       "closedAt": null,
       "ageDays": 23
+    },
+    {
+      "number": 76,
+      "title": "Sales Qualified Leads Criteria Review and Process Improvement",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "VeraEzike",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [
+        "VeraEzike",
+        "Rachaelakoteyon"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-01T13:26:52Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 77,
+      "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "VeraEzike",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-01T14:22:14Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 78,
+      "title": "Objection Handling Review and Playbook Update",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "VeraEzike",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-01T14:39:36Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 79,
+      "title": "Follow-Up Tracking System and CRM Data Review",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "VeraEzike",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-01T15:18:40Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 80,
+      "title": "Automated Call Recording Solutions Research",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "VeraEzike",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-01T15:55:52Z",
+      "closedAt": null,
+      "ageDays": 0
     }
   ]
 }
