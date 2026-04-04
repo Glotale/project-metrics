@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T18:40:55.724Z",
+  "lastUpdated": "2026-04-04T01:52:07.763Z",
   "summary": {
     "total": 75,
     "done": 2,
@@ -9,7 +9,7 @@
     "unset": 48,
     "completionRate": 3,
     "avgCycleDays": 11,
-    "avgAgeDays": 13,
+    "avgAgeDays": 14,
     "unassignedCount": 66
   },
   "byStatus": {
@@ -117,8 +117,8 @@
   "ageBuckets": {
     "0-7 days": 49,
     "8-14 days": 0,
-    "15-30 days": 19,
-    "30+ days": 5
+    "15-30 days": 18,
+    "30+ days": 6
   },
   "byDate": {
     "2026-03-06": 1,
@@ -218,8 +218,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 24,
-        "daysInFlight": 24
+        "currentStatusDays": 25,
+        "daysInFlight": 25
       },
       {
         "number": 27,
@@ -232,8 +232,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 24,
-        "daysInFlight": 24
+        "currentStatusDays": 25,
+        "daysInFlight": 25
       },
       {
         "number": 28,
@@ -243,8 +243,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 24,
-        "daysInFlight": 24
+        "currentStatusDays": 25,
+        "daysInFlight": 25
       },
       {
         "number": 24,
@@ -259,8 +259,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 24,
-        "daysInFlight": 24
+        "currentStatusDays": 25,
+        "daysInFlight": 25
       },
       {
         "number": 31,
@@ -270,8 +270,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 7,
-        "daysInFlight": 7
+        "currentStatusDays": 8,
+        "daysInFlight": 8
       },
       {
         "number": 76,
@@ -286,8 +286,8 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 2,
-        "daysInFlight": 2
+        "currentStatusDays": 3,
+        "daysInFlight": 3
       },
       {
         "number": 77,
@@ -637,7 +637,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 17,
@@ -751,7 +751,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 2,
@@ -767,7 +767,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 3,
