@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-04-07T18:58:52.052Z",
+  "lastUpdated": "2026-04-08T02:03:24.515Z",
   "summary": {
-    "total": 76,
-    "done": 3,
-    "inProgress": 10,
+    "total": 81,
+    "done": 5,
+    "inProgress": 8,
     "inReview": 3,
-    "toDo": 12,
+    "toDo": 17,
     "unset": 48,
-    "completionRate": 4,
-    "avgCycleDays": 19,
-    "avgAgeDays": 17,
-    "unassignedCount": 67
+    "completionRate": 6,
+    "avgCycleDays": 25,
+    "avgAgeDays": 16,
+    "unassignedCount": 70
   },
   "byStatus": {
-    "In progress": 10,
-    "Done": 3,
+    "Done": 5,
     "In review": 3,
-    "To Do": 12,
+    "To Do": 17,
+    "In progress": 8,
     "Unset": 48
   },
   "byKind": {
-    "Unset": 26,
+    "Unset": 31,
     "Story": 16,
     "Task": 34
   },
@@ -34,7 +34,7 @@
     "enhancement": 9
   },
   "byAssignee": {
-    "Marxlyte": 2,
+    "Marxlyte": 4,
     "OLUWADAMILOLA-24": 3,
     "VeraEzike": 2,
     "Rachaelakoteyon": 2,
@@ -45,21 +45,21 @@
     "Glotale-Project": 23,
     "MaryleenAmaizu": 45,
     "Iyanumi": 1,
-    "Marxlyte": 1,
+    "Marxlyte": 6,
     "SemiloreCmd": 1,
     "VeraEzike": 5
   },
   "byMilestone": {
     "Q1 2026": 27,
     "Q2 2026": 42,
-    "None": 7
+    "None": 12
   },
   "milestoneStatus": {
     "Q1 2026": {
       "To Do": 6,
-      "In progress": 8,
+      "In progress": 6,
       "In review": 3,
-      "Done": 3,
+      "Done": 5,
       "Unset": 7
     },
     "Q2 2026": {
@@ -70,7 +70,7 @@
       "Unset": 41
     },
     "None": {
-      "To Do": 6,
+      "To Do": 11,
       "In progress": 1,
       "In review": 0,
       "Done": 0,
@@ -87,9 +87,9 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 5,
+      "In progress": 3,
       "In review": 0,
-      "Done": 0,
+      "Done": 2,
       "Unset": 13
     },
     "Sales": {
@@ -115,10 +115,10 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 7,
+    "0-7 days": 12,
     "8-14 days": 43,
     "15-30 days": 7,
-    "30+ days": 16
+    "30+ days": 14
   },
   "byDate": {
     "2026-03-06": 1,
@@ -132,16 +132,16 @@
     "2026-03-28": 42,
     "2026-03-31": 1,
     "2026-04-01": 5,
-    "2026-04-07": 1
+    "2026-04-07": 6
   },
   "cycleStats": {
-    "overall": 19,
+    "overall": 25,
     "overallHistory": null,
-    "overallClosed": 19,
-    "completedCount": 3,
+    "overallClosed": 25,
+    "completedCount": 5,
     "byTeam": {
       "Operations": 34,
-      "Digital marketing": null,
+      "Digital marketing": 34,
       "Sales": null,
       "Coaching/Delivery": null,
       "Product": null
@@ -151,10 +151,26 @@
       "Story": null
     },
     "byMilestone": {
-      "Q1 2026": 19,
+      "Q1 2026": 25,
       "Q2 2026": null
     },
     "completed": [
+      {
+        "number": 19,
+        "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "Marxlyte"
+        ],
+        "cycleDays": 33,
+        "historyDays": null,
+        "closedDays": 33,
+        "source": "closedAt"
+      },
       {
         "number": 29,
         "title": "Organise Github board",
@@ -196,6 +212,22 @@
         "historyDays": null,
         "closedDays": 34,
         "source": "closedAt"
+      },
+      {
+        "number": 15,
+        "title": "Explore Live streaming alternative",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "Marxlyte"
+        ],
+        "cycleDays": 35,
+        "historyDays": null,
+        "closedDays": 35,
+        "source": "closedAt"
       }
     ],
     "inFlight": [
@@ -235,8 +267,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 28,
-        "daysInFlight": 28
+        "currentStatusDays": 29,
+        "daysInFlight": 29
       },
       {
         "number": 27,
@@ -249,8 +281,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 28,
-        "daysInFlight": 28
+        "currentStatusDays": 29,
+        "daysInFlight": 29
       },
       {
         "number": 28,
@@ -260,8 +292,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 28,
-        "daysInFlight": 28
+        "currentStatusDays": 29,
+        "daysInFlight": 29
       },
       {
         "number": 24,
@@ -277,7 +309,7 @@
         ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
-        "daysInFlight": 28
+        "daysInFlight": 29
       },
       {
         "number": 31,
@@ -287,8 +319,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 11,
-        "daysInFlight": 11
+        "currentStatusDays": 12,
+        "daysInFlight": 12
       },
       {
         "number": 76,
@@ -303,8 +335,8 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 6,
-        "daysInFlight": 6
+        "currentStatusDays": 7,
+        "daysInFlight": 7
       },
       {
         "number": 77,
@@ -355,19 +387,15 @@
         "daysInFlight": 6
       },
       {
-        "number": 19,
-        "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
-        "labels": [
-          "Digital marketing"
-        ],
+        "number": 81,
+        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
+        "labels": [],
         "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 9,
-        "daysInFlight": null
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 1,
+        "daysInFlight": 1
       },
       {
         "number": 11,
@@ -395,19 +423,6 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "In review",
-        "currentStatusDays": 9,
-        "daysInFlight": null
-      },
-      {
-        "number": 15,
-        "title": "Explore Live streaming alternative",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [],
-        "currentStatus": "In progress",
         "currentStatusDays": 9,
         "daysInFlight": null
       },
@@ -477,7 +492,9 @@
         ],
         "kind": "Task",
         "milestone": "Q2 2026",
-        "assignees": [],
+        "assignees": [
+          "Marxlyte"
+        ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
@@ -522,8 +539,52 @@
         "daysInFlight": null
       },
       {
-        "number": 81,
-        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
+        "number": 82,
+        "title": "Review the current lead process across all departments",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 83,
+        "title": "Hold a joint workflow meeting with all departments",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 84,
+        "title": "Build the new lead system",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 85,
+        "title": "Recommend tools and automation",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 86,
+        "title": "Finalise and test the workflow",
         "labels": [],
         "kind": null,
         "milestone": null,
@@ -538,8 +599,8 @@
     {
       "number": 19,
       "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Glotale-Project",
       "labels": [
@@ -550,7 +611,7 @@
       ],
       "milestone": "Q1 2026",
       "createdAt": "2026-03-06T08:27:15Z",
-      "closedAt": null,
+      "closedAt": "2026-04-07T23:36:31Z",
       "ageDays": 32
     },
     {
@@ -817,17 +878,19 @@
     {
       "number": 15,
       "title": "Explore Live streaming alternative",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Glotale-Project",
       "labels": [
         "Digital marketing"
       ],
-      "assignees": [],
+      "assignees": [
+        "Marxlyte"
+      ],
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:05:53Z",
-      "closedAt": null,
+      "closedAt": "2026-04-07T23:43:27Z",
       "ageDays": 34
     },
     {
@@ -1575,7 +1638,9 @@
         "Digital marketing",
         "task"
       ],
-      "assignees": [],
+      "assignees": [
+        "Marxlyte"
+      ],
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": null,
@@ -1695,7 +1760,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 76,
@@ -1787,6 +1852,76 @@
       "assignees": [],
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 82,
+      "title": "Review the current lead process across all departments",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:47:40Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 83,
+      "title": "Hold a joint workflow meeting with all departments",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:49:02Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 84,
+      "title": "Build the new lead system",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:50:26Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 85,
+      "title": "Recommend tools and automation",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:51:07Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 86,
+      "title": "Finalise and test the workflow",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:51:25Z",
       "closedAt": null,
       "ageDays": 0
     }
