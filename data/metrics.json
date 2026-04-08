@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2026-04-08T13:13:41.672Z",
+  "lastUpdated": "2026-04-08T19:10:53.212Z",
   "summary": {
-    "total": 82,
-    "done": 5,
+    "total": 83,
+    "done": 6,
     "inProgress": 9,
-    "inReview": 3,
-    "toDo": 17,
+    "inReview": 4,
+    "toDo": 16,
     "unset": 48,
-    "completionRate": 6,
-    "avgCycleDays": 25,
+    "completionRate": 7,
+    "avgCycleDays": 21,
     "avgAgeDays": 16,
-    "unassignedCount": 67
+    "unassignedCount": 65
   },
   "byStatus": {
-    "Done": 5,
-    "In review": 3,
-    "To Do": 17,
-    "In progress": 9,
-    "Unset": 48
+    "Done": 6,
+    "In review": 4,
+    "To Do": 16,
+    "Unset": 48,
+    "In progress": 9
   },
   "byKind": {
-    "Unset": 29,
+    "Unset": 30,
     "Story": 17,
     "Task": 36
   },
@@ -28,7 +28,7 @@
     "Digital marketing": 20,
     "Operations": 21,
     "Sales": 14,
-    "Coaching/Delivery": 13,
+    "Coaching/Delivery": 16,
     "Product": 4,
     "task": 24,
     "enhancement": 9
@@ -38,13 +38,13 @@
     "OLUWADAMILOLA-24": 3,
     "VeraEzike": 3,
     "Rachaelakoteyon": 2,
-    "SemiloreCmd": 4,
-    "Iyanumi": 4
+    "SemiloreCmd": 7,
+    "Iyanumi": 7
   },
   "byAuthor": {
     "Glotale-Project": 24,
     "MaryleenAmaizu": 45,
-    "Iyanumi": 1,
+    "Iyanumi": 2,
     "Marxlyte": 6,
     "SemiloreCmd": 1,
     "VeraEzike": 5
@@ -52,12 +52,12 @@
   "byMilestone": {
     "Q1 2026": 27,
     "Q2 2026": 42,
-    "None": 13
+    "None": 14
   },
   "milestoneStatus": {
     "Q1 2026": {
-      "To Do": 6,
-      "In progress": 6,
+      "To Do": 7,
+      "In progress": 5,
       "In review": 3,
       "Done": 5,
       "Unset": 7
@@ -70,10 +70,10 @@
       "Unset": 41
     },
     "None": {
-      "To Do": 11,
-      "In progress": 2,
-      "In review": 0,
-      "Done": 0,
+      "To Do": 9,
+      "In progress": 3,
+      "In review": 1,
+      "Done": 1,
       "Unset": 0
     }
   },
@@ -101,9 +101,9 @@
     },
     "Coaching/Delivery": {
       "To Do": 1,
-      "In progress": 2,
-      "In review": 1,
-      "Done": 0,
+      "In progress": 3,
+      "In review": 2,
+      "Done": 1,
       "Unset": 9
     },
     "Product": {
@@ -133,18 +133,18 @@
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-04-07": 6,
-    "2026-04-08": 1
+    "2026-04-08": 2
   },
   "cycleStats": {
-    "overall": 25,
+    "overall": 21,
     "overallHistory": null,
-    "overallClosed": 25,
-    "completedCount": 5,
+    "overallClosed": 21,
+    "completedCount": 6,
     "byTeam": {
       "Operations": 34,
       "Digital marketing": 34,
       "Sales": null,
-      "Coaching/Delivery": null,
+      "Coaching/Delivery": 0,
       "Product": null
     },
     "byKind": {
@@ -229,6 +229,23 @@
         "historyDays": null,
         "closedDays": 35,
         "source": "closedAt"
+      },
+      {
+        "number": 87,
+        "title": "Call some coaching delivery clients",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "cycleDays": 0,
+        "historyDays": null,
+        "closedDays": 0,
+        "source": "closedAt"
       }
     ],
     "inFlight": [
@@ -308,8 +325,8 @@
           "SemiloreCmd",
           "Iyanumi"
         ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
+        "currentStatus": "To Do",
+        "currentStatusDays": 29,
         "daysInFlight": 29
       },
       {
@@ -386,17 +403,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 7,
         "daysInFlight": 7
-      },
-      {
-        "number": 81,
-        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 1,
-        "daysInFlight": 1
       },
       {
         "number": 83,
@@ -520,10 +526,15 @@
       {
         "number": 22,
         "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
-        "labels": [],
+        "labels": [
+          "Coaching/Delivery"
+        ],
         "kind": null,
         "milestone": "Q1 2026",
-        "assignees": [],
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
         "currentStatus": "In progress",
         "currentStatusDays": 10,
         "daysInFlight": null
@@ -591,6 +602,22 @@
         "daysInFlight": null
       },
       {
+        "number": 81,
+        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 82,
         "title": "Review the current lead process across all departments",
         "labels": [],
@@ -604,8 +631,8 @@
         "daysInFlight": null
       },
       {
-        "number": 87,
-        "title": "Call some coaching delivery clients",
+        "number": 88,
+        "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
         "labels": [
           "Coaching/Delivery"
         ],
@@ -615,9 +642,9 @@
           "SemiloreCmd",
           "Iyanumi"
         ],
-        "currentStatus": "To Do",
+        "currentStatus": "In progress",
         "currentStatusDays": 0,
-        "daysInFlight": 0
+        "daysInFlight": null
       }
     ]
   },
@@ -737,7 +764,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 25,
@@ -800,13 +827,13 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 24,
       "title": "Evidence Cross-Walking (UK Tech Nation ↔ US NIW)",
       "state": "OPEN",
-      "status": "In progress",
+      "status": "To Do",
       "kind": null,
       "author": "Glotale-Project",
       "labels": [
@@ -835,7 +862,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 2,
@@ -851,7 +878,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 3,
@@ -867,7 +894,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 10,
@@ -949,7 +976,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 5,
@@ -967,7 +994,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 12,
@@ -995,8 +1022,13 @@
       "status": "In progress",
       "kind": null,
       "author": "Iyanumi",
-      "labels": [],
-      "assignees": [],
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:14:30Z",
       "closedAt": null,
@@ -1812,7 +1844,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     },
     {
       "number": 77,
@@ -1826,7 +1858,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     },
     {
       "number": 78,
@@ -1842,7 +1874,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     },
     {
       "number": 79,
@@ -1858,7 +1890,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     },
     {
       "number": 80,
@@ -1872,17 +1904,22 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     },
     {
       "number": 81,
       "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
       "state": "OPEN",
-      "status": "To Do",
+      "status": "In review",
       "kind": null,
       "author": "Glotale-Project",
-      "labels": [],
-      "assignees": [],
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": null,
@@ -1963,8 +2000,8 @@
     {
       "number": 87,
       "title": "Call some coaching delivery clients",
-      "state": "OPEN",
-      "status": "To Do",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Glotale-Project",
       "labels": [
@@ -1976,6 +2013,25 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-08T12:55:38Z",
+      "closedAt": "2026-04-08T16:15:39Z",
+      "ageDays": 0
+    },
+    {
+      "number": 88,
+      "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": null,
       "ageDays": 0
     }
