@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T07:16:42.308Z",
+  "lastUpdated": "2026-04-09T13:18:36.265Z",
   "summary": {
     "total": 83,
     "done": 6,
@@ -10,33 +10,33 @@
     "completionRate": 7,
     "avgCycleDays": 21,
     "avgAgeDays": 17,
-    "unassignedCount": 65
+    "unassignedCount": 64
   },
   "byStatus": {
+    "To Do": 16,
     "Done": 6,
     "In review": 4,
-    "To Do": 16,
     "Unset": 48,
     "In progress": 9
   },
   "byKind": {
+    "Task": 36,
     "Unset": 30,
-    "Story": 17,
-    "Task": 36
+    "Story": 17
   },
   "byLabel": {
+    "Sales": 14,
     "Digital marketing": 20,
     "Operations": 21,
-    "Sales": 14,
     "Coaching/Delivery": 16,
     "Product": 4,
     "task": 24,
     "enhancement": 9
   },
   "byAssignee": {
+    "VeraEzike": 4,
     "Marxlyte": 5,
     "OLUWADAMILOLA-24": 3,
-    "VeraEzike": 3,
     "Rachaelakoteyon": 2,
     "SemiloreCmd": 7,
     "Iyanumi": 7
@@ -56,8 +56,8 @@
   },
   "milestoneStatus": {
     "Q1 2026": {
-      "To Do": 7,
-      "In progress": 5,
+      "To Do": 8,
+      "In progress": 4,
       "In review": 3,
       "Done": 5,
       "Unset": 7
@@ -70,8 +70,8 @@
       "Unset": 41
     },
     "None": {
-      "To Do": 9,
-      "In progress": 3,
+      "To Do": 8,
+      "In progress": 4,
       "In review": 1,
       "Done": 1,
       "Unset": 0
@@ -93,8 +93,8 @@
       "Unset": 13
     },
     "Sales": {
-      "To Do": 4,
-      "In progress": 2,
+      "To Do": 5,
+      "In progress": 1,
       "In review": 1,
       "Done": 0,
       "Unset": 7
@@ -117,15 +117,15 @@
   "ageBuckets": {
     "0-7 days": 12,
     "8-14 days": 44,
-    "15-30 days": 7,
-    "30+ days": 14
+    "15-30 days": 5,
+    "30+ days": 16
   },
   "byDate": {
+    "2026-03-03": 4,
     "2026-03-06": 1,
     "2026-03-10": 6,
     "2026-03-04": 10,
     "2026-03-30": 1,
-    "2026-03-03": 4,
     "2026-03-02": 2,
     "2026-03-09": 2,
     "2026-03-27": 1,
@@ -357,17 +357,6 @@
         "daysInFlight": 8
       },
       {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 8,
-        "daysInFlight": 8
-      },
-      {
         "number": 78,
         "title": "Objection Handling Review and Playbook Update",
         "labels": [
@@ -412,8 +401,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 1,
-        "daysInFlight": 1
+        "currentStatusDays": 2,
+        "daysInFlight": 2
       },
       {
         "number": 84,
@@ -423,8 +412,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 1,
-        "daysInFlight": 1
+        "currentStatusDays": 2,
+        "daysInFlight": 2
       },
       {
         "number": 85,
@@ -434,8 +423,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 1,
-        "daysInFlight": 1
+        "currentStatusDays": 2,
+        "daysInFlight": 2
       },
       {
         "number": 86,
@@ -445,8 +434,23 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 1,
-        "daysInFlight": 1
+        "currentStatusDays": 2,
+        "daysInFlight": 2
+      },
+      {
+        "number": 7,
+        "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Task",
+        "milestone": "Q1 2026",
+        "assignees": [
+          "VeraEzike"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
       },
       {
         "number": 11,
@@ -587,21 +591,6 @@
         "daysInFlight": null
       },
       {
-        "number": 7,
-        "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Task",
-        "milestone": "Q1 2026",
-        "assignees": [
-          "VeraEzike"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 81,
         "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
         "labels": [
@@ -645,10 +634,41 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "VeraEzike"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
   "items": [
+    {
+      "number": 7,
+      "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": "Task",
+      "author": "Glotale-Project",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [
+        "VeraEzike"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-03-03T19:39:49Z",
+      "closedAt": null,
+      "ageDays": 36
+    },
     {
       "number": 19,
       "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
@@ -665,7 +685,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-06T08:27:15Z",
       "closedAt": "2026-04-07T23:36:31Z",
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 29,
@@ -681,7 +701,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:57:48Z",
       "closedAt": "2026-03-29T19:00:18Z",
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 11,
@@ -697,7 +717,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 74,
@@ -711,7 +731,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-30T12:46:03Z",
       "closedAt": "2026-04-02T07:09:21Z",
-      "ageDays": 9
+      "ageDays": 10
     },
     {
       "number": 9,
@@ -729,7 +749,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:08:53Z",
       "closedAt": "2026-04-07T07:18:16Z",
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 8,
@@ -748,7 +768,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:04:48Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 17,
@@ -780,7 +800,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 27,
@@ -797,7 +817,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 28,
@@ -811,7 +831,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 4,
@@ -846,7 +866,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:44:56Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 1,
@@ -910,7 +930,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 13,
@@ -926,7 +946,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 15,
@@ -944,7 +964,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:05:53Z",
       "closedAt": "2026-04-07T23:43:27Z",
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 16,
@@ -958,7 +978,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:08:30Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 18,
@@ -1013,7 +1033,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 22,
@@ -1032,7 +1052,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:14:30Z",
       "closedAt": null,
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 26,
@@ -1049,7 +1069,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 31,
@@ -1063,7 +1083,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 32,
@@ -1079,7 +1099,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 33,
@@ -1095,7 +1115,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 34,
@@ -1111,7 +1131,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 35,
@@ -1127,7 +1147,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 36,
@@ -1143,7 +1163,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 37,
@@ -1159,7 +1179,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 38,
@@ -1175,7 +1195,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 39,
@@ -1191,7 +1211,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 40,
@@ -1208,7 +1228,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 41,
@@ -1225,7 +1245,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 42,
@@ -1242,7 +1262,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 43,
@@ -1259,7 +1279,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 44,
@@ -1276,7 +1296,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 45,
@@ -1293,7 +1313,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 46,
@@ -1310,7 +1330,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 47,
@@ -1327,7 +1347,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 48,
@@ -1344,7 +1364,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 49,
@@ -1361,7 +1381,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 50,
@@ -1378,7 +1398,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 51,
@@ -1395,7 +1415,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 52,
@@ -1412,7 +1432,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 53,
@@ -1429,7 +1449,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 54,
@@ -1446,7 +1466,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 55,
@@ -1463,7 +1483,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 56,
@@ -1480,7 +1500,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 57,
@@ -1497,7 +1517,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 58,
@@ -1514,7 +1534,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 59,
@@ -1530,7 +1550,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 60,
@@ -1547,7 +1567,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 61,
@@ -1564,7 +1584,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:05Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 62,
@@ -1581,7 +1601,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:07Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 64,
@@ -1598,7 +1618,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 63,
@@ -1615,7 +1635,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 65,
@@ -1632,7 +1652,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 66,
@@ -1649,7 +1669,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 67,
@@ -1666,7 +1686,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 68,
@@ -1683,7 +1703,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 69,
@@ -1702,7 +1722,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 70,
@@ -1719,7 +1739,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 71,
@@ -1736,7 +1756,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 72,
@@ -1753,7 +1773,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 73,
@@ -1770,7 +1790,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 75,
@@ -1788,7 +1808,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 8
+      "ageDays": 9
     },
     {
       "number": 23,
@@ -1807,25 +1827,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:59:50Z",
       "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 7,
-      "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Task",
-      "author": "Glotale-Project",
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [
-        "VeraEzike"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-03T19:39:49Z",
-      "closedAt": null,
-      "ageDays": 36
+      "ageDays": 31
     },
     {
       "number": 76,
@@ -1843,20 +1845,6 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
-      "closedAt": null,
-      "ageDays": 7
-    },
-    {
-      "number": 77,
-      "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "VeraEzike",
-      "labels": [],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
       "ageDays": 7
     },
@@ -1923,7 +1911,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 82,
@@ -2014,7 +2002,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T12:55:38Z",
       "closedAt": "2026-04-08T16:15:39Z",
-      "ageDays": 0
+      "ageDays": 1
     },
     {
       "number": 88,
@@ -2034,6 +2022,22 @@
       "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": null,
       "ageDays": 0
+    },
+    {
+      "number": 77,
+      "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "VeraEzike",
+      "labels": [],
+      "assignees": [
+        "VeraEzike"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-01T14:22:14Z",
+      "closedAt": null,
+      "ageDays": 7
     }
   ]
 }
