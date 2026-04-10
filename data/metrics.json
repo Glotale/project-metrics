@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-04-10T07:22:10.707Z",
+  "lastUpdated": "2026-04-10T13:01:27.358Z",
   "summary": {
     "total": 83,
     "done": 6,
-    "inProgress": 9,
+    "inProgress": 10,
     "inReview": 4,
-    "toDo": 16,
+    "toDo": 15,
     "unset": 48,
     "completionRate": 7,
     "avgCycleDays": 21,
     "avgAgeDays": 18,
-    "unassignedCount": 64
+    "unassignedCount": 62
   },
   "byStatus": {
-    "To Do": 16,
+    "To Do": 15,
     "Done": 6,
     "In review": 4,
     "Unset": 48,
-    "In progress": 9
+    "In progress": 10
   },
   "byKind": {
     "Task": 36,
@@ -26,7 +26,7 @@
   },
   "byLabel": {
     "Sales": 14,
-    "Digital marketing": 20,
+    "Digital marketing": 21,
     "Operations": 21,
     "Coaching/Delivery": 16,
     "Product": 4,
@@ -35,7 +35,7 @@
   },
   "byAssignee": {
     "VeraEzike": 4,
-    "Marxlyte": 5,
+    "Marxlyte": 7,
     "OLUWADAMILOLA-24": 3,
     "Rachaelakoteyon": 2,
     "SemiloreCmd": 7,
@@ -70,8 +70,8 @@
       "Unset": 41
     },
     "None": {
-      "To Do": 8,
-      "In progress": 4,
+      "To Do": 7,
+      "In progress": 5,
       "In review": 1,
       "Done": 1,
       "Unset": 0
@@ -87,7 +87,7 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 3,
+      "In progress": 4,
       "In review": 0,
       "Done": 2,
       "Unset": 13
@@ -117,8 +117,8 @@
   "ageBuckets": {
     "0-7 days": 7,
     "8-14 days": 49,
-    "15-30 days": 5,
-    "30+ days": 16
+    "15-30 days": 0,
+    "30+ days": 21
   },
   "byDate": {
     "2026-03-03": 4,
@@ -257,7 +257,9 @@
         ],
         "kind": null,
         "milestone": "Q1 2026",
-        "assignees": [],
+        "assignees": [
+          "Marxlyte"
+        ],
         "currentStatus": "To Do",
         "currentStatusDays": 38,
         "daysInFlight": 38
@@ -394,17 +396,6 @@
         "daysInFlight": 9
       },
       {
-        "number": 83,
-        "title": "Hold a joint workflow meeting with all departments",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 2,
-        "daysInFlight": 2
-      },
-      {
         "number": 84,
         "title": "Build the new lead system",
         "labels": [],
@@ -412,8 +403,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 2,
-        "daysInFlight": 2
+        "currentStatusDays": 3,
+        "daysInFlight": 3
       },
       {
         "number": 85,
@@ -423,8 +414,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 2,
-        "daysInFlight": 2
+        "currentStatusDays": 3,
+        "daysInFlight": 3
       },
       {
         "number": 86,
@@ -434,8 +425,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 2,
-        "daysInFlight": 2
+        "currentStatusDays": 3,
+        "daysInFlight": 3
       },
       {
         "number": 7,
@@ -647,6 +638,21 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 83,
+        "title": "Hold a joint workflow meeting with all departments",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
@@ -685,7 +691,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-06T08:27:15Z",
       "closedAt": "2026-04-07T23:36:31Z",
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 29,
@@ -701,7 +707,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:57:48Z",
       "closedAt": "2026-03-29T19:00:18Z",
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 11,
@@ -717,7 +723,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 74,
@@ -731,7 +737,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-30T12:46:03Z",
       "closedAt": "2026-04-02T07:09:21Z",
-      "ageDays": 10
+      "ageDays": 11
     },
     {
       "number": 9,
@@ -749,7 +755,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:08:53Z",
       "closedAt": "2026-04-07T07:18:16Z",
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 8,
@@ -768,7 +774,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:04:48Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 17,
@@ -800,7 +806,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 27,
@@ -817,7 +823,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 28,
@@ -831,7 +837,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 4,
@@ -843,7 +849,9 @@
       "labels": [
         "Digital marketing"
       ],
-      "assignees": [],
+      "assignees": [
+        "Marxlyte"
+      ],
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
@@ -866,7 +874,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:44:56Z",
       "closedAt": null,
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 1,
@@ -930,7 +938,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 13,
@@ -946,7 +954,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 15,
@@ -964,7 +972,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:05:53Z",
       "closedAt": "2026-04-07T23:43:27Z",
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 16,
@@ -978,7 +986,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:08:30Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 18,
@@ -1033,7 +1041,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 22,
@@ -1052,7 +1060,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:14:30Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 26,
@@ -1069,7 +1077,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 30
+      "ageDays": 31
     },
     {
       "number": 31,
@@ -1083,7 +1091,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 13
+      "ageDays": 14
     },
     {
       "number": 32,
@@ -1099,7 +1107,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 33,
@@ -1115,7 +1123,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 34,
@@ -1131,7 +1139,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 35,
@@ -1808,7 +1816,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 9
+      "ageDays": 10
     },
     {
       "number": 23,
@@ -1827,7 +1835,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:59:50Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 76,
@@ -1911,7 +1919,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": null,
-      "ageDays": 2
+      "ageDays": 3
     },
     {
       "number": 82,
@@ -1926,20 +1934,6 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
-      "closedAt": null,
-      "ageDays": 2
-    },
-    {
-      "number": 83,
-      "title": "Hold a joint workflow meeting with all departments",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:49:02Z",
       "closedAt": null,
       "ageDays": 2
     },
@@ -2002,7 +1996,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T12:55:38Z",
       "closedAt": "2026-04-08T16:15:39Z",
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 88,
@@ -2038,6 +2032,24 @@
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
       "ageDays": 8
+    },
+    {
+      "number": 83,
+      "title": "Hold a joint workflow meeting with all departments",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:49:02Z",
+      "closedAt": null,
+      "ageDays": 2
     }
   ]
 }
