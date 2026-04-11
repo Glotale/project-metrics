@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-10T18:45:41.881Z",
+  "lastUpdated": "2026-04-11T01:56:45.464Z",
   "summary": {
-    "total": 83,
+    "total": 84,
     "done": 6,
     "inProgress": 10,
     "inReview": 4,
-    "toDo": 15,
+    "toDo": 16,
     "unset": 48,
     "completionRate": 7,
     "avgCycleDays": 21,
@@ -13,7 +13,7 @@
     "unassignedCount": 62
   },
   "byStatus": {
-    "To Do": 15,
+    "To Do": 16,
     "Done": 6,
     "In review": 4,
     "Unset": 48,
@@ -21,16 +21,16 @@
   },
   "byKind": {
     "Task": 36,
-    "Unset": 30,
+    "Unset": 31,
     "Story": 17
   },
   "byLabel": {
     "Sales": 14,
     "Digital marketing": 21,
     "Operations": 21,
-    "Coaching/Delivery": 16,
-    "Product": 4,
+    "Coaching/Delivery": 17,
     "task": 24,
+    "Product": 4,
     "enhancement": 9
   },
   "byAssignee": {
@@ -38,13 +38,13 @@
     "Marxlyte": 7,
     "OLUWADAMILOLA-24": 3,
     "Rachaelakoteyon": 2,
-    "SemiloreCmd": 7,
-    "Iyanumi": 7
+    "SemiloreCmd": 8,
+    "Iyanumi": 8
   },
   "byAuthor": {
     "Glotale-Project": 24,
     "MaryleenAmaizu": 45,
-    "Iyanumi": 2,
+    "Iyanumi": 3,
     "Marxlyte": 6,
     "SemiloreCmd": 1,
     "VeraEzike": 5
@@ -52,7 +52,7 @@
   "byMilestone": {
     "Q1 2026": 27,
     "Q2 2026": 42,
-    "None": 14
+    "None": 15
   },
   "milestoneStatus": {
     "Q1 2026": {
@@ -70,7 +70,7 @@
       "Unset": 41
     },
     "None": {
-      "To Do": 8,
+      "To Do": 9,
       "In progress": 4,
       "In review": 1,
       "Done": 1,
@@ -100,7 +100,7 @@
       "Unset": 7
     },
     "Coaching/Delivery": {
-      "To Do": 1,
+      "To Do": 2,
       "In progress": 3,
       "In review": 2,
       "Done": 1,
@@ -115,7 +115,7 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 7,
+    "0-7 days": 8,
     "8-14 days": 49,
     "15-30 days": 0,
     "30+ days": 21
@@ -127,13 +127,14 @@
     "2026-03-04": 10,
     "2026-03-30": 1,
     "2026-03-02": 2,
+    "2026-03-28": 42,
     "2026-03-09": 2,
     "2026-03-27": 1,
-    "2026-03-28": 42,
+    "2026-04-08": 2,
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-04-07": 6,
-    "2026-04-08": 2
+    "2026-04-10": 1
   },
   "cycleStats": {
     "overall": 21,
@@ -287,8 +288,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 31,
-        "daysInFlight": 31
+        "currentStatusDays": 32,
+        "daysInFlight": 32
       },
       {
         "number": 27,
@@ -301,8 +302,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 31,
-        "daysInFlight": 31
+        "currentStatusDays": 32,
+        "daysInFlight": 32
       },
       {
         "number": 28,
@@ -312,8 +313,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 31,
-        "daysInFlight": 31
+        "currentStatusDays": 32,
+        "daysInFlight": 32
       },
       {
         "number": 24,
@@ -328,8 +329,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 31,
-        "daysInFlight": 31
+        "currentStatusDays": 32,
+        "daysInFlight": 32
       },
       {
         "number": 31,
@@ -340,7 +341,7 @@
         "assignees": [],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
-        "daysInFlight": 14
+        "daysInFlight": 15
       },
       {
         "number": 76,
@@ -355,8 +356,8 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 9,
-        "daysInFlight": 9
+        "currentStatusDays": 10,
+        "daysInFlight": 10
       },
       {
         "number": 78,
@@ -532,6 +533,22 @@
         "daysInFlight": null
       },
       {
+        "number": 69,
+        "title": "Push user survey to collect meaningful responses (currently 2)",
+        "labels": [
+          "Digital marketing",
+          "task"
+        ],
+        "kind": "Task",
+        "milestone": "Q2 2026",
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 22,
         "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
         "labels": [
@@ -548,16 +565,16 @@
         "daysInFlight": null
       },
       {
-        "number": 69,
-        "title": "Push user survey to collect meaningful responses (currently 2)",
+        "number": 88,
+        "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
         "labels": [
-          "Digital marketing",
-          "task"
+          "Coaching/Delivery"
         ],
-        "kind": "Task",
-        "milestone": "Q2 2026",
+        "kind": null,
+        "milestone": null,
         "assignees": [
-          "Marxlyte"
+          "SemiloreCmd",
+          "Iyanumi"
         ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
@@ -624,22 +641,6 @@
         "daysInFlight": null
       },
       {
-        "number": 88,
-        "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 83,
         "title": "Hold a joint workflow meeting with all departments",
         "labels": [
@@ -653,6 +654,22 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 89,
+        "title": "Coaching Q2 KPIs",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
       }
     ]
   },
@@ -673,7 +690,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 19,
@@ -890,7 +907,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 2,
@@ -906,7 +923,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 3,
@@ -1044,6 +1061,25 @@
       "ageDays": 37
     },
     {
+      "number": 69,
+      "title": "Push user survey to collect meaningful responses (currently 2)",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing",
+        "task"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:55Z",
+      "closedAt": null,
+      "ageDays": 13
+    },
+    {
       "number": 22,
       "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
       "state": "OPEN",
@@ -1092,6 +1128,25 @@
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
       "ageDays": 14
+    },
+    {
+      "number": 88,
+      "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-08T16:25:10Z",
+      "closedAt": null,
+      "ageDays": 2
     },
     {
       "number": 32,
@@ -1714,25 +1769,6 @@
       "ageDays": 13
     },
     {
-      "number": 69,
-      "title": "Push user survey to collect meaningful responses (currently 2)",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:55Z",
-      "closedAt": null,
-      "ageDays": 13
-    },
-    {
       "number": 70,
       "title": "Automate lead capture flow within the web app pipeline",
       "state": "OPEN",
@@ -1935,7 +1971,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": null,
-      "ageDays": 2
+      "ageDays": 3
     },
     {
       "number": 84,
@@ -1949,7 +1985,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:50:26Z",
       "closedAt": null,
-      "ageDays": 2
+      "ageDays": 3
     },
     {
       "number": 85,
@@ -1963,7 +1999,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": null,
-      "ageDays": 2
+      "ageDays": 3
     },
     {
       "number": 86,
@@ -1977,7 +2013,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:25Z",
       "closedAt": null,
-      "ageDays": 2
+      "ageDays": 3
     },
     {
       "number": 87,
@@ -1996,25 +2032,6 @@
       "milestone": null,
       "createdAt": "2026-04-08T12:55:38Z",
       "closedAt": "2026-04-08T16:15:39Z",
-      "ageDays": 2
-    },
-    {
-      "number": 88,
-      "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-08T16:25:10Z",
-      "closedAt": null,
       "ageDays": 2
     },
     {
@@ -2049,7 +2066,26 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:49:02Z",
       "closedAt": null,
-      "ageDays": 2
+      "ageDays": 3
+    },
+    {
+      "number": 89,
+      "title": "Coaching Q2 KPIs",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-10T19:45:50Z",
+      "closedAt": null,
+      "ageDays": 0
     }
   ]
 }
