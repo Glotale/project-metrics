@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-04-13T13:18:27.817Z",
+  "lastUpdated": "2026-04-13T19:09:45.291Z",
   "summary": {
-    "total": 78,
+    "total": 79,
     "done": 0,
-    "inProgress": 10,
+    "inProgress": 11,
     "inReview": 4,
     "toDo": 16,
     "unset": 48,
@@ -16,17 +16,17 @@
     "To Do": 16,
     "In review": 4,
     "Unset": 48,
-    "In progress": 10
+    "In progress": 11
   },
   "byKind": {
     "Task": 36,
     "Story": 17,
-    "Unset": 25
+    "Unset": 26
   },
   "byLabel": {
     "Sales": 14,
     "Operations": 20,
-    "Digital marketing": 19,
+    "Digital marketing": 20,
     "Coaching/Delivery": 16,
     "task": 24,
     "Product": 4,
@@ -35,23 +35,24 @@
   "byAssignee": {
     "VeraEzike": 4,
     "Rachaelakoteyon": 2,
-    "Marxlyte": 5,
+    "Marxlyte": 6,
     "SemiloreCmd": 7,
     "Iyanumi": 7,
-    "OLUWADAMILOLA-24": 1
+    "OLUWADAMILOLA-24": 1,
+    "Ayinkeofnexurra": 1
   },
   "byAuthor": {
     "Glotale-Project": 20,
     "MaryleenAmaizu": 43,
     "Iyanumi": 3,
-    "Marxlyte": 6,
+    "Marxlyte": 7,
     "SemiloreCmd": 1,
     "VeraEzike": 5
   },
   "byMilestone": {
     "Q1 2026": 22,
     "Q2 2026": 42,
-    "None": 14
+    "None": 15
   },
   "milestoneStatus": {
     "Q1 2026": {
@@ -70,7 +71,7 @@
     },
     "None": {
       "To Do": 9,
-      "In progress": 4,
+      "In progress": 5,
       "In review": 1,
       "Done": 0,
       "Unset": 0
@@ -86,7 +87,7 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 4,
+      "In progress": 5,
       "In review": 0,
       "Done": 0,
       "Unset": 13
@@ -114,7 +115,7 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 8,
+    "0-7 days": 9,
     "8-14 days": 6,
     "15-30 days": 43,
     "30+ days": 21
@@ -131,7 +132,8 @@
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-04-07": 6,
-    "2026-04-10": 1
+    "2026-04-10": 1,
+    "2026-04-13": 1
   },
   "cycleStats": {
     "overall": null,
@@ -575,6 +577,22 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 90,
+        "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte",
+          "Ayinkeofnexurra"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
@@ -646,7 +664,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 25,
@@ -711,7 +729,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 24,
@@ -746,7 +764,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 41
+      "ageDays": 42
     },
     {
       "number": 2,
@@ -762,7 +780,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 41
+      "ageDays": 42
     },
     {
       "number": 3,
@@ -778,7 +796,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 10,
@@ -842,7 +860,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 5,
@@ -860,7 +878,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 12,
@@ -967,7 +985,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": null,
-      "ageDays": 4
+      "ageDays": 5
     },
     {
       "number": 32,
@@ -1711,7 +1729,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 78,
@@ -1727,7 +1745,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 79,
@@ -1743,7 +1761,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 80,
@@ -1757,7 +1775,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 81,
@@ -1850,7 +1868,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 83,
@@ -1888,6 +1906,25 @@
       "createdAt": "2026-04-10T19:45:50Z",
       "closedAt": null,
       "ageDays": 2
+    },
+    {
+      "number": 90,
+      "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte",
+        "Ayinkeofnexurra"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-13T13:45:53Z",
+      "closedAt": null,
+      "ageDays": 0
     }
   ]
 }
