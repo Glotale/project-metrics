@@ -1,65 +1,64 @@
 {
-  "lastUpdated": "2026-04-13T07:57:07.335Z",
+  "lastUpdated": "2026-04-13T13:18:27.817Z",
   "summary": {
-    "total": 84,
-    "done": 6,
+    "total": 78,
+    "done": 0,
     "inProgress": 10,
     "inReview": 4,
     "toDo": 16,
     "unset": 48,
-    "completionRate": 7,
-    "avgCycleDays": 21,
-    "avgAgeDays": 20,
-    "unassignedCount": 62
+    "completionRate": 0,
+    "avgCycleDays": null,
+    "avgAgeDays": 21,
+    "unassignedCount": 61
   },
   "byStatus": {
     "To Do": 16,
-    "Done": 6,
     "In review": 4,
     "Unset": 48,
     "In progress": 10
   },
   "byKind": {
     "Task": 36,
-    "Unset": 31,
-    "Story": 17
+    "Story": 17,
+    "Unset": 25
   },
   "byLabel": {
     "Sales": 14,
-    "Digital marketing": 21,
-    "Operations": 21,
-    "Coaching/Delivery": 17,
+    "Operations": 20,
+    "Digital marketing": 19,
+    "Coaching/Delivery": 16,
     "task": 24,
     "Product": 4,
     "enhancement": 9
   },
   "byAssignee": {
     "VeraEzike": 4,
-    "Marxlyte": 7,
-    "OLUWADAMILOLA-24": 3,
     "Rachaelakoteyon": 2,
-    "SemiloreCmd": 8,
-    "Iyanumi": 8
+    "Marxlyte": 5,
+    "SemiloreCmd": 7,
+    "Iyanumi": 7,
+    "OLUWADAMILOLA-24": 1
   },
   "byAuthor": {
-    "Glotale-Project": 24,
-    "MaryleenAmaizu": 45,
+    "Glotale-Project": 20,
+    "MaryleenAmaizu": 43,
     "Iyanumi": 3,
     "Marxlyte": 6,
     "SemiloreCmd": 1,
     "VeraEzike": 5
   },
   "byMilestone": {
-    "Q1 2026": 27,
+    "Q1 2026": 22,
     "Q2 2026": 42,
-    "None": 15
+    "None": 14
   },
   "milestoneStatus": {
     "Q1 2026": {
       "To Do": 7,
       "In progress": 5,
       "In review": 3,
-      "Done": 5,
+      "Done": 0,
       "Unset": 7
     },
     "Q2 2026": {
@@ -73,7 +72,7 @@
       "To Do": 9,
       "In progress": 4,
       "In review": 1,
-      "Done": 1,
+      "Done": 0,
       "Unset": 0
     }
   },
@@ -82,14 +81,14 @@
       "To Do": 2,
       "In progress": 2,
       "In review": 1,
-      "Done": 1,
+      "Done": 0,
       "Unset": 15
     },
     "Digital marketing": {
       "To Do": 2,
       "In progress": 4,
       "In review": 0,
-      "Done": 2,
+      "Done": 0,
       "Unset": 13
     },
     "Sales": {
@@ -103,7 +102,7 @@
       "To Do": 2,
       "In progress": 3,
       "In review": 2,
-      "Done": 1,
+      "Done": 0,
       "Unset": 9
     },
     "Product": {
@@ -122,30 +121,28 @@
   },
   "byDate": {
     "2026-03-03": 4,
-    "2026-03-06": 1,
-    "2026-03-10": 6,
-    "2026-03-04": 10,
-    "2026-03-30": 1,
+    "2026-03-04": 8,
+    "2026-03-10": 5,
     "2026-03-02": 2,
     "2026-03-28": 42,
     "2026-03-09": 2,
     "2026-03-27": 1,
-    "2026-04-08": 2,
+    "2026-04-08": 1,
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-04-07": 6,
     "2026-04-10": 1
   },
   "cycleStats": {
-    "overall": 21,
+    "overall": null,
     "overallHistory": null,
-    "overallClosed": 21,
-    "completedCount": 6,
+    "overallClosed": null,
+    "completedCount": 0,
     "byTeam": {
-      "Operations": 34,
-      "Digital marketing": 34,
+      "Operations": null,
+      "Digital marketing": null,
       "Sales": null,
-      "Coaching/Delivery": 0,
+      "Coaching/Delivery": null,
       "Product": null
     },
     "byKind": {
@@ -153,102 +150,10 @@
       "Story": null
     },
     "byMilestone": {
-      "Q1 2026": 25,
+      "Q1 2026": null,
       "Q2 2026": null
     },
-    "completed": [
-      {
-        "number": 19,
-        "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "Marxlyte"
-        ],
-        "cycleDays": 33,
-        "historyDays": null,
-        "closedDays": 33,
-        "source": "closedAt"
-      },
-      {
-        "number": 29,
-        "title": "Organise Github board",
-        "labels": [],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "OLUWADAMILOLA-24"
-        ],
-        "cycleDays": 19,
-        "historyDays": null,
-        "closedDays": 19,
-        "source": "closedAt"
-      },
-      {
-        "number": 74,
-        "title": "Complete Module-by-Module review of the Blueprint course.",
-        "labels": [],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [],
-        "cycleDays": 3,
-        "historyDays": null,
-        "closedDays": 3,
-        "source": "closedAt"
-      },
-      {
-        "number": 9,
-        "title": "Sprint 2: Follow up on learners and coached clients",
-        "labels": [
-          "Operations"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "OLUWADAMILOLA-24"
-        ],
-        "cycleDays": 34,
-        "historyDays": null,
-        "closedDays": 34,
-        "source": "closedAt"
-      },
-      {
-        "number": 15,
-        "title": "Explore Live streaming alternative",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "Marxlyte"
-        ],
-        "cycleDays": 35,
-        "historyDays": null,
-        "closedDays": 35,
-        "source": "closedAt"
-      },
-      {
-        "number": 87,
-        "title": "Call some coaching delivery clients",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 0,
-        "historyDays": null,
-        "closedDays": 0,
-        "source": "closedAt"
-      }
-    ],
+    "completed": [],
     "inFlight": [
       {
         "number": 4,
@@ -417,8 +322,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 5,
-        "daysInFlight": 5
+        "currentStatusDays": 6,
+        "daysInFlight": 6
       },
       {
         "number": 85,
@@ -428,8 +333,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 5,
-        "daysInFlight": 5
+        "currentStatusDays": 6,
+        "daysInFlight": 6
       },
       {
         "number": 86,
@@ -439,8 +344,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 5,
-        "daysInFlight": 5
+        "currentStatusDays": 6,
+        "daysInFlight": 6
       },
       {
         "number": 89,
@@ -693,40 +598,6 @@
       "ageDays": 40
     },
     {
-      "number": 19,
-      "title": "sprint 1: Launch \"The Global Talent Simulation Experience\" (The Eligibility Tool)",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-06T08:27:15Z",
-      "closedAt": "2026-04-07T23:36:31Z",
-      "ageDays": 37
-    },
-    {
-      "number": 29,
-      "title": "Organise Github board",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "MaryleenAmaizu",
-      "labels": [],
-      "assignees": [
-        "OLUWADAMILOLA-24"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T10:57:48Z",
-      "closedAt": "2026-03-29T19:00:18Z",
-      "ageDays": 33
-    },
-    {
       "number": 11,
       "title": "STORY: Follow-up on learners and coached clients",
       "state": "OPEN",
@@ -740,39 +611,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 39
-    },
-    {
-      "number": 74,
-      "title": "Complete Module-by-Module review of the Blueprint course.",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "MaryleenAmaizu",
-      "labels": [],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-30T12:46:03Z",
-      "closedAt": "2026-04-02T07:09:21Z",
-      "ageDays": 13
-    },
-    {
-      "number": 9,
-      "title": "Sprint 2: Follow up on learners and coached clients",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [
-        "OLUWADAMILOLA-24"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:08:53Z",
-      "closedAt": "2026-04-07T07:18:16Z",
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 8,
@@ -791,7 +630,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:04:48Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 17,
@@ -823,7 +662,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 27,
@@ -840,7 +679,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 28,
@@ -854,7 +693,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 4,
@@ -891,7 +730,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:44:56Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 1,
@@ -955,7 +794,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 13,
@@ -971,25 +810,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 39
-    },
-    {
-      "number": 15,
-      "title": "Explore Live streaming alternative",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T11:05:53Z",
-      "closedAt": "2026-04-07T23:43:27Z",
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 16,
@@ -1003,7 +824,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:08:30Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 18,
@@ -1058,7 +879,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 69,
@@ -1077,7 +898,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 22,
@@ -1096,7 +917,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:14:30Z",
       "closedAt": null,
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 26,
@@ -1113,7 +934,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 31,
@@ -1127,7 +948,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 16
+      "ageDays": 17
     },
     {
       "number": 88,
@@ -1162,7 +983,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 33,
@@ -1178,7 +999,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 34,
@@ -1194,7 +1015,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 35,
@@ -1210,7 +1031,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 36,
@@ -1226,7 +1047,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 37,
@@ -1242,7 +1063,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 38,
@@ -1258,7 +1079,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 39,
@@ -1274,7 +1095,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 40,
@@ -1291,7 +1112,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 41,
@@ -1308,7 +1129,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 42,
@@ -1325,7 +1146,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 43,
@@ -1342,7 +1163,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 44,
@@ -1359,7 +1180,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 45,
@@ -1376,7 +1197,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 46,
@@ -1393,7 +1214,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 47,
@@ -1410,7 +1231,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 48,
@@ -1427,7 +1248,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 49,
@@ -1444,7 +1265,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 50,
@@ -1461,7 +1282,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 51,
@@ -1478,7 +1299,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 52,
@@ -1495,7 +1316,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 53,
@@ -1512,7 +1333,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 54,
@@ -1529,7 +1350,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 55,
@@ -1546,7 +1367,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 56,
@@ -1563,7 +1384,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 57,
@@ -1580,7 +1401,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 58,
@@ -1597,7 +1418,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 59,
@@ -1613,7 +1434,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 60,
@@ -1630,7 +1451,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 61,
@@ -1647,7 +1468,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:05Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 62,
@@ -1664,7 +1485,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:07Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 64,
@@ -1681,7 +1502,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 63,
@@ -1698,7 +1519,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 65,
@@ -1715,7 +1536,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 66,
@@ -1732,7 +1553,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 67,
@@ -1749,7 +1570,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 68,
@@ -1766,7 +1587,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 70,
@@ -1783,7 +1604,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 71,
@@ -1800,7 +1621,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 72,
@@ -1817,7 +1638,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 73,
@@ -1834,7 +1655,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 75,
@@ -1852,7 +1673,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 23,
@@ -1871,7 +1692,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:59:50Z",
       "closedAt": null,
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 76,
@@ -2014,25 +1835,6 @@
       "createdAt": "2026-04-07T23:51:25Z",
       "closedAt": null,
       "ageDays": 5
-    },
-    {
-      "number": 87,
-      "title": "Call some coaching delivery clients",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-08T12:55:38Z",
-      "closedAt": "2026-04-08T16:15:39Z",
-      "ageDays": 4
     },
     {
       "number": 77,
