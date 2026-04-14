@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T13:18:00.326Z",
+  "lastUpdated": "2026-04-14T19:08:18.540Z",
   "summary": {
     "total": 80,
     "done": 2,
@@ -27,7 +27,7 @@
   "byLabel": {
     "Sales": 14,
     "Operations": 20,
-    "Digital marketing": 20,
+    "Digital marketing": 21,
     "Coaching/Delivery": 16,
     "task": 24,
     "Product": 4,
@@ -36,7 +36,7 @@
   "byAssignee": {
     "VeraEzike": 5,
     "Rachaelakoteyon": 2,
-    "Marxlyte": 6,
+    "Marxlyte": 7,
     "SemiloreCmd": 9,
     "Iyanumi": 10,
     "OLUWADAMILOLA-24": 1,
@@ -90,7 +90,7 @@
     "Digital marketing": {
       "To Do": 2,
       "In progress": 5,
-      "In review": 0,
+      "In review": 1,
       "Done": 0,
       "Unset": 13
     },
@@ -514,6 +514,20 @@
         "daysInFlight": null
       },
       {
+        "number": 61,
+        "title": "Implement in-session feedback process at start and end of every session",
+        "labels": [
+          "Coaching/Delivery",
+          "task"
+        ],
+        "kind": "Task",
+        "milestone": "Q2 2026",
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 88,
         "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
         "labels": [
@@ -549,29 +563,17 @@
         "number": 60,
         "title": "Automate Zoom recording backup to Google Drive via Zapier",
         "labels": [
+          "Digital marketing",
           "Coaching/Delivery",
           "task"
         ],
         "kind": "Task",
         "milestone": "Q2 2026",
         "assignees": [
+          "Marxlyte",
           "Iyanumi"
         ],
         "currentStatus": "In review",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 61,
-        "title": "Implement in-session feedback process at start and end of every session",
-        "labels": [
-          "Coaching/Delivery",
-          "task"
-        ],
-        "kind": "Task",
-        "milestone": "Q2 2026",
-        "assignees": [],
-        "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -747,7 +749,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 25,
@@ -812,7 +814,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
-      "ageDays": 41
+      "ageDays": 42
     },
     {
       "number": 24,
@@ -847,7 +849,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 2,
@@ -863,7 +865,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 3,
@@ -879,7 +881,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 41
+      "ageDays": 42
     },
     {
       "number": 10,
@@ -943,7 +945,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 5,
@@ -961,7 +963,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 41
+      "ageDays": 42
     },
     {
       "number": 12,
@@ -1021,6 +1023,23 @@
       "ageDays": 36
     },
     {
+      "number": 61,
+      "title": "Implement in-session feedback process at start and end of every session",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": "Task",
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery",
+        "task"
+      ],
+      "assignees": [],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-03-28T13:08:05Z",
+      "closedAt": null,
+      "ageDays": 17
+    },
+    {
       "number": 26,
       "title": "Competitor Customer Journey Research (Mystery Shopper Exercise)",
       "state": "OPEN",
@@ -1054,7 +1073,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": null,
-      "ageDays": 5
+      "ageDays": 6
     },
     {
       "number": 32,
@@ -1534,31 +1553,16 @@
       "kind": "Task",
       "author": "MaryleenAmaizu",
       "labels": [
+        "Digital marketing",
         "Coaching/Delivery",
         "task"
       ],
       "assignees": [
+        "Marxlyte",
         "Iyanumi"
       ],
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
-      "closedAt": null,
-      "ageDays": 17
-    },
-    {
-      "number": 61,
-      "title": "Implement in-session feedback process at start and end of every session",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:05Z",
       "closedAt": null,
       "ageDays": 17
     },
@@ -1806,7 +1810,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 78,
@@ -1822,7 +1826,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 79,
@@ -1838,7 +1842,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 80,
@@ -1852,7 +1856,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 81,
@@ -1962,7 +1966,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 83,
@@ -2018,7 +2022,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 0
+      "ageDays": 1
     },
     {
       "number": 91,
