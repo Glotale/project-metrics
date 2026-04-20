@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-04-20T13:22:02.557Z",
+  "lastUpdated": "2026-04-20T18:59:29.714Z",
   "summary": {
-    "total": 80,
+    "total": 81,
     "done": 3,
     "inProgress": 13,
-    "inReview": 3,
+    "inReview": 4,
     "toDo": 17,
     "unset": 44,
     "completionRate": 4,
@@ -14,7 +14,7 @@
   },
   "byStatus": {
     "To Do": 17,
-    "In review": 3,
+    "In review": 4,
     "Done": 3,
     "Unset": 44,
     "In progress": 13
@@ -22,13 +22,13 @@
   "byKind": {
     "Task": 36,
     "Story": 17,
-    "Unset": 27
+    "Unset": 28
   },
   "byLabel": {
     "Sales": 14,
     "Operations": 20,
     "Digital marketing": 21,
-    "Coaching/Delivery": 16,
+    "Coaching/Delivery": 17,
     "task": 24,
     "Product": 4,
     "enhancement": 9
@@ -37,8 +37,8 @@
     "VeraEzike": 5,
     "Rachaelakoteyon": 2,
     "Marxlyte": 7,
-    "SemiloreCmd": 9,
-    "Iyanumi": 10,
+    "SemiloreCmd": 10,
+    "Iyanumi": 11,
     "OLUWADAMILOLA-24": 1,
     "MaryleenAmaizu": 1,
     "Ayinkeofnexurra": 1
@@ -46,14 +46,14 @@
   "byAuthor": {
     "Glotale-Project": 20,
     "MaryleenAmaizu": 44,
-    "Iyanumi": 3,
+    "Iyanumi": 4,
     "Marxlyte": 7,
     "SemiloreCmd": 1,
     "VeraEzike": 5
   },
   "byMilestone": {
     "Q1 2026": 22,
-    "Q2 2026": 43,
+    "Q2 2026": 44,
     "None": 15
   },
   "milestoneStatus": {
@@ -67,7 +67,7 @@
     "Q2 2026": {
       "To Do": 1,
       "In progress": 3,
-      "In review": 1,
+      "In review": 2,
       "Done": 1,
       "Unset": 37
     },
@@ -104,7 +104,7 @@
     "Coaching/Delivery": {
       "To Do": 2,
       "In progress": 6,
-      "In review": 1,
+      "In review": 2,
       "Done": 2,
       "Unset": 5
     },
@@ -117,7 +117,7 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 2,
+    "0-7 days": 3,
     "8-14 days": 8,
     "15-30 days": 48,
     "30+ days": 19
@@ -136,7 +136,8 @@
     "2026-03-27": 1,
     "2026-04-10": 1,
     "2026-04-13": 1,
-    "2026-04-14": 1
+    "2026-04-14": 1,
+    "2026-04-20": 1
   },
   "cycleStats": {
     "overall": 33,
@@ -679,6 +680,22 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 92,
+        "title": "AGT Cohort 1 Delivery Report",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": "Q2 2026",
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
@@ -750,7 +767,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 46
+      "ageDays": 47
     },
     {
       "number": 25,
@@ -815,7 +832,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
-      "ageDays": 47
+      "ageDays": 48
     },
     {
       "number": 24,
@@ -850,7 +867,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 2,
@@ -866,7 +883,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 3,
@@ -882,7 +899,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 47
+      "ageDays": 48
     },
     {
       "number": 10,
@@ -946,7 +963,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 46
+      "ageDays": 47
     },
     {
       "number": 5,
@@ -964,7 +981,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 47
+      "ageDays": 48
     },
     {
       "number": 12,
@@ -1074,7 +1091,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": null,
-      "ageDays": 11
+      "ageDays": 12
     },
     {
       "number": 32,
@@ -1811,7 +1828,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 18
+      "ageDays": 19
     },
     {
       "number": 78,
@@ -1827,7 +1844,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 18
+      "ageDays": 19
     },
     {
       "number": 79,
@@ -1843,7 +1860,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 18
+      "ageDays": 19
     },
     {
       "number": 80,
@@ -1857,7 +1874,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 18
+      "ageDays": 19
     },
     {
       "number": 81,
@@ -1967,7 +1984,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 18
+      "ageDays": 19
     },
     {
       "number": 83,
@@ -2023,7 +2040,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     },
     {
       "number": 91,
@@ -2038,6 +2055,25 @@
       "createdAt": "2026-04-14T11:32:35Z",
       "closedAt": null,
       "ageDays": 6
+    },
+    {
+      "number": 92,
+      "title": "AGT Cohort 1 Delivery Report",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": "Q2 2026",
+      "createdAt": "2026-04-20T15:33:54Z",
+      "closedAt": null,
+      "ageDays": 0
     }
   ]
 }
