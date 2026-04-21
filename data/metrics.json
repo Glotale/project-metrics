@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-04-20T18:59:29.714Z",
+  "lastUpdated": "2026-04-21T02:10:21.677Z",
   "summary": {
     "total": 81,
-    "done": 3,
-    "inProgress": 13,
-    "inReview": 4,
-    "toDo": 17,
+    "done": 4,
+    "inProgress": 12,
+    "inReview": 5,
+    "toDo": 16,
     "unset": 44,
-    "completionRate": 4,
-    "avgCycleDays": 33,
+    "completionRate": 5,
+    "avgCycleDays": 28,
     "avgAgeDays": 27,
     "unassignedCount": 58
   },
   "byStatus": {
-    "To Do": 17,
-    "In review": 4,
-    "Done": 3,
+    "In review": 5,
+    "To Do": 16,
+    "Done": 4,
     "Unset": 44,
-    "In progress": 13
+    "In progress": 12
   },
   "byKind": {
     "Task": 36,
@@ -34,9 +34,9 @@
     "enhancement": 9
   },
   "byAssignee": {
+    "Marxlyte": 7,
     "VeraEzike": 5,
     "Rachaelakoteyon": 2,
-    "Marxlyte": 7,
     "SemiloreCmd": 10,
     "Iyanumi": 11,
     "OLUWADAMILOLA-24": 1,
@@ -44,17 +44,17 @@
     "Ayinkeofnexurra": 1
   },
   "byAuthor": {
+    "Marxlyte": 7,
     "Glotale-Project": 20,
     "MaryleenAmaizu": 44,
     "Iyanumi": 4,
-    "Marxlyte": 7,
     "SemiloreCmd": 1,
     "VeraEzike": 5
   },
   "byMilestone": {
+    "None": 15,
     "Q1 2026": 22,
-    "Q2 2026": 44,
-    "None": 15
+    "Q2 2026": 44
   },
   "milestoneStatus": {
     "Q1 2026": {
@@ -72,10 +72,10 @@
       "Unset": 37
     },
     "None": {
-      "To Do": 9,
-      "In progress": 6,
-      "In review": 0,
-      "Done": 0,
+      "To Do": 8,
+      "In progress": 5,
+      "In review": 1,
+      "Done": 1,
       "Unset": 0
     }
   },
@@ -89,9 +89,9 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 6,
+      "In progress": 5,
       "In review": 0,
-      "Done": 0,
+      "Done": 1,
       "Unset": 13
     },
     "Sales": {
@@ -118,11 +118,12 @@
   },
   "ageBuckets": {
     "0-7 days": 3,
-    "8-14 days": 8,
+    "8-14 days": 7,
     "15-30 days": 48,
     "30+ days": 19
   },
   "byDate": {
+    "2026-04-07": 6,
     "2026-03-03": 4,
     "2026-03-04": 8,
     "2026-03-10": 5,
@@ -132,7 +133,6 @@
     "2026-04-08": 1,
     "2026-03-31": 1,
     "2026-04-01": 5,
-    "2026-04-07": 6,
     "2026-03-27": 1,
     "2026-04-10": 1,
     "2026-04-13": 1,
@@ -140,13 +140,13 @@
     "2026-04-20": 1
   },
   "cycleStats": {
-    "overall": 33,
+    "overall": 28,
     "overallHistory": null,
-    "overallClosed": 33,
-    "completedCount": 3,
+    "overallClosed": 28,
+    "completedCount": 4,
     "byTeam": {
       "Operations": null,
-      "Digital marketing": null,
+      "Digital marketing": 13,
       "Sales": 41,
       "Coaching/Delivery": 30,
       "Product": null
@@ -211,6 +211,22 @@
         "historyDays": null,
         "closedDays": 42,
         "source": "closedAt"
+      },
+      {
+        "number": 83,
+        "title": "Hold a joint workflow meeting with all departments",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "cycleDays": 13,
+        "historyDays": null,
+        "closedDays": 13,
+        "source": "closedAt"
       }
     ],
     "inFlight": [
@@ -252,8 +268,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 41,
-        "daysInFlight": 41
+        "currentStatusDays": 42,
+        "daysInFlight": 42
       },
       {
         "number": 27,
@@ -266,8 +282,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 41,
-        "daysInFlight": 41
+        "currentStatusDays": 42,
+        "daysInFlight": 42
       },
       {
         "number": 28,
@@ -277,8 +293,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 41,
-        "daysInFlight": 41
+        "currentStatusDays": 42,
+        "daysInFlight": 42
       },
       {
         "number": 24,
@@ -293,8 +309,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 41,
-        "daysInFlight": 41
+        "currentStatusDays": 42,
+        "daysInFlight": 42
       },
       {
         "number": 31,
@@ -308,7 +324,7 @@
         ],
         "currentStatus": "In review",
         "currentStatusDays": 0,
-        "daysInFlight": 24
+        "daysInFlight": 25
       },
       {
         "number": 76,
@@ -323,8 +339,8 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 19,
-        "daysInFlight": 19
+        "currentStatusDays": 20,
+        "daysInFlight": 20
       },
       {
         "number": 78,
@@ -377,17 +393,6 @@
         "daysInFlight": 19
       },
       {
-        "number": 84,
-        "title": "Build the new lead system",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 13,
-        "daysInFlight": 13
-      },
-      {
         "number": 85,
         "title": "Recommend tools and automation",
         "labels": [],
@@ -433,8 +438,21 @@
         "milestone": "Q2 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 6,
-        "daysInFlight": 6
+        "currentStatusDays": 7,
+        "daysInFlight": 7
+      },
+      {
+        "number": 82,
+        "title": "Review the current lead process across all departments",
+        "labels": [],
+        "kind": "Task",
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       },
       {
         "number": 7,
@@ -522,6 +540,17 @@
         "assignees": [
           "Marxlyte"
         ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 84,
+        "title": "Build the new lead system",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
@@ -638,34 +667,6 @@
         "daysInFlight": null
       },
       {
-        "number": 82,
-        "title": "Review the current lead process across all departments",
-        "labels": [],
-        "kind": "Task",
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 83,
-        "title": "Hold a joint workflow meeting with all departments",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 90,
         "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
         "labels": [
@@ -701,6 +702,22 @@
   },
   "items": [
     {
+      "number": 82,
+      "title": "Review the current lead process across all departments",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": "Task",
+      "author": "Marxlyte",
+      "labels": [],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:47:40Z",
+      "closedAt": null,
+      "ageDays": 13
+    },
+    {
       "number": 7,
       "title": "Competitor Pricing Research for Global Talent Visa Services & Pricing Strategy Recommendations",
       "state": "OPEN",
@@ -716,7 +733,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 47
+      "ageDays": 48
     },
     {
       "number": 11,
@@ -1020,6 +1037,20 @@
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": null,
       "ageDays": 23
+    },
+    {
+      "number": 84,
+      "title": "Build the new lead system",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:50:26Z",
+      "closedAt": null,
+      "ageDays": 13
     },
     {
       "number": 22,
@@ -1913,36 +1944,6 @@
       "ageDays": 24
     },
     {
-      "number": 82,
-      "title": "Review the current lead process across all departments",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Task",
-      "author": "Marxlyte",
-      "labels": [],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:47:40Z",
-      "closedAt": null,
-      "ageDays": 12
-    },
-    {
-      "number": 84,
-      "title": "Build the new lead system",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:50:26Z",
-      "closedAt": null,
-      "ageDays": 12
-    },
-    {
       "number": 85,
       "title": "Recommend tools and automation",
       "state": "OPEN",
@@ -1954,7 +1955,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 86,
@@ -1968,7 +1969,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:25Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 77,
@@ -1989,8 +1990,8 @@
     {
       "number": 83,
       "title": "Hold a joint workflow meeting with all departments",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Marxlyte",
       "labels": [
@@ -2001,8 +2002,8 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-07T23:49:02Z",
-      "closedAt": null,
-      "ageDays": 12
+      "closedAt": "2026-04-20T20:13:43Z",
+      "ageDays": 13
     },
     {
       "number": 89,
@@ -2021,7 +2022,7 @@
       "milestone": null,
       "createdAt": "2026-04-10T19:45:50Z",
       "closedAt": null,
-      "ageDays": 9
+      "ageDays": 10
     },
     {
       "number": 90,
