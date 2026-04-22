@@ -1,40 +1,40 @@
 {
-  "lastUpdated": "2026-04-22T07:27:12.400Z",
+  "lastUpdated": "2026-04-22T13:18:37.405Z",
   "summary": {
-    "total": 81,
-    "done": 5,
-    "inProgress": 11,
-    "inReview": 5,
+    "total": 82,
+    "done": 7,
+    "inProgress": 8,
+    "inReview": 7,
     "toDo": 16,
     "unset": 44,
-    "completionRate": 6,
-    "avgCycleDays": 27,
+    "completionRate": 9,
+    "avgCycleDays": 28,
     "avgAgeDays": 28,
-    "unassignedCount": 58
+    "unassignedCount": 57
   },
   "byStatus": {
-    "In review": 5,
+    "Done": 7,
+    "In review": 7,
     "To Do": 16,
-    "Done": 5,
     "Unset": 44,
-    "In progress": 11
+    "In progress": 8
   },
   "byKind": {
+    "Unset": 29,
     "Task": 36,
-    "Story": 17,
-    "Unset": 28
+    "Story": 17
   },
   "byLabel": {
+    "Digital marketing": 23,
     "Sales": 14,
     "Operations": 20,
-    "Digital marketing": 21,
     "Coaching/Delivery": 17,
     "task": 24,
     "Product": 4,
     "enhancement": 9
   },
   "byAssignee": {
-    "Marxlyte": 7,
+    "Marxlyte": 9,
     "VeraEzike": 5,
     "Rachaelakoteyon": 2,
     "SemiloreCmd": 10,
@@ -44,7 +44,7 @@
     "Ayinkeofnexurra": 1
   },
   "byAuthor": {
-    "Marxlyte": 7,
+    "Marxlyte": 8,
     "Glotale-Project": 20,
     "Iyanumi": 4,
     "MaryleenAmaizu": 44,
@@ -52,16 +52,16 @@
     "VeraEzike": 5
   },
   "byMilestone": {
-    "None": 15,
+    "None": 16,
     "Q1 2026": 22,
     "Q2 2026": 44
   },
   "milestoneStatus": {
     "Q1 2026": {
       "To Do": 7,
-      "In progress": 4,
+      "In progress": 3,
       "In review": 2,
-      "Done": 2,
+      "Done": 3,
       "Unset": 7
     },
     "Q2 2026": {
@@ -73,9 +73,9 @@
     },
     "None": {
       "To Do": 8,
-      "In progress": 5,
-      "In review": 1,
-      "Done": 1,
+      "In progress": 3,
+      "In review": 3,
+      "Done": 2,
       "Unset": 0
     }
   },
@@ -89,9 +89,9 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 4,
+      "In progress": 5,
       "In review": 0,
-      "Done": 2,
+      "Done": 3,
       "Unset": 13
     },
     "Sales": {
@@ -103,9 +103,9 @@
     },
     "Coaching/Delivery": {
       "To Do": 2,
-      "In progress": 6,
-      "In review": 2,
-      "Done": 2,
+      "In progress": 3,
+      "In review": 4,
+      "Done": 3,
       "Unset": 5
     },
     "Product": {
@@ -118,9 +118,9 @@
   },
   "ageBuckets": {
     "0-7 days": 2,
-    "8-14 days": 8,
-    "15-30 days": 47,
-    "30+ days": 19
+    "8-14 days": 7,
+    "15-30 days": 48,
+    "30+ days": 18
   },
   "byDate": {
     "2026-04-07": 6,
@@ -137,18 +137,19 @@
     "2026-04-10": 1,
     "2026-04-13": 1,
     "2026-04-14": 1,
-    "2026-04-20": 1
+    "2026-04-20": 1,
+    "2026-04-22": 1
   },
   "cycleStats": {
-    "overall": 27,
+    "overall": 28,
     "overallHistory": null,
-    "overallClosed": 27,
-    "completedCount": 5,
+    "overallClosed": 28,
+    "completedCount": 7,
     "byTeam": {
       "Operations": null,
-      "Digital marketing": 19,
+      "Digital marketing": 17,
       "Sales": 41,
-      "Coaching/Delivery": 30,
+      "Coaching/Delivery": 34,
       "Product": null
     },
     "byKind": {
@@ -160,6 +161,22 @@
       "Q2 2026": 21
     },
     "completed": [
+      {
+        "number": 84,
+        "title": "Build the new lead system",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "cycleDays": 14,
+        "historyDays": null,
+        "closedDays": 14,
+        "source": "closedAt"
+      },
       {
         "number": 8,
         "title": "Leads Ownership",
@@ -175,6 +192,23 @@
         "cycleDays": 41,
         "historyDays": null,
         "closedDays": 41,
+        "source": "closedAt"
+      },
+      {
+        "number": 22,
+        "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "cycleDays": 44,
+        "historyDays": null,
+        "closedDays": 44,
         "source": "closedAt"
       },
       {
@@ -417,8 +451,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 14,
-        "daysInFlight": 14
+        "currentStatusDays": 15,
+        "daysInFlight": 15
       },
       {
         "number": 86,
@@ -428,8 +462,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 14,
-        "daysInFlight": 14
+        "currentStatusDays": 15,
+        "daysInFlight": 15
       },
       {
         "number": 89,
@@ -444,8 +478,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 11,
-        "daysInFlight": 11
+        "currentStatusDays": 12,
+        "daysInFlight": 12
       },
       {
         "number": 91,
@@ -546,33 +580,6 @@
         "daysInFlight": null
       },
       {
-        "number": 84,
-        "title": "Build the new lead system",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 22,
-        "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 24,
-        "daysInFlight": null
-      },
-      {
         "number": 61,
         "title": "Implement in-session feedback process at start and end of every session",
         "labels": [
@@ -598,7 +605,7 @@
           "SemiloreCmd",
           "Iyanumi"
         ],
-        "currentStatus": "In progress",
+        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -663,7 +670,7 @@
           "SemiloreCmd",
           "Iyanumi"
         ],
-        "currentStatus": "In progress",
+        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -698,10 +705,43 @@
         "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 93,
+        "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
   "items": [
+    {
+      "number": 84,
+      "title": "Build the new lead system",
+      "state": "CLOSED",
+      "status": "Done",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-07T23:50:26Z",
+      "closedAt": "2026-04-22T08:23:57Z",
+      "ageDays": 14
+    },
     {
       "number": 82,
       "title": "Review the current lead process across all departments",
@@ -750,7 +790,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 8,
@@ -769,7 +809,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:04:48Z",
       "closedAt": "2026-04-14T08:15:54Z",
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 17,
@@ -801,7 +841,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 27,
@@ -818,7 +858,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 28,
@@ -832,7 +872,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 4,
@@ -869,7 +909,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:44:56Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 1,
@@ -933,7 +973,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 13,
@@ -949,7 +989,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 16,
@@ -963,7 +1003,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:08:30Z",
       "closedAt": null,
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 18,
@@ -1018,27 +1058,13 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 48
-    },
-    {
-      "number": 84,
-      "title": "Build the new lead system",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:50:26Z",
-      "closedAt": null,
-      "ageDays": 14
+      "ageDays": 49
     },
     {
       "number": 22,
       "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Iyanumi",
       "labels": [
@@ -1050,8 +1076,8 @@
       ],
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:14:30Z",
-      "closedAt": null,
-      "ageDays": 43
+      "closedAt": "2026-04-22T08:14:02Z",
+      "ageDays": 44
     },
     {
       "number": 61,
@@ -1068,7 +1094,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:05Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 26,
@@ -1085,13 +1111,13 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 88,
       "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
       "state": "OPEN",
-      "status": "In progress",
+      "status": "In review",
       "kind": null,
       "author": "Iyanumi",
       "labels": [
@@ -1120,7 +1146,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 33,
@@ -1136,7 +1162,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 34,
@@ -1152,7 +1178,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 35,
@@ -1168,7 +1194,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 36,
@@ -1184,7 +1210,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 37,
@@ -1203,7 +1229,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 38,
@@ -1219,7 +1245,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 39,
@@ -1235,7 +1261,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 40,
@@ -1252,7 +1278,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 41,
@@ -1269,7 +1295,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 42,
@@ -1286,7 +1312,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 43,
@@ -1303,7 +1329,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 44,
@@ -1320,7 +1346,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 45,
@@ -1337,7 +1363,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 46,
@@ -1354,7 +1380,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 47,
@@ -1371,7 +1397,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 48,
@@ -1388,7 +1414,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 49,
@@ -1405,7 +1431,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 50,
@@ -1422,7 +1448,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 51,
@@ -1439,7 +1465,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 52,
@@ -1456,7 +1482,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 53,
@@ -1473,7 +1499,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 54,
@@ -1490,7 +1516,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 55,
@@ -1507,7 +1533,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 56,
@@ -1524,7 +1550,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 57,
@@ -1541,7 +1567,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 58,
@@ -1558,7 +1584,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 59,
@@ -1574,7 +1600,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 60,
@@ -1595,7 +1621,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 62,
@@ -1615,7 +1641,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:07Z",
       "closedAt": "2026-04-14T10:46:35Z",
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 64,
@@ -1632,7 +1658,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 63,
@@ -1649,7 +1675,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 65,
@@ -1666,7 +1692,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 66,
@@ -1683,7 +1709,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 67,
@@ -1700,7 +1726,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 68,
@@ -1717,7 +1743,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 70,
@@ -1734,7 +1760,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 71,
@@ -1751,7 +1777,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 72,
@@ -1768,7 +1794,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 73,
@@ -1785,7 +1811,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 75,
@@ -1803,7 +1829,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 21
+      "ageDays": 22
     },
     {
       "number": 23,
@@ -1822,7 +1848,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:59:50Z",
       "closedAt": "2026-04-20T08:52:58Z",
-      "ageDays": 43
+      "ageDays": 44
     },
     {
       "number": 76,
@@ -1893,7 +1919,7 @@
       "number": 81,
       "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
       "state": "OPEN",
-      "status": "In progress",
+      "status": "In review",
       "kind": null,
       "author": "Glotale-Project",
       "labels": [
@@ -1906,7 +1932,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": null,
-      "ageDays": 14
+      "ageDays": 15
     },
     {
       "number": 31,
@@ -1923,7 +1949,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 85,
@@ -2004,7 +2030,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": "2026-04-21T07:52:38Z",
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 89,
@@ -2056,7 +2082,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-04-14T11:32:35Z",
       "closedAt": null,
-      "ageDays": 7
+      "ageDays": 8
     },
     {
       "number": 92,
@@ -2076,6 +2102,24 @@
       "createdAt": "2026-04-20T15:33:54Z",
       "closedAt": null,
       "ageDays": 1
+    },
+    {
+      "number": 93,
+      "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-22T11:01:39Z",
+      "closedAt": null,
+      "ageDays": 0
     }
   ]
 }
