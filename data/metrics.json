@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-04-23T13:19:42.176Z",
+  "lastUpdated": "2026-04-23T19:02:42.164Z",
   "summary": {
     "total": 82,
-    "done": 11,
-    "inProgress": 10,
+    "done": 12,
+    "inProgress": 9,
     "inReview": 3,
     "toDo": 14,
     "unset": 44,
-    "completionRate": 13,
+    "completionRate": 15,
     "avgCycleDays": 22,
-    "avgAgeDays": 30,
+    "avgAgeDays": 31,
     "unassignedCount": 55
   },
   "byStatus": {
-    "Done": 11,
+    "Done": 12,
     "In review": 3,
     "To Do": 14,
     "Unset": 44,
-    "In progress": 10
+    "In progress": 9
   },
   "byKind": {
     "Unset": 28,
@@ -73,9 +73,9 @@
     },
     "None": {
       "To Do": 7,
-      "In progress": 5,
+      "In progress": 4,
       "In review": 1,
-      "Done": 3,
+      "Done": 4,
       "Unset": 0
     }
   },
@@ -103,9 +103,9 @@
     },
     "Coaching/Delivery": {
       "To Do": 1,
-      "In progress": 5,
+      "In progress": 4,
       "In review": 0,
-      "Done": 7,
+      "Done": 8,
       "Unset": 5
     },
     "Product": {
@@ -118,7 +118,7 @@
   },
   "ageBuckets": {
     "0-7 days": 1,
-    "8-14 days": 2,
+    "8-14 days": 1,
     "15-30 days": 50,
     "30+ days": 18
   },
@@ -144,12 +144,12 @@
     "overall": 22,
     "overallHistory": null,
     "overallClosed": 22,
-    "completedCount": 11,
+    "completedCount": 12,
     "byTeam": {
       "Operations": null,
       "Digital marketing": 17,
       "Sales": 41,
-      "Coaching/Delivery": 22,
+      "Coaching/Delivery": 21,
       "Product": null
     },
     "byKind": {
@@ -227,6 +227,23 @@
         "cycleDays": 26,
         "historyDays": null,
         "closedDays": 26,
+        "source": "closedAt"
+      },
+      {
+        "number": 88,
+        "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "cycleDays": 15,
+        "historyDays": null,
+        "closedDays": 15,
         "source": "closedAt"
       },
       {
@@ -622,22 +639,6 @@
         "daysInFlight": null
       },
       {
-        "number": 88,
-        "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 37,
         "title": "AGT course wrap up and post-delivery actions",
         "labels": [
@@ -837,7 +838,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 49
+      "ageDays": 50
     },
     {
       "number": 25,
@@ -902,7 +903,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
-      "ageDays": 50
+      "ageDays": 51
     },
     {
       "number": 24,
@@ -937,7 +938,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 51
+      "ageDays": 52
     },
     {
       "number": 2,
@@ -953,7 +954,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 51
+      "ageDays": 52
     },
     {
       "number": 3,
@@ -969,7 +970,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 50
+      "ageDays": 51
     },
     {
       "number": 10,
@@ -1033,7 +1034,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 49
+      "ageDays": 50
     },
     {
       "number": 5,
@@ -1051,7 +1052,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 50
+      "ageDays": 51
     },
     {
       "number": 12,
@@ -1131,8 +1132,8 @@
     {
       "number": 88,
       "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Iyanumi",
       "labels": [
@@ -1144,8 +1145,8 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-08T16:25:10Z",
-      "closedAt": null,
-      "ageDays": 14
+      "closedAt": "2026-04-23T14:50:26Z",
+      "ageDays": 15
     },
     {
       "number": 32,
@@ -1882,7 +1883,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 21
+      "ageDays": 22
     },
     {
       "number": 78,
@@ -1898,7 +1899,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 21
+      "ageDays": 22
     },
     {
       "number": 79,
@@ -1914,7 +1915,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 21
+      "ageDays": 22
     },
     {
       "number": 80,
@@ -1928,7 +1929,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 21
+      "ageDays": 22
     },
     {
       "number": 81,
@@ -2008,7 +2009,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 21
+      "ageDays": 22
     },
     {
       "number": 83,
@@ -2083,7 +2084,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 9
+      "ageDays": 10
     },
     {
       "number": 91,
@@ -2121,7 +2122,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-04-20T15:33:54Z",
       "closedAt": "2026-04-22T15:48:58Z",
-      "ageDays": 2
+      "ageDays": 3
     },
     {
       "number": 93,
