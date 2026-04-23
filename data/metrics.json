@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-04-23T02:12:40.124Z",
+  "lastUpdated": "2026-04-23T07:45:24.444Z",
   "summary": {
     "total": 82,
     "done": 8,
-    "inProgress": 8,
-    "inReview": 6,
+    "inProgress": 7,
+    "inReview": 7,
     "toDo": 16,
     "unset": 44,
     "completionRate": 10,
@@ -14,10 +14,10 @@
   },
   "byStatus": {
     "Done": 8,
-    "In review": 6,
+    "In review": 7,
     "To Do": 16,
     "Unset": 44,
-    "In progress": 8
+    "In progress": 7
   },
   "byKind": {
     "Unset": 29,
@@ -66,8 +66,8 @@
     },
     "Q2 2026": {
       "To Do": 1,
-      "In progress": 2,
-      "In review": 1,
+      "In progress": 1,
+      "In review": 2,
       "Done": 3,
       "Unset": 37
     },
@@ -89,8 +89,8 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 5,
-      "In review": 0,
+      "In progress": 4,
+      "In review": 1,
       "Done": 3,
       "Unset": 13
     },
@@ -103,8 +103,8 @@
     },
     "Coaching/Delivery": {
       "To Do": 2,
-      "In progress": 3,
-      "In review": 3,
+      "In progress": 2,
+      "In review": 4,
       "Done": 4,
       "Unset": 5
     },
@@ -310,8 +310,8 @@
           "Marxlyte"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 50,
-        "daysInFlight": 50
+        "currentStatusDays": 51,
+        "daysInFlight": 51
       },
       {
         "number": 17,
@@ -323,8 +323,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 49,
-        "daysInFlight": 49
+        "currentStatusDays": 50,
+        "daysInFlight": 50
       },
       {
         "number": 25,
@@ -420,8 +420,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 21,
-        "daysInFlight": 21
+        "currentStatusDays": 22,
+        "daysInFlight": 22
       },
       {
         "number": 79,
@@ -433,8 +433,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 21,
-        "daysInFlight": 21
+        "currentStatusDays": 22,
+        "daysInFlight": 22
       },
       {
         "number": 80,
@@ -444,8 +444,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 21,
-        "daysInFlight": 21
+        "currentStatusDays": 22,
+        "daysInFlight": 22
       },
       {
         "number": 77,
@@ -457,8 +457,8 @@
           "VeraEzike"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 21,
-        "daysInFlight": 21
+        "currentStatusDays": 22,
+        "daysInFlight": 22
       },
       {
         "number": 85,
@@ -547,7 +547,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 24,
+        "currentStatusDays": 25,
         "daysInFlight": null
       },
       {
@@ -562,7 +562,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 24,
+        "currentStatusDays": 25,
         "daysInFlight": null
       },
       {
@@ -577,7 +577,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 24,
+        "currentStatusDays": 25,
         "daysInFlight": null
       },
       {
@@ -593,7 +593,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 24,
+        "currentStatusDays": 25,
         "daysInFlight": null
       },
       {
@@ -656,7 +656,7 @@
           "Marxlyte",
           "Iyanumi"
         ],
-        "currentStatus": "In progress",
+        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -1607,7 +1607,7 @@
       "number": 60,
       "title": "Automate Zoom recording backup to One Drive via Zapier",
       "state": "OPEN",
-      "status": "In progress",
+      "status": "In review",
       "kind": "Task",
       "author": "MaryleenAmaizu",
       "labels": [
@@ -1933,7 +1933,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 31,
