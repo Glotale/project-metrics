@@ -1,81 +1,77 @@
 {
-  "lastUpdated": "2026-04-27T13:44:30.675Z",
+  "lastUpdated": "2026-04-27T19:13:32.988Z",
   "summary": {
-    "total": 82,
-    "done": 12,
-    "inProgress": 10,
-    "inReview": 3,
-    "toDo": 13,
-    "unset": 44,
-    "completionRate": 15,
-    "avgCycleDays": 22,
-    "avgAgeDays": 34,
-    "unassignedCount": 54
+    "total": 50,
+    "done": 5,
+    "inProgress": 4,
+    "inReview": 2,
+    "toDo": 7,
+    "unset": 32,
+    "completionRate": 10,
+    "avgCycleDays": 28,
+    "avgAgeDays": 39,
+    "unassignedCount": 38
   },
   "byStatus": {
-    "Done": 12,
-    "In review": 3,
-    "To Do": 13,
-    "Unset": 44,
-    "In progress": 10
+    "Done": 5,
+    "In review": 2,
+    "To Do": 7,
+    "Unset": 32,
+    "In progress": 4
   },
   "byKind": {
-    "Unset": 23,
-    "Task": 36,
-    "Story": 23
+    "Unset": 12,
+    "Task": 21,
+    "Story": 17
   },
   "byLabel": {
-    "Digital marketing": 24,
-    "Sales": 14,
-    "Operations": 20,
-    "Coaching/Delivery": 18,
-    "task": 24,
-    "Product": 4,
-    "enhancement": 9
+    "Digital marketing": 17,
+    "Sales": 11,
+    "Operations": 15,
+    "Coaching/Delivery": 7,
+    "task": 13,
+    "Product": 1,
+    "enhancement": 6
   },
   "byAssignee": {
-    "Marxlyte": 10,
-    "VeraEzike": 5,
-    "Rachaelakoteyon": 2,
-    "SemiloreCmd": 12,
-    "Iyanumi": 13,
-    "OLUWADAMILOLA-24": 1,
-    "MaryleenAmaizu": 1,
-    "Ayinkeofnexurra": 1
+    "Marxlyte": 3,
+    "VeraEzike": 2,
+    "Rachaelakoteyon": 1,
+    "SemiloreCmd": 6,
+    "Iyanumi": 6,
+    "OLUWADAMILOLA-24": 1
   },
   "byAuthor": {
-    "Marxlyte": 8,
-    "Glotale-Project": 20,
-    "Iyanumi": 4,
-    "MaryleenAmaizu": 44,
-    "SemiloreCmd": 1,
-    "VeraEzike": 5
+    "Marxlyte": 2,
+    "Glotale-Project": 19,
+    "Iyanumi": 2,
+    "MaryleenAmaizu": 27
   },
   "byMilestone": {
-    "None": 16,
-    "Q1 2026": 22,
-    "Q2 2026": 44
+    "None": 3,
+    "Q1 2026": 20,
+    "Q2 2026": 27
   },
   "milestoneStatus": {
     "Q1 2026": {
       "To Do": 7,
       "In progress": 3,
-      "In review": 2,
-      "Done": 3,
+      "In review": 1,
+      "Done": 2,
       "Unset": 7
     },
     "Q2 2026": {
       "To Do": 0,
-      "In progress": 2,
+      "In progress": 1,
       "In review": 0,
-      "Done": 5,
-      "Unset": 37
+      "Done": 1,
+      "Unset": 25
     },
     "None": {
-      "To Do": 6,
-      "In progress": 5,
+      "To Do": 0,
+      "In progress": 0,
       "In review": 1,
-      "Done": 4,
+      "Done": 2,
       "Unset": 0
     }
   },
@@ -85,17 +81,17 @@
       "In progress": 2,
       "In review": 1,
       "Done": 0,
-      "Unset": 15
+      "Unset": 10
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 6,
+      "In progress": 1,
       "In review": 0,
-      "Done": 3,
+      "Done": 1,
       "Unset": 13
     },
     "Sales": {
-      "To Do": 5,
+      "To Do": 2,
       "In progress": 1,
       "In review": 0,
       "Done": 1,
@@ -103,62 +99,54 @@
     },
     "Coaching/Delivery": {
       "To Do": 1,
-      "In progress": 4,
+      "In progress": 2,
       "In review": 0,
-      "Done": 8,
-      "Unset": 5
+      "Done": 3,
+      "Unset": 1
     },
     "Product": {
       "To Do": 0,
       "In progress": 0,
       "In review": 0,
       "Done": 0,
-      "Unset": 4
+      "Unset": 1
     }
   },
   "ageBuckets": {
-    "0-7 days": 1,
-    "8-14 days": 1,
-    "15-30 days": 49,
-    "30+ days": 19
+    "0-7 days": 0,
+    "8-14 days": 0,
+    "15-30 days": 27,
+    "30+ days": 18
   },
   "byDate": {
-    "2026-04-07": 6,
+    "2026-04-07": 2,
     "2026-03-03": 4,
     "2026-03-04": 8,
     "2026-03-10": 5,
     "2026-03-02": 2,
-    "2026-03-09": 2,
-    "2026-03-28": 42,
-    "2026-04-08": 1,
-    "2026-03-31": 1,
-    "2026-04-01": 5,
-    "2026-03-27": 1,
-    "2026-04-10": 1,
-    "2026-04-13": 1,
-    "2026-04-14": 1,
-    "2026-04-20": 1,
-    "2026-04-22": 1
+    "2026-03-09": 1,
+    "2026-03-28": 27,
+    "2026-04-08": 1
   },
   "cycleStats": {
-    "overall": 22,
+    "overall": 28,
     "overallHistory": null,
-    "overallClosed": 22,
-    "completedCount": 12,
+    "overallClosed": 28,
+    "completedCount": 5,
     "byTeam": {
       "Operations": null,
-      "Digital marketing": 17,
+      "Digital marketing": 14,
       "Sales": 41,
-      "Coaching/Delivery": 21,
+      "Coaching/Delivery": 28,
       "Product": null
     },
     "byKind": {
-      "Task": 22,
+      "Task": 26,
       "Story": null
     },
     "byMilestone": {
-      "Q1 2026": 42,
-      "Q2 2026": 16
+      "Q1 2026": 43,
+      "Q2 2026": 26
     },
     "completed": [
       {
@@ -245,125 +233,6 @@
         "historyDays": null,
         "closedDays": 15,
         "source": "closedAt"
-      },
-      {
-        "number": 62,
-        "title": "Complete AGT Cohort 1 — final 2 sessions and wrap-up",
-        "labels": [
-          "Coaching/Delivery",
-          "task"
-        ],
-        "kind": "Task",
-        "milestone": "Q2 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 17,
-        "historyDays": null,
-        "closedDays": 17,
-        "source": "closedAt"
-      },
-      {
-        "number": 23,
-        "title": "Post Training Support Tracker Template",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 42,
-        "historyDays": null,
-        "closedDays": 42,
-        "source": "closedAt"
-      },
-      {
-        "number": 83,
-        "title": "Hold a joint workflow meeting with all departments",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "cycleDays": 13,
-        "historyDays": null,
-        "closedDays": 13,
-        "source": "closedAt"
-      },
-      {
-        "number": 69,
-        "title": "Push user survey to collect meaningful responses (currently 2)",
-        "labels": [
-          "Digital marketing",
-          "task"
-        ],
-        "kind": "Task",
-        "milestone": "Q2 2026",
-        "assignees": [
-          "Marxlyte"
-        ],
-        "cycleDays": 24,
-        "historyDays": null,
-        "closedDays": 24,
-        "source": "closedAt"
-      },
-      {
-        "number": 89,
-        "title": "Coaching Q2 KPIs",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 13,
-        "historyDays": null,
-        "closedDays": 13,
-        "source": "closedAt"
-      },
-      {
-        "number": 91,
-        "title": "Create AGT delivery playbook",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q2 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 9,
-        "historyDays": null,
-        "closedDays": 9,
-        "source": "closedAt"
-      },
-      {
-        "number": 92,
-        "title": "AGT Cohort 1 Delivery Report",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q2 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 2,
-        "historyDays": null,
-        "closedDays": 2,
-        "source": "closedAt"
       }
     ],
     "inFlight": [
@@ -448,97 +317,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 48,
         "daysInFlight": 48
-      },
-      {
-        "number": 31,
-        "title": "Standardise GBP to NGN pricing conversion across all service offerings",
-        "labels": [],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "MaryleenAmaizu",
-          "VeraEzike"
-        ],
-        "currentStatus": "In review",
-        "currentStatusDays": 0,
-        "daysInFlight": 31
-      },
-      {
-        "number": 76,
-        "title": "Sales Qualified Leads Criteria Review and Process Improvement",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "VeraEzike",
-          "Rachaelakoteyon"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
-      },
-      {
-        "number": 78,
-        "title": "Objection Handling Review and Playbook Update",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
-      },
-      {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "VeraEzike"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
-      },
-      {
-        "number": 86,
-        "title": "Finalise and test the workflow",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 20,
-        "daysInFlight": 20
       },
       {
         "number": 82,
@@ -638,101 +416,6 @@
         "assignees": [
           "SemiloreCmd",
           "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 60,
-        "title": "Automate Zoom recording backup to One Drive via Zapier",
-        "labels": [
-          "Digital marketing",
-          "Coaching/Delivery",
-          "task"
-        ],
-        "kind": "Task",
-        "milestone": "Q2 2026",
-        "assignees": [
-          "Marxlyte",
-          "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 75,
-        "title": "Optimising Lead Management and Client Workflow Escalation Across Departments",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 81,
-        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 85,
-        "title": "Recommend tools and automation",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 90,
-        "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte",
-          "Ayinkeofnexurra"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 93,
-        "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
         ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
@@ -842,7 +525,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 53
+      "ageDays": 54
     },
     {
       "number": 25,
@@ -907,7 +590,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:56:01Z",
       "closedAt": null,
-      "ageDays": 54
+      "ageDays": 55
     },
     {
       "number": 24,
@@ -942,7 +625,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 2,
@@ -958,7 +641,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 3,
@@ -974,7 +657,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 54
+      "ageDays": 55
     },
     {
       "number": 10,
@@ -1038,7 +721,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 53
+      "ageDays": 54
     },
     {
       "number": 5,
@@ -1056,7 +739,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 54
+      "ageDays": 55
     },
     {
       "number": 12,
@@ -1150,7 +833,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": "2026-04-23T14:50:26Z",
-      "ageDays": 18
+      "ageDays": 19
     },
     {
       "number": 32,
@@ -1588,567 +1271,6 @@
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
       "ageDays": 30
-    },
-    {
-      "number": 58,
-      "title": "Create Splendid Cake recruitment case study",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:32Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 59,
-      "title": "Close at least 2 SME recruitment partnerships in Q2",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Operations"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:06:34Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 60,
-      "title": "Automate Zoom recording backup to One Drive via Zapier",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Digital marketing",
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [
-        "Marxlyte",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:04Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 62,
-      "title": "Complete AGT Cohort 1 — final 2 sessions and wrap-up",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:07Z",
-      "closedAt": "2026-04-14T10:46:35Z",
-      "ageDays": 30
-    },
-    {
-      "number": 64,
-      "title": "Update the DIY Kit",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:09Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 63,
-      "title": "Complete EB2 Visa course material development",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:08Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 65,
-      "title": "Develop client case studies from coaching outcomes",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "enhancement",
-        "Coaching/Delivery"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:11Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 66,
-      "title": "Define AI integration plan for coaching operations",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:12Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 67,
-      "title": "Define and publish web app roadmap to the whole team",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "task",
-        "Product"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:52Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 68,
-      "title": "Optimise website and integrate with web app",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "enhancement",
-        "Product"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:54Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 70,
-      "title": "Automate lead capture flow within the web app pipeline",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "enhancement",
-        "Product"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:56Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 71,
-      "title": "Document SOPs for each department",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:09:35Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 72,
-      "title": "Define and document the end-to-end client journey",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:09:36Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 73,
-      "title": "Set and communicate Q2 priorities before team-wide rollout",
-      "state": "OPEN",
-      "status": null,
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Operations",
-        "task"
-      ],
-      "assignees": [],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:09:37Z",
-      "closedAt": null,
-      "ageDays": 30
-    },
-    {
-      "number": 75,
-      "title": "Optimising Lead Management and Client Workflow Escalation Across Departments",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Story",
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-03-31T10:09:49Z",
-      "closedAt": null,
-      "ageDays": 27
-    },
-    {
-      "number": 23,
-      "title": "Post Training Support Tracker Template",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "SemiloreCmd",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-09T11:59:50Z",
-      "closedAt": "2026-04-20T08:52:58Z",
-      "ageDays": 49
-    },
-    {
-      "number": 76,
-      "title": "Sales Qualified Leads Criteria Review and Process Improvement",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "author": "VeraEzike",
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [
-        "VeraEzike",
-        "Rachaelakoteyon"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-01T13:26:52Z",
-      "closedAt": null,
-      "ageDays": 26
-    },
-    {
-      "number": 78,
-      "title": "Objection Handling Review and Playbook Update",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "author": "VeraEzike",
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-01T14:39:36Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 79,
-      "title": "Follow-Up Tracking System and CRM Data Review",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "author": "VeraEzike",
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-01T15:18:40Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 80,
-      "title": "Automated Call Recording Solutions Research",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "author": "VeraEzike",
-      "labels": [],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-01T15:55:52Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 81,
-      "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-07T07:44:24Z",
-      "closedAt": null,
-      "ageDays": 20
-    },
-    {
-      "number": 31,
-      "title": "Standardise GBP to NGN pricing conversion across all service offerings",
-      "state": "OPEN",
-      "status": "In review",
-      "kind": null,
-      "author": "MaryleenAmaizu",
-      "labels": [],
-      "assignees": [
-        "MaryleenAmaizu",
-        "VeraEzike"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-27T12:43:40Z",
-      "closedAt": null,
-      "ageDays": 31
-    },
-    {
-      "number": 85,
-      "title": "Recommend tools and automation",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:51:07Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 86,
-      "title": "Finalise and test the workflow",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:51:25Z",
-      "closedAt": null,
-      "ageDays": 19
-    },
-    {
-      "number": 77,
-      "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "author": "VeraEzike",
-      "labels": [],
-      "assignees": [
-        "VeraEzike"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-01T14:22:14Z",
-      "closedAt": null,
-      "ageDays": 25
-    },
-    {
-      "number": 83,
-      "title": "Hold a joint workflow meeting with all departments",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:49:02Z",
-      "closedAt": "2026-04-20T20:13:43Z",
-      "ageDays": 19
-    },
-    {
-      "number": 69,
-      "title": "Push user survey to collect meaningful responses (currently 2)",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:55Z",
-      "closedAt": "2026-04-21T07:52:38Z",
-      "ageDays": 30
-    },
-    {
-      "number": 89,
-      "title": "Coaching Q2 KPIs",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-10T19:45:50Z",
-      "closedAt": "2026-04-23T08:24:39Z",
-      "ageDays": 16
-    },
-    {
-      "number": 90,
-      "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte",
-        "Ayinkeofnexurra"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-13T13:45:53Z",
-      "closedAt": null,
-      "ageDays": 13
-    },
-    {
-      "number": 91,
-      "title": "Create AGT delivery playbook",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-04-14T11:32:35Z",
-      "closedAt": "2026-04-23T11:37:47Z",
-      "ageDays": 13
-    },
-    {
-      "number": 92,
-      "title": "AGT Cohort 1 Delivery Report",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-04-20T15:33:54Z",
-      "closedAt": "2026-04-22T15:48:58Z",
-      "ageDays": 6
-    },
-    {
-      "number": 93,
-      "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-22T11:01:39Z",
-      "closedAt": null,
-      "ageDays": 5
     }
   ]
 }
