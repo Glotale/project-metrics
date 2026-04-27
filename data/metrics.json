@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-04-27T02:27:48.080Z",
+  "lastUpdated": "2026-04-27T08:15:43.769Z",
   "summary": {
     "total": 82,
     "done": 12,
-    "inProgress": 9,
+    "inProgress": 10,
     "inReview": 3,
-    "toDo": 14,
+    "toDo": 13,
     "unset": 44,
     "completionRate": 15,
     "avgCycleDays": 22,
     "avgAgeDays": 34,
-    "unassignedCount": 55
+    "unassignedCount": 54
   },
   "byStatus": {
     "Done": 12,
     "In review": 3,
-    "To Do": 14,
+    "To Do": 13,
     "Unset": 44,
-    "In progress": 9
+    "In progress": 10
   },
   "byKind": {
     "Unset": 23,
@@ -25,7 +25,7 @@
     "Story": 23
   },
   "byLabel": {
-    "Digital marketing": 23,
+    "Digital marketing": 24,
     "Sales": 14,
     "Operations": 20,
     "Coaching/Delivery": 18,
@@ -34,7 +34,7 @@
     "enhancement": 9
   },
   "byAssignee": {
-    "Marxlyte": 9,
+    "Marxlyte": 10,
     "VeraEzike": 5,
     "Rachaelakoteyon": 2,
     "SemiloreCmd": 12,
@@ -72,8 +72,8 @@
       "Unset": 37
     },
     "None": {
-      "To Do": 7,
-      "In progress": 4,
+      "To Do": 6,
+      "In progress": 5,
       "In review": 1,
       "Done": 4,
       "Unset": 0
@@ -89,7 +89,7 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 5,
+      "In progress": 6,
       "In review": 0,
       "Done": 3,
       "Unset": 13
@@ -379,8 +379,8 @@
           "Marxlyte"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 54,
-        "daysInFlight": 54
+        "currentStatusDays": 55,
+        "daysInFlight": 55
       },
       {
         "number": 17,
@@ -392,8 +392,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 53,
-        "daysInFlight": 53
+        "currentStatusDays": 54,
+        "daysInFlight": 54
       },
       {
         "number": 25,
@@ -480,19 +480,6 @@
         "daysInFlight": 26
       },
       {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "VeraEzike"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
-      },
-      {
         "number": 78,
         "title": "Objection Handling Review and Playbook Update",
         "labels": [
@@ -502,8 +489,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 25,
-        "daysInFlight": 25
+        "currentStatusDays": 26,
+        "daysInFlight": 26
       },
       {
         "number": 79,
@@ -515,8 +502,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 25,
-        "daysInFlight": 25
+        "currentStatusDays": 26,
+        "daysInFlight": 26
       },
       {
         "number": 80,
@@ -526,19 +513,21 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 25,
-        "daysInFlight": 25
+        "currentStatusDays": 26,
+        "daysInFlight": 26
       },
       {
-        "number": 85,
-        "title": "Recommend tools and automation",
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
-        "kind": null,
+        "kind": "Story",
         "milestone": null,
-        "assignees": [],
+        "assignees": [
+          "VeraEzike"
+        ],
         "currentStatus": "To Do",
-        "currentStatusDays": 19,
-        "daysInFlight": 19
+        "currentStatusDays": 26,
+        "daysInFlight": 26
       },
       {
         "number": 86,
@@ -589,7 +578,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 28,
+        "currentStatusDays": 29,
         "daysInFlight": null
       },
       {
@@ -604,7 +593,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 28,
+        "currentStatusDays": 29,
         "daysInFlight": null
       },
       {
@@ -619,7 +608,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 28,
+        "currentStatusDays": 29,
         "daysInFlight": null
       },
       {
@@ -635,7 +624,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 28,
+        "currentStatusDays": 29,
         "daysInFlight": null
       },
       {
@@ -698,6 +687,21 @@
         "assignees": [
           "SemiloreCmd",
           "Iyanumi"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 85,
+        "title": "Recommend tools and automation",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
         ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
@@ -1948,7 +1952,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": null,
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 31,
@@ -1971,11 +1975,15 @@
       "number": 85,
       "title": "Recommend tools and automation",
       "state": "OPEN",
-      "status": "To Do",
+      "status": "In progress",
       "kind": null,
       "author": "Marxlyte",
-      "labels": [],
-      "assignees": [],
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": null,
