@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-04-28T02:35:10.902Z",
+  "lastUpdated": "2026-04-28T08:19:52.132Z",
   "summary": {
     "total": 82,
-    "done": 12,
-    "inProgress": 10,
+    "done": 13,
+    "inProgress": 9,
     "inReview": 3,
     "toDo": 13,
     "unset": 44,
-    "completionRate": 15,
+    "completionRate": 16,
     "avgCycleDays": 22,
     "avgAgeDays": 35,
     "unassignedCount": 54
   },
   "byStatus": {
-    "Done": 12,
+    "Done": 13,
     "In review": 3,
     "To Do": 13,
     "Unset": 44,
-    "In progress": 10
+    "In progress": 9
   },
   "byKind": {
     "Unset": 23,
@@ -73,9 +73,9 @@
     },
     "None": {
       "To Do": 6,
-      "In progress": 5,
+      "In progress": 4,
       "In review": 1,
-      "Done": 4,
+      "Done": 5,
       "Unset": 0
     }
   },
@@ -103,9 +103,9 @@
     },
     "Coaching/Delivery": {
       "To Do": 1,
-      "In progress": 4,
+      "In progress": 3,
       "In review": 0,
-      "Done": 8,
+      "Done": 9,
       "Unset": 5
     },
     "Product": {
@@ -119,7 +119,7 @@
   "ageBuckets": {
     "0-7 days": 1,
     "8-14 days": 1,
-    "15-30 days": 49,
+    "15-30 days": 48,
     "30+ days": 19
   },
   "byDate": {
@@ -144,7 +144,7 @@
     "overall": 22,
     "overallHistory": null,
     "overallClosed": 22,
-    "completedCount": 12,
+    "completedCount": 13,
     "byTeam": {
       "Operations": null,
       "Digital marketing": 17,
@@ -282,6 +282,23 @@
         "source": "closedAt"
       },
       {
+        "number": 81,
+        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "cycleDays": 21,
+        "historyDays": null,
+        "closedDays": 21,
+        "source": "closedAt"
+      },
+      {
         "number": 83,
         "title": "Hold a joint workflow meeting with all departments",
         "labels": [
@@ -379,8 +396,8 @@
           "Marxlyte"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 55,
-        "daysInFlight": 55
+        "currentStatusDays": 56,
+        "daysInFlight": 56
       },
       {
         "number": 17,
@@ -392,8 +409,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 54,
-        "daysInFlight": 54
+        "currentStatusDays": 55,
+        "daysInFlight": 55
       },
       {
         "number": 25,
@@ -480,19 +497,6 @@
         "daysInFlight": 27
       },
       {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "VeraEzike"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 27,
-        "daysInFlight": 27
-      },
-      {
         "number": 78,
         "title": "Objection Handling Review and Playbook Update",
         "labels": [
@@ -502,8 +506,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
+        "currentStatusDays": 27,
+        "daysInFlight": 27
       },
       {
         "number": 79,
@@ -515,8 +519,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
+        "currentStatusDays": 27,
+        "daysInFlight": 27
       },
       {
         "number": 80,
@@ -526,8 +530,21 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 26,
-        "daysInFlight": 26
+        "currentStatusDays": 27,
+        "daysInFlight": 27
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [
+          "VeraEzike"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 27,
+        "daysInFlight": 27
       },
       {
         "number": 86,
@@ -578,7 +595,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 29,
+        "currentStatusDays": 30,
         "daysInFlight": null
       },
       {
@@ -593,7 +610,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 29,
+        "currentStatusDays": 30,
         "daysInFlight": null
       },
       {
@@ -608,7 +625,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 29,
+        "currentStatusDays": 30,
         "daysInFlight": null
       },
       {
@@ -624,7 +641,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 29,
+        "currentStatusDays": 30,
         "daysInFlight": null
       },
       {
@@ -671,22 +688,6 @@
         "milestone": null,
         "assignees": [
           "Marxlyte"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 81,
-        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
         ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
@@ -1938,8 +1939,8 @@
     {
       "number": 81,
       "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Glotale-Project",
       "labels": [
@@ -1951,8 +1952,8 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
-      "closedAt": null,
-      "ageDays": 20
+      "closedAt": "2026-04-28T07:58:12Z",
+      "ageDays": 21
     },
     {
       "number": 31,
