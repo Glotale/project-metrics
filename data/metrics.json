@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-04-29T02:35:26.834Z",
+  "lastUpdated": "2026-04-29T08:09:56.226Z",
   "summary": {
-    "total": 82,
+    "total": 81,
     "done": 12,
     "inProgress": 8,
     "inReview": 5,
-    "toDo": 13,
+    "toDo": 12,
     "unset": 44,
     "completionRate": 15,
     "avgCycleDays": 22,
@@ -15,17 +15,17 @@
   "byStatus": {
     "Done": 12,
     "In review": 5,
-    "To Do": 13,
+    "To Do": 12,
     "Unset": 44,
     "In progress": 8
   },
   "byKind": {
-    "Unset": 23,
+    "Unset": 22,
     "Task": 36,
     "Story": 23
   },
   "byLabel": {
-    "Digital marketing": 24,
+    "Digital marketing": 23,
     "Sales": 14,
     "Operations": 20,
     "Coaching/Delivery": 18,
@@ -34,7 +34,7 @@
     "enhancement": 9
   },
   "byAssignee": {
-    "Marxlyte": 10,
+    "Marxlyte": 9,
     "VeraEzike": 5,
     "Rachaelakoteyon": 2,
     "SemiloreCmd": 12,
@@ -45,7 +45,7 @@
   },
   "byAuthor": {
     "Marxlyte": 8,
-    "Glotale-Project": 20,
+    "Glotale-Project": 19,
     "Iyanumi": 4,
     "MaryleenAmaizu": 44,
     "SemiloreCmd": 1,
@@ -53,12 +53,12 @@
   },
   "byMilestone": {
     "None": 16,
-    "Q1 2026": 22,
+    "Q1 2026": 21,
     "Q2 2026": 44
   },
   "milestoneStatus": {
     "Q1 2026": {
-      "To Do": 7,
+      "To Do": 6,
       "In progress": 3,
       "In review": 2,
       "Done": 3,
@@ -88,7 +88,7 @@
       "Unset": 15
     },
     "Digital marketing": {
-      "To Do": 2,
+      "To Do": 1,
       "In progress": 5,
       "In review": 1,
       "Done": 3,
@@ -120,11 +120,11 @@
     "0-7 days": 1,
     "8-14 days": 0,
     "15-30 days": 10,
-    "30+ days": 58
+    "30+ days": 57
   },
   "byDate": {
     "2026-04-07": 6,
-    "2026-03-03": 4,
+    "2026-03-03": 3,
     "2026-03-04": 8,
     "2026-03-10": 5,
     "2026-03-02": 2,
@@ -385,21 +385,6 @@
     ],
     "inFlight": [
       {
-        "number": 4,
-        "title": "Sprint 1: Create product marketing roadmap for Glotale web APP development and marketing",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 56,
-        "daysInFlight": 56
-      },
-      {
         "number": 17,
         "title": "STORY: Revisit and review Glotale Vision & Mission",
         "labels": [
@@ -409,8 +394,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 55,
-        "daysInFlight": 55
+        "currentStatusDays": 56,
+        "daysInFlight": 56
       },
       {
         "number": 25,
@@ -497,19 +482,6 @@
         "daysInFlight": 28
       },
       {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "VeraEzike"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 28,
-        "daysInFlight": 28
-      },
-      {
         "number": 78,
         "title": "Objection Handling Review and Playbook Update",
         "labels": [
@@ -519,8 +491,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 27,
-        "daysInFlight": 27
+        "currentStatusDays": 28,
+        "daysInFlight": 28
       },
       {
         "number": 79,
@@ -532,8 +504,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 27,
-        "daysInFlight": 27
+        "currentStatusDays": 28,
+        "daysInFlight": 28
       },
       {
         "number": 80,
@@ -543,8 +515,21 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 27,
-        "daysInFlight": 27
+        "currentStatusDays": 28,
+        "daysInFlight": 28
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [
+          "VeraEzike"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 28,
+        "daysInFlight": 28
       },
       {
         "number": 86,
@@ -595,7 +580,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 30,
+        "currentStatusDays": 31,
         "daysInFlight": null
       },
       {
@@ -610,7 +595,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 30,
+        "currentStatusDays": 31,
         "daysInFlight": null
       },
       {
@@ -625,7 +610,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 30,
+        "currentStatusDays": 31,
         "daysInFlight": null
       },
       {
@@ -641,7 +626,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 30,
+        "currentStatusDays": 31,
         "daysInFlight": null
       },
       {
@@ -907,24 +892,6 @@
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
       "ageDays": 49
-    },
-    {
-      "number": 4,
-      "title": "Sprint 1: Create product marketing roadmap for Glotale web APP development and marketing",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-03T17:56:01Z",
-      "closedAt": null,
-      "ageDays": 56
     },
     {
       "number": 24,
@@ -1969,7 +1936,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 21
+      "ageDays": 22
     },
     {
       "number": 31,
