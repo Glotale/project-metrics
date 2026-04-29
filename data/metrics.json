@@ -1,28 +1,28 @@
 {
-  "lastUpdated": "2026-04-29T08:09:56.226Z",
+  "lastUpdated": "2026-04-29T13:47:22.175Z",
   "summary": {
-    "total": 81,
+    "total": 80,
     "done": 12,
     "inProgress": 8,
-    "inReview": 5,
-    "toDo": 12,
+    "inReview": 6,
+    "toDo": 10,
     "unset": 44,
     "completionRate": 15,
     "avgCycleDays": 22,
-    "avgAgeDays": 36,
-    "unassignedCount": 54
+    "avgAgeDays": 37,
+    "unassignedCount": 53
   },
   "byStatus": {
     "Done": 12,
-    "In review": 5,
-    "To Do": 12,
+    "In review": 6,
+    "To Do": 10,
     "Unset": 44,
     "In progress": 8
   },
   "byKind": {
-    "Unset": 22,
-    "Task": 36,
-    "Story": 23
+    "Unset": 21,
+    "Task": 37,
+    "Story": 22
   },
   "byLabel": {
     "Digital marketing": 23,
@@ -44,7 +44,7 @@
     "Ayinkeofnexurra": 1
   },
   "byAuthor": {
-    "Marxlyte": 8,
+    "Marxlyte": 7,
     "Glotale-Project": 19,
     "Iyanumi": 4,
     "MaryleenAmaizu": 44,
@@ -52,7 +52,7 @@
     "VeraEzike": 5
   },
   "byMilestone": {
-    "None": 16,
+    "None": 15,
     "Q1 2026": 21,
     "Q2 2026": 44
   },
@@ -72,9 +72,9 @@
       "Unset": 37
     },
     "None": {
-      "To Do": 6,
+      "To Do": 4,
       "In progress": 3,
-      "In review": 3,
+      "In review": 4,
       "Done": 4,
       "Unset": 0
     }
@@ -89,14 +89,14 @@
     },
     "Digital marketing": {
       "To Do": 1,
-      "In progress": 5,
-      "In review": 1,
+      "In progress": 4,
+      "In review": 2,
       "Done": 3,
       "Unset": 13
     },
     "Sales": {
-      "To Do": 5,
-      "In progress": 1,
+      "To Do": 4,
+      "In progress": 2,
       "In review": 0,
       "Done": 1,
       "Unset": 7
@@ -119,11 +119,11 @@
   "ageBuckets": {
     "0-7 days": 1,
     "8-14 days": 0,
-    "15-30 days": 10,
+    "15-30 days": 9,
     "30+ days": 57
   },
   "byDate": {
-    "2026-04-07": 6,
+    "2026-04-07": 5,
     "2026-03-03": 3,
     "2026-03-04": 8,
     "2026-03-10": 5,
@@ -482,19 +482,6 @@
         "daysInFlight": 28
       },
       {
-        "number": 78,
-        "title": "Objection Handling Review and Playbook Update",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 28,
-        "daysInFlight": 28
-      },
-      {
         "number": 79,
         "title": "Follow-Up Tracking System and CRM Data Review",
         "labels": [
@@ -530,17 +517,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 28,
         "daysInFlight": 28
-      },
-      {
-        "number": 86,
-        "title": "Finalise and test the workflow",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 21,
-        "daysInFlight": 21
       },
       {
         "number": 82,
@@ -679,6 +655,19 @@
         "daysInFlight": null
       },
       {
+        "number": 78,
+        "title": "Objection Handling Review and Playbook Update",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Task",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 81,
         "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
         "labels": [
@@ -721,7 +710,7 @@
           "Marxlyte",
           "Ayinkeofnexurra"
         ],
-        "currentStatus": "In progress",
+        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -809,7 +798,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 8,
@@ -828,7 +817,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:04:48Z",
       "closedAt": "2026-04-14T08:15:54Z",
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 17,
@@ -860,7 +849,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 49
+      "ageDays": 50
     },
     {
       "number": 27,
@@ -877,7 +866,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 49
+      "ageDays": 50
     },
     {
       "number": 28,
@@ -891,7 +880,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 49
+      "ageDays": 50
     },
     {
       "number": 24,
@@ -910,7 +899,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:44:56Z",
       "closedAt": null,
-      "ageDays": 49
+      "ageDays": 50
     },
     {
       "number": 1,
@@ -974,7 +963,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 13,
@@ -990,7 +979,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 16,
@@ -1004,7 +993,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T11:08:30Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 18,
@@ -1059,7 +1048,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 22,
@@ -1078,7 +1067,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:14:30Z",
       "closedAt": "2026-04-22T08:14:02Z",
-      "ageDays": 50
+      "ageDays": 51
     },
     {
       "number": 61,
@@ -1098,7 +1087,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:05Z",
       "closedAt": "2026-04-23T11:37:38Z",
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 26,
@@ -1115,7 +1104,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 49
+      "ageDays": 50
     },
     {
       "number": 88,
@@ -1150,7 +1139,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 33,
@@ -1166,7 +1155,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 34,
@@ -1182,7 +1171,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 35,
@@ -1198,7 +1187,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 36,
@@ -1214,7 +1203,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 37,
@@ -1233,7 +1222,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 38,
@@ -1249,7 +1238,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 39,
@@ -1265,7 +1254,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 40,
@@ -1282,7 +1271,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 41,
@@ -1299,7 +1288,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 42,
@@ -1316,7 +1305,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 43,
@@ -1333,7 +1322,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 44,
@@ -1350,7 +1339,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 45,
@@ -1367,7 +1356,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 46,
@@ -1384,7 +1373,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 47,
@@ -1401,7 +1390,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 48,
@@ -1418,7 +1407,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 49,
@@ -1435,7 +1424,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 50,
@@ -1452,7 +1441,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 51,
@@ -1469,7 +1458,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 52,
@@ -1486,7 +1475,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 53,
@@ -1503,7 +1492,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 54,
@@ -1520,7 +1509,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 55,
@@ -1537,7 +1526,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 56,
@@ -1554,7 +1543,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 57,
@@ -1571,7 +1560,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 58,
@@ -1588,7 +1577,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 59,
@@ -1604,7 +1593,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 60,
@@ -1625,7 +1614,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 62,
@@ -1645,7 +1634,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:07Z",
       "closedAt": "2026-04-14T10:46:35Z",
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 64,
@@ -1662,7 +1651,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 63,
@@ -1679,7 +1668,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 65,
@@ -1696,7 +1685,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 66,
@@ -1713,7 +1702,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 67,
@@ -1730,7 +1719,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 68,
@@ -1747,7 +1736,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 70,
@@ -1764,7 +1753,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 71,
@@ -1781,7 +1770,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 72,
@@ -1798,7 +1787,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 73,
@@ -1815,7 +1804,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 75,
@@ -1833,7 +1822,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 28
+      "ageDays": 29
     },
     {
       "number": 23,
@@ -1852,7 +1841,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-09T11:59:50Z",
       "closedAt": "2026-04-20T08:52:58Z",
-      "ageDays": 50
+      "ageDays": 51
     },
     {
       "number": 76,
@@ -1871,14 +1860,14 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 27
+      "ageDays": 28
     },
     {
       "number": 78,
       "title": "Objection Handling Review and Playbook Update",
       "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
+      "status": "In progress",
+      "kind": "Task",
       "author": "VeraEzike",
       "labels": [
         "Sales"
@@ -1953,7 +1942,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 32
+      "ageDays": 33
     },
     {
       "number": 85,
@@ -1970,20 +1959,6 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
-      "closedAt": null,
-      "ageDays": 21
-    },
-    {
-      "number": 86,
-      "title": "Finalise and test the workflow",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:51:25Z",
       "closedAt": null,
       "ageDays": 21
     },
@@ -2038,7 +2013,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": "2026-04-21T07:52:38Z",
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 89,
@@ -2063,7 +2038,7 @@
       "number": 90,
       "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
       "state": "OPEN",
-      "status": "In progress",
+      "status": "In review",
       "kind": null,
       "author": "Marxlyte",
       "labels": [
@@ -2076,7 +2051,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 15
+      "ageDays": 16
     },
     {
       "number": 91,
@@ -2095,7 +2070,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-04-14T11:32:35Z",
       "closedAt": "2026-04-23T11:37:47Z",
-      "ageDays": 14
+      "ageDays": 15
     },
     {
       "number": 92,
@@ -2132,7 +2107,7 @@
       "milestone": null,
       "createdAt": "2026-04-22T11:01:39Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     }
   ]
 }
