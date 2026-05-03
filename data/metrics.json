@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T13:00:53.134Z",
+  "lastUpdated": "2026-05-03T18:53:53.246Z",
   "summary": {
     "total": 80,
     "done": 12,
@@ -9,7 +9,7 @@
     "unset": 44,
     "completionRate": 15,
     "avgCycleDays": 22,
-    "avgAgeDays": 40,
+    "avgAgeDays": 41,
     "unassignedCount": 53
   },
   "byStatus": {
@@ -124,7 +124,6 @@
   },
   "byDate": {
     "2026-04-07": 5,
-    "2026-03-04": 2,
     "2026-03-10": 5,
     "2026-03-09": 2,
     "2026-03-28": 42,
@@ -831,7 +830,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 59
+      "ageDays": 60
     },
     {
       "number": 25,
@@ -945,7 +944,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 60
+      "ageDays": 61
     },
     {
       "number": 10,
@@ -1009,7 +1008,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 59
+      "ageDays": 60
     },
     {
       "number": 5,
@@ -1027,7 +1026,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 60
+      "ageDays": 61
     },
     {
       "number": 12,
@@ -1085,7 +1084,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:05Z",
       "closedAt": "2026-04-23T11:37:38Z",
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 26,
@@ -1121,7 +1120,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": "2026-04-23T14:50:26Z",
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 32,
@@ -1169,7 +1168,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 35,
@@ -1185,7 +1184,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 36,
@@ -1201,7 +1200,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 37,
@@ -1220,7 +1219,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 38,
@@ -1236,7 +1235,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 39,
@@ -1252,7 +1251,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 40,
@@ -1269,7 +1268,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 41,
@@ -1286,7 +1285,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 42,
@@ -1303,7 +1302,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 43,
@@ -1320,7 +1319,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 44,
@@ -1337,7 +1336,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 45,
@@ -1354,7 +1353,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 46,
@@ -1371,7 +1370,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 47,
@@ -1388,7 +1387,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 48,
@@ -1405,7 +1404,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 49,
@@ -1422,7 +1421,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 50,
@@ -1439,7 +1438,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 51,
@@ -1456,7 +1455,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 52,
@@ -1473,7 +1472,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 53,
@@ -1490,7 +1489,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 54,
@@ -1507,7 +1506,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 55,
@@ -1524,7 +1523,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 56,
@@ -1541,7 +1540,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 57,
@@ -1558,7 +1557,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 58,
@@ -1575,7 +1574,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 59,
@@ -1591,7 +1590,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 60,
@@ -1612,7 +1611,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 62,
@@ -1632,7 +1631,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:07Z",
       "closedAt": "2026-04-14T10:46:35Z",
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 64,
@@ -1649,7 +1648,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 63,
@@ -1666,7 +1665,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 65,
@@ -1683,7 +1682,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 66,
@@ -1700,7 +1699,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 67,
@@ -1717,7 +1716,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 68,
@@ -1734,7 +1733,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 70,
@@ -1751,7 +1750,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 71,
@@ -1768,7 +1767,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 72,
@@ -1785,7 +1784,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 73,
@@ -1802,7 +1801,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 75,
@@ -1858,7 +1857,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 78,
@@ -1874,7 +1873,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 79,
@@ -1890,7 +1889,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 80,
@@ -1904,7 +1903,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 81,
@@ -1974,7 +1973,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 83,
@@ -2011,7 +2010,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:55Z",
       "closedAt": "2026-04-21T07:52:38Z",
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 89,
@@ -2049,7 +2048,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 91,
@@ -2087,7 +2086,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-04-20T15:33:54Z",
       "closedAt": "2026-04-22T15:48:58Z",
-      "ageDays": 12
+      "ageDays": 13
     },
     {
       "number": 93,
