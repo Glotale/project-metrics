@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-05-04T13:50:06.695Z",
+  "lastUpdated": "2026-05-04T19:23:41.814Z",
   "summary": {
     "total": 80,
     "done": 12,
-    "inProgress": 8,
+    "inProgress": 10,
     "inReview": 6,
     "toDo": 10,
-    "unset": 44,
+    "unset": 42,
     "completionRate": 15,
     "avgCycleDays": 22,
     "avgAgeDays": 42,
-    "unassignedCount": 53
+    "unassignedCount": 52
   },
   "byStatus": {
     "Done": 12,
     "In review": 6,
     "To Do": 10,
-    "Unset": 44,
-    "In progress": 8
+    "Unset": 42,
+    "In progress": 10
   },
   "byKind": {
     "Unset": 21,
@@ -34,7 +34,7 @@
     "enhancement": 9
   },
   "byAssignee": {
-    "Marxlyte": 9,
+    "Marxlyte": 10,
     "VeraEzike": 5,
     "Rachaelakoteyon": 2,
     "SemiloreCmd": 12,
@@ -66,10 +66,10 @@
     },
     "Q2 2026": {
       "To Do": 0,
-      "In progress": 2,
+      "In progress": 4,
       "In review": 0,
       "Done": 5,
-      "Unset": 37
+      "Unset": 35
     },
     "None": {
       "To Do": 4,
@@ -89,10 +89,10 @@
     },
     "Digital marketing": {
       "To Do": 1,
-      "In progress": 4,
+      "In progress": 6,
       "In review": 2,
       "Done": 3,
-      "Unset": 13
+      "Unset": 11
     },
     "Sales": {
       "To Do": 4,
@@ -603,6 +603,21 @@
         "daysInFlight": null
       },
       {
+        "number": 34,
+        "title": "Digital Marketing: Content & SEO",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": "Story",
+        "milestone": "Q2 2026",
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 37,
         "title": "AGT course wrap up and post-delivery actions",
         "labels": [
@@ -614,6 +629,20 @@
           "SemiloreCmd",
           "Iyanumi"
         ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 48,
+        "title": "Establish and maintain a structured content calendar",
+        "labels": [
+          "Digital marketing",
+          "task"
+        ],
+        "kind": "Task",
+        "milestone": "Q2 2026",
+        "assignees": [],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
@@ -830,7 +859,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 60
+      "ageDays": 61
     },
     {
       "number": 25,
@@ -912,7 +941,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 2,
@@ -928,7 +957,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 3,
@@ -944,7 +973,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 10,
@@ -1008,7 +1037,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 60
+      "ageDays": 61
     },
     {
       "number": 5,
@@ -1026,7 +1055,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 12,
@@ -1120,7 +1149,7 @@
       "milestone": null,
       "createdAt": "2026-04-08T16:25:10Z",
       "closedAt": "2026-04-23T14:50:26Z",
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 32,
@@ -1158,13 +1187,15 @@
       "number": 34,
       "title": "Digital Marketing: Content & SEO",
       "state": "OPEN",
-      "status": null,
+      "status": "In progress",
       "kind": "Story",
       "author": "MaryleenAmaizu",
       "labels": [
         "Digital marketing"
       ],
-      "assignees": [],
+      "assignees": [
+        "Marxlyte"
+      ],
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
@@ -1393,7 +1424,7 @@
       "number": 48,
       "title": "Establish and maintain a structured content calendar",
       "state": "OPEN",
-      "status": null,
+      "status": "In progress",
       "kind": "Task",
       "author": "MaryleenAmaizu",
       "labels": [
@@ -1873,7 +1904,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 32
+      "ageDays": 33
     },
     {
       "number": 79,
@@ -1889,7 +1920,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 32
+      "ageDays": 33
     },
     {
       "number": 80,
@@ -1903,7 +1934,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 32
+      "ageDays": 33
     },
     {
       "number": 81,
@@ -1973,7 +2004,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 32
+      "ageDays": 33
     },
     {
       "number": 83,
@@ -2086,7 +2117,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-04-20T15:33:54Z",
       "closedAt": "2026-04-22T15:48:58Z",
-      "ageDays": 13
+      "ageDays": 14
     },
     {
       "number": 93,
