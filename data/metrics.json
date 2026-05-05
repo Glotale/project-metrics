@@ -1,81 +1,80 @@
 {
-  "lastUpdated": "2026-05-05T08:03:54.786Z",
+  "lastUpdated": "2026-05-05T19:13:56.856Z",
   "summary": {
-    "total": 80,
-    "done": 12,
-    "inProgress": 10,
-    "inReview": 6,
-    "toDo": 10,
-    "unset": 42,
-    "completionRate": 15,
-    "avgCycleDays": 22,
-    "avgAgeDays": 42,
-    "unassignedCount": 52
+    "total": 69,
+    "done": 2,
+    "inProgress": 11,
+    "inReview": 5,
+    "toDo": 11,
+    "unset": 40,
+    "completionRate": 3,
+    "avgCycleDays": 30,
+    "avgAgeDays": 40,
+    "unassignedCount": 51
   },
   "byStatus": {
-    "Done": 12,
-    "In review": 6,
-    "To Do": 10,
-    "Unset": 42,
-    "In progress": 10
+    "In review": 5,
+    "To Do": 11,
+    "Unset": 40,
+    "In progress": 11,
+    "Done": 2
   },
   "byKind": {
-    "Unset": 21,
-    "Task": 37,
-    "Story": 22
+    "Task": 34,
+    "Story": 21,
+    "Unset": 14
   },
   "byLabel": {
-    "Digital marketing": 23,
-    "Sales": 14,
+    "Sales": 13,
     "Operations": 20,
-    "Coaching/Delivery": 18,
-    "task": 24,
+    "Digital marketing": 20,
+    "Coaching/Delivery": 11,
     "Product": 4,
+    "task": 21,
     "enhancement": 9
   },
   "byAssignee": {
-    "Marxlyte": 10,
-    "VeraEzike": 5,
-    "Rachaelakoteyon": 2,
-    "SemiloreCmd": 12,
-    "Iyanumi": 13,
+    "Marxlyte": 7,
+    "VeraEzike": 4,
     "OLUWADAMILOLA-24": 1,
-    "MaryleenAmaizu": 1,
+    "SemiloreCmd": 5,
+    "Iyanumi": 6,
+    "Rachaelakoteyon": 1,
+    "MaryleenAmaizu": 3,
     "Ayinkeofnexurra": 1
   },
   "byAuthor": {
-    "Marxlyte": 7,
-    "Glotale-Project": 19,
-    "Iyanumi": 4,
-    "MaryleenAmaizu": 44,
-    "SemiloreCmd": 1,
-    "VeraEzike": 5
+    "Marxlyte": 5,
+    "Glotale-Project": 16,
+    "MaryleenAmaizu": 42,
+    "VeraEzike": 5,
+    "Iyanumi": 1
   },
   "byMilestone": {
-    "None": 15,
-    "Q1 2026": 21,
-    "Q2 2026": 44
+    "None": 13,
+    "Q1 2026": 17,
+    "Q2 2026": 39
   },
   "milestoneStatus": {
     "Q1 2026": {
       "To Do": 6,
       "In progress": 3,
       "In review": 2,
-      "Done": 3,
-      "Unset": 7
+      "Done": 0,
+      "Unset": 6
     },
     "Q2 2026": {
-      "To Do": 0,
-      "In progress": 4,
+      "To Do": 1,
+      "In progress": 3,
       "In review": 0,
-      "Done": 5,
-      "Unset": 35
+      "Done": 1,
+      "Unset": 34
     },
     "None": {
       "To Do": 4,
-      "In progress": 3,
-      "In review": 4,
-      "Done": 4,
+      "In progress": 5,
+      "In review": 3,
+      "Done": 1,
       "Unset": 0
     }
   },
@@ -91,22 +90,22 @@
       "To Do": 1,
       "In progress": 6,
       "In review": 2,
-      "Done": 3,
+      "Done": 0,
       "Unset": 11
     },
     "Sales": {
       "To Do": 4,
       "In progress": 2,
       "In review": 0,
-      "Done": 1,
+      "Done": 0,
       "Unset": 7
     },
     "Coaching/Delivery": {
-      "To Do": 1,
+      "To Do": 2,
       "In progress": 3,
-      "In review": 1,
-      "Done": 8,
-      "Unset": 5
+      "In review": 0,
+      "Done": 2,
+      "Unset": 4
     },
     "Product": {
       "To Do": 0,
@@ -117,165 +116,58 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 0,
+    "0-7 days": 3,
     "8-14 days": 1,
     "15-30 days": 3,
-    "30+ days": 63
+    "30+ days": 60
   },
   "byDate": {
-    "2026-04-07": 5,
-    "2026-03-10": 5,
-    "2026-03-09": 2,
-    "2026-03-28": 42,
-    "2026-04-08": 1,
+    "2026-04-07": 3,
+    "2026-03-10": 4,
+    "2026-03-28": 39,
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-03-27": 1,
-    "2026-04-10": 1,
     "2026-04-13": 1,
-    "2026-04-14": 1,
-    "2026-04-20": 1,
-    "2026-04-22": 1
+    "2026-04-22": 1,
+    "2026-05-05": 3
   },
   "cycleStats": {
-    "overall": 22,
+    "overall": 30,
     "overallHistory": null,
-    "overallClosed": 22,
-    "completedCount": 13,
+    "overallClosed": 30,
+    "completedCount": 2,
     "byTeam": {
       "Operations": null,
-      "Digital marketing": 17,
-      "Sales": 41,
-      "Coaching/Delivery": 21,
+      "Digital marketing": null,
+      "Sales": null,
+      "Coaching/Delivery": 30,
       "Product": null
     },
     "byKind": {
-      "Task": 22,
-      "Story": null
+      "Task": null,
+      "Story": 38
     },
     "byMilestone": {
-      "Q1 2026": 42,
-      "Q2 2026": 16
+      "Q1 2026": null,
+      "Q2 2026": 38
     },
     "completed": [
       {
-        "number": 84,
-        "title": "Build the new lead system",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "cycleDays": 14,
-        "historyDays": null,
-        "closedDays": 14,
-        "source": "closedAt"
-      },
-      {
-        "number": 8,
-        "title": "Leads Ownership",
-        "labels": [
-          "Sales"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "VeraEzike",
-          "Rachaelakoteyon"
-        ],
-        "cycleDays": 41,
-        "historyDays": null,
-        "closedDays": 41,
-        "source": "closedAt"
-      },
-      {
-        "number": 22,
-        "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
+        "number": 37,
+        "title": "AGT course wrap up and post-delivery actions",
         "labels": [
           "Coaching/Delivery"
         ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 44,
-        "historyDays": null,
-        "closedDays": 44,
-        "source": "closedAt"
-      },
-      {
-        "number": 61,
-        "title": "Implement in-session feedback process at start and end of every session",
-        "labels": [
-          "Coaching/Delivery",
-          "task"
-        ],
-        "kind": "Task",
+        "kind": "Story",
         "milestone": "Q2 2026",
         "assignees": [
           "SemiloreCmd",
           "Iyanumi"
         ],
-        "cycleDays": 26,
+        "cycleDays": 38,
         "historyDays": null,
-        "closedDays": 26,
-        "source": "closedAt"
-      },
-      {
-        "number": 88,
-        "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 15,
-        "historyDays": null,
-        "closedDays": 15,
-        "source": "closedAt"
-      },
-      {
-        "number": 62,
-        "title": "Complete AGT Cohort 1 — final 2 sessions and wrap-up",
-        "labels": [
-          "Coaching/Delivery",
-          "task"
-        ],
-        "kind": "Task",
-        "milestone": "Q2 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 17,
-        "historyDays": null,
-        "closedDays": 17,
-        "source": "closedAt"
-      },
-      {
-        "number": 23,
-        "title": "Post Training Support Tracker Template",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 42,
-        "historyDays": null,
-        "closedDays": 42,
+        "closedDays": 38,
         "source": "closedAt"
       },
       {
@@ -293,90 +185,6 @@
         "cycleDays": 21,
         "historyDays": null,
         "closedDays": 21,
-        "source": "closedAt"
-      },
-      {
-        "number": 83,
-        "title": "Hold a joint workflow meeting with all departments",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "cycleDays": 13,
-        "historyDays": null,
-        "closedDays": 13,
-        "source": "closedAt"
-      },
-      {
-        "number": 69,
-        "title": "Push user survey to collect meaningful responses (currently 2)",
-        "labels": [
-          "Digital marketing",
-          "task"
-        ],
-        "kind": "Task",
-        "milestone": "Q2 2026",
-        "assignees": [
-          "Marxlyte"
-        ],
-        "cycleDays": 24,
-        "historyDays": null,
-        "closedDays": 24,
-        "source": "closedAt"
-      },
-      {
-        "number": 89,
-        "title": "Coaching Q2 KPIs",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 13,
-        "historyDays": null,
-        "closedDays": 13,
-        "source": "closedAt"
-      },
-      {
-        "number": 91,
-        "title": "Create AGT delivery playbook",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q2 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 9,
-        "historyDays": null,
-        "closedDays": 9,
-        "source": "closedAt"
-      },
-      {
-        "number": 92,
-        "title": "AGT Cohort 1 Delivery Report",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q2 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "cycleDays": 2,
-        "historyDays": null,
-        "closedDays": 2,
         "source": "closedAt"
       }
     ],
@@ -428,22 +236,6 @@
         "kind": "Story",
         "milestone": "Q1 2026",
         "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 56,
-        "daysInFlight": 56
-      },
-      {
-        "number": 24,
-        "title": "Evidence Cross-Walking (UK Tech Nation ↔ US NIW)",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": "Story",
-        "milestone": "Q1 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
         "currentStatus": "To Do",
         "currentStatusDays": 56,
         "daysInFlight": 56
@@ -618,22 +410,6 @@
         "daysInFlight": null
       },
       {
-        "number": 37,
-        "title": "AGT course wrap up and post-delivery actions",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": "Story",
-        "milestone": "Q2 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 48,
         "title": "Establish and maintain a structured content calendar",
         "labels": [
@@ -646,6 +422,20 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 55,
+        "title": "Delivery team to contribute one educational content piece per month",
+        "labels": [
+          "Coaching/Delivery",
+          "task"
+        ],
+        "kind": "Task",
+        "milestone": "Q2 2026",
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
       },
       {
         "number": 60,
@@ -694,22 +484,6 @@
         "daysInFlight": null
       },
       {
-        "number": 81,
-        "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "In review",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 85,
         "title": "Recommend tools and automation",
         "labels": [
@@ -754,28 +528,56 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 95,
+        "title": "Set up password manager for the organisation",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "MaryleenAmaizu"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 94,
+        "title": "Turn the EB2-NIW materials into a full course",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 96,
+        "title": "AI Mentorship with Korede",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "MaryleenAmaizu",
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
   "items": [
-    {
-      "number": 84,
-      "title": "Build the new lead system",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:50:26Z",
-      "closedAt": "2026-04-22T08:23:57Z",
-      "ageDays": 27
-    },
     {
       "number": 82,
       "title": "Review the current lead process across all departments",
@@ -824,26 +626,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 61
-    },
-    {
-      "number": 8,
-      "title": "Leads Ownership",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [
-        "VeraEzike",
-        "Rachaelakoteyon"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T10:04:48Z",
-      "closedAt": "2026-04-14T08:15:54Z",
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 17,
@@ -859,7 +642,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 25,
@@ -875,7 +658,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 27,
@@ -892,7 +675,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 28,
@@ -906,26 +689,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 55
-    },
-    {
-      "number": 24,
-      "title": "Evidence Cross-Walking (UK Tech Nation ↔ US NIW)",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "author": "Glotale-Project",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-10T09:44:56Z",
-      "closedAt": null,
-      "ageDays": 55
+      "ageDays": 56
     },
     {
       "number": 1,
@@ -941,7 +705,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 2,
@@ -957,7 +721,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 3,
@@ -973,7 +737,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 10,
@@ -989,7 +753,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 13,
@@ -1005,21 +769,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 61
-    },
-    {
-      "number": 16,
-      "title": "Document client testimonials/success stories",
-      "state": "OPEN",
-      "status": null,
-      "kind": null,
-      "author": "Glotale-Project",
-      "labels": [],
-      "assignees": [],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-04T11:08:30Z",
-      "closedAt": null,
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 18,
@@ -1037,7 +787,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 5,
@@ -1055,7 +805,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 12,
@@ -1074,46 +824,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 61
-    },
-    {
-      "number": 22,
-      "title": "David Igbigbi Coaching Plan - Evidence Sourcing Tracker",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-09T11:14:30Z",
-      "closedAt": "2026-04-22T08:14:02Z",
-      "ageDays": 56
-    },
-    {
-      "number": 61,
-      "title": "Implement in-session feedback process at start and end of every session",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:05Z",
-      "closedAt": "2026-04-23T11:37:38Z",
-      "ageDays": 37
+      "ageDays": 62
     },
     {
       "number": 26,
@@ -1130,26 +841,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 55
-    },
-    {
-      "number": 88,
-      "title": "Review past successful coaching clients and outcomes by creating a standard case study template for sales and marketing",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-08T16:25:10Z",
-      "closedAt": "2026-04-23T14:50:26Z",
-      "ageDays": 26
+      "ageDays": 56
     },
     {
       "number": 32,
@@ -1165,7 +857,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 33,
@@ -1181,7 +873,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 34,
@@ -1199,7 +891,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 35,
@@ -1215,7 +907,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 36,
@@ -1231,13 +923,13 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 37,
       "title": "AGT course wrap up and post-delivery actions",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": "Story",
       "author": "MaryleenAmaizu",
       "labels": [
@@ -1249,8 +941,8 @@
       ],
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
-      "closedAt": null,
-      "ageDays": 37
+      "closedAt": "2026-05-05T13:21:13Z",
+      "ageDays": 38
     },
     {
       "number": 38,
@@ -1266,7 +958,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 39,
@@ -1282,7 +974,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 40,
@@ -1299,7 +991,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 41,
@@ -1316,7 +1008,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 42,
@@ -1333,7 +1025,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 43,
@@ -1350,7 +1042,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 44,
@@ -1367,7 +1059,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 45,
@@ -1384,7 +1076,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 46,
@@ -1401,7 +1093,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 47,
@@ -1418,7 +1110,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 48,
@@ -1435,7 +1127,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 49,
@@ -1452,7 +1144,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 50,
@@ -1469,7 +1161,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 51,
@@ -1486,7 +1178,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 52,
@@ -1503,7 +1195,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 53,
@@ -1520,7 +1212,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 54,
@@ -1537,13 +1229,13 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 55,
       "title": "Delivery team to contribute one educational content piece per month",
       "state": "OPEN",
-      "status": null,
+      "status": "To Do",
       "kind": "Task",
       "author": "MaryleenAmaizu",
       "labels": [
@@ -1554,7 +1246,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 56,
@@ -1571,7 +1263,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 57,
@@ -1588,7 +1280,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 58,
@@ -1605,7 +1297,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 59,
@@ -1621,7 +1313,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 60,
@@ -1642,27 +1334,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 37
-    },
-    {
-      "number": 62,
-      "title": "Complete AGT Cohort 1 — final 2 sessions and wrap-up",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery",
-        "task"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:07Z",
-      "closedAt": "2026-04-14T10:46:35Z",
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 64,
@@ -1679,7 +1351,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 63,
@@ -1696,7 +1368,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 65,
@@ -1713,7 +1385,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 66,
@@ -1730,7 +1402,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 67,
@@ -1747,7 +1419,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 68,
@@ -1764,7 +1436,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 70,
@@ -1781,7 +1453,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 71,
@@ -1798,7 +1470,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 72,
@@ -1815,7 +1487,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 73,
@@ -1832,7 +1504,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 37
+      "ageDays": 38
     },
     {
       "number": 75,
@@ -1850,26 +1522,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 34
-    },
-    {
-      "number": 23,
-      "title": "Post Training Support Tracker Template",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "SemiloreCmd",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q1 2026",
-      "createdAt": "2026-03-09T11:59:50Z",
-      "closedAt": "2026-04-20T08:52:58Z",
-      "ageDays": 56
+      "ageDays": 35
     },
     {
       "number": 76,
@@ -1888,7 +1541,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 78,
@@ -1904,7 +1557,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 79,
@@ -1920,7 +1573,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 80,
@@ -1934,13 +1587,13 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 81,
       "title": "Design an Evidence Folder Structure (Standardizing how clients upload their transcripts, awards, and citations).",
       "state": "CLOSED",
-      "status": "In review",
+      "status": "Done",
       "kind": null,
       "author": "Glotale-Project",
       "labels": [
@@ -1970,7 +1623,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 85,
@@ -2004,63 +1657,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 33
-    },
-    {
-      "number": 83,
-      "title": "Hold a joint workflow meeting with all departments",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-07T23:49:02Z",
-      "closedAt": "2026-04-20T20:13:43Z",
-      "ageDays": 27
-    },
-    {
-      "number": 69,
-      "title": "Push user survey to collect meaningful responses (currently 2)",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": "Task",
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Digital marketing",
-        "task"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-03-28T13:08:55Z",
-      "closedAt": "2026-04-21T07:52:38Z",
-      "ageDays": 37
-    },
-    {
-      "number": 89,
-      "title": "Coaching Q2 KPIs",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-10T19:45:50Z",
-      "closedAt": "2026-04-23T08:24:39Z",
-      "ageDays": 24
+      "ageDays": 34
     },
     {
       "number": 90,
@@ -2079,45 +1676,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 21
-    },
-    {
-      "number": 91,
-      "title": "Create AGT delivery playbook",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-04-14T11:32:35Z",
-      "closedAt": "2026-04-23T11:37:47Z",
-      "ageDays": 20
-    },
-    {
-      "number": 92,
-      "title": "AGT Cohort 1 Delivery Report",
-      "state": "CLOSED",
-      "status": "Done",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Coaching/Delivery"
-      ],
-      "assignees": [
-        "SemiloreCmd",
-        "Iyanumi"
-      ],
-      "milestone": "Q2 2026",
-      "createdAt": "2026-04-20T15:33:54Z",
-      "closedAt": "2026-04-22T15:48:58Z",
-      "ageDays": 14
+      "ageDays": 22
     },
     {
       "number": 93,
@@ -2135,7 +1694,62 @@
       "milestone": null,
       "createdAt": "2026-04-22T11:01:39Z",
       "closedAt": null,
-      "ageDays": 12
+      "ageDays": 13
+    },
+    {
+      "number": 95,
+      "title": "Set up password manager for the organisation",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "MaryleenAmaizu",
+      "labels": [],
+      "assignees": [
+        "MaryleenAmaizu"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-05T14:49:34Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 94,
+      "title": "Turn the EB2-NIW materials into a full course",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": "Q1 2026",
+      "createdAt": "2026-05-05T14:31:20Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 96,
+      "title": "AI Mentorship with Korede",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "MaryleenAmaizu",
+        "SemiloreCmd",
+        "Iyanumi"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-05T15:19:12Z",
+      "closedAt": null,
+      "ageDays": 0
     }
   ]
 }
