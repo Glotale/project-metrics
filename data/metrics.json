@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-05-06T02:30:14.037Z",
+  "lastUpdated": "2026-05-06T13:59:45.447Z",
   "summary": {
-    "total": 69,
+    "total": 70,
     "done": 2,
     "inProgress": 11,
     "inReview": 5,
-    "toDo": 11,
+    "toDo": 12,
     "unset": 40,
     "completionRate": 3,
     "avgCycleDays": 30,
     "avgAgeDays": 41,
-    "unassignedCount": 51
+    "unassignedCount": 52
   },
   "byStatus": {
     "In review": 5,
-    "To Do": 11,
+    "To Do": 12,
     "Unset": 40,
     "In progress": 11,
     "Done": 2
@@ -22,13 +22,13 @@
   "byKind": {
     "Task": 34,
     "Story": 21,
-    "Unset": 14
+    "Unset": 15
   },
   "byLabel": {
     "Sales": 13,
     "Operations": 20,
-    "Digital marketing": 20,
-    "Coaching/Delivery": 11,
+    "Digital marketing": 21,
+    "Coaching/Delivery": 12,
     "Product": 4,
     "task": 21,
     "enhancement": 9
@@ -48,10 +48,10 @@
     "Glotale-Project": 16,
     "MaryleenAmaizu": 42,
     "VeraEzike": 5,
-    "Iyanumi": 1
+    "Iyanumi": 2
   },
   "byMilestone": {
-    "None": 13,
+    "None": 14,
     "Q1 2026": 17,
     "Q2 2026": 39
   },
@@ -71,7 +71,7 @@
       "Unset": 34
     },
     "None": {
-      "To Do": 4,
+      "To Do": 5,
       "In progress": 5,
       "In review": 3,
       "Done": 1,
@@ -87,7 +87,7 @@
       "Unset": 15
     },
     "Digital marketing": {
-      "To Do": 1,
+      "To Do": 2,
       "In progress": 6,
       "In review": 2,
       "Done": 0,
@@ -101,7 +101,7 @@
       "Unset": 7
     },
     "Coaching/Delivery": {
-      "To Do": 2,
+      "To Do": 3,
       "In progress": 3,
       "In review": 0,
       "Done": 2,
@@ -116,7 +116,7 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 3,
+    "0-7 days": 4,
     "8-14 days": 1,
     "15-30 days": 3,
     "30+ days": 60
@@ -125,12 +125,13 @@
     "2026-04-07": 3,
     "2026-03-10": 4,
     "2026-03-28": 39,
+    "2026-04-22": 1,
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-03-27": 1,
     "2026-04-13": 1,
-    "2026-04-22": 1,
-    "2026-05-05": 3
+    "2026-05-05": 2,
+    "2026-05-06": 2
   },
   "cycleStats": {
     "overall": 30,
@@ -199,8 +200,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 62,
-        "daysInFlight": 62
+        "currentStatusDays": 63,
+        "daysInFlight": 63
       },
       {
         "number": 25,
@@ -271,6 +272,19 @@
         "daysInFlight": 35
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 35,
+        "daysInFlight": 35
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
@@ -284,19 +298,6 @@
         "daysInFlight": 35
       },
       {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 34,
-        "daysInFlight": 34
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
@@ -304,8 +305,24 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 34,
-        "daysInFlight": 34
+        "currentStatusDays": 35,
+        "daysInFlight": 35
+      },
+      {
+        "number": 94,
+        "title": "Turn the EB2-NIW materials into a full course",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 1,
+        "daysInFlight": 1
       },
       {
         "number": 82,
@@ -345,7 +362,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 37,
+        "currentStatusDays": 38,
         "daysInFlight": null
       },
       {
@@ -360,7 +377,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 37,
+        "currentStatusDays": 38,
         "daysInFlight": null
       },
       {
@@ -375,7 +392,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 37,
+        "currentStatusDays": 38,
         "daysInFlight": null
       },
       {
@@ -391,7 +408,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 37,
+        "currentStatusDays": 38,
         "daysInFlight": null
       },
       {
@@ -419,6 +436,21 @@
         "kind": "Task",
         "milestone": "Q2 2026",
         "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 93,
+        "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
@@ -515,21 +547,6 @@
         "daysInFlight": null
       },
       {
-        "number": 93,
-        "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 95,
         "title": "Set up password manager for the organisation",
         "labels": [],
@@ -543,24 +560,8 @@
         "daysInFlight": null
       },
       {
-        "number": 94,
-        "title": "Turn the EB2-NIW materials into a full course",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 0,
-        "daysInFlight": 0
-      },
-      {
-        "number": 96,
-        "title": "AI Mentorship with Korede",
+        "number": 97,
+        "title": "Korede AI Mentorship– Coaching Structure Update",
         "labels": [
           "Coaching/Delivery"
         ],
@@ -574,6 +575,20 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 98,
+        "title": "Updating the Study Abroad Form",
+        "labels": [
+          "Digital marketing",
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
       }
     ]
   },
@@ -626,7 +641,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 17,
@@ -658,7 +673,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 56
+      "ageDays": 57
     },
     {
       "number": 27,
@@ -675,7 +690,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 56
+      "ageDays": 57
     },
     {
       "number": 28,
@@ -689,7 +704,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 56
+      "ageDays": 57
     },
     {
       "number": 1,
@@ -753,7 +768,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 13,
@@ -769,7 +784,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 18,
@@ -824,7 +839,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 26,
@@ -841,7 +856,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 56
+      "ageDays": 57
     },
     {
       "number": 32,
@@ -857,7 +872,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 33,
@@ -873,7 +888,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 34,
@@ -891,7 +906,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 35,
@@ -907,7 +922,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 36,
@@ -923,7 +938,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 37,
@@ -942,7 +957,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": "2026-05-05T13:21:13Z",
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 38,
@@ -958,7 +973,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 39,
@@ -974,7 +989,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 40,
@@ -991,7 +1006,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 41,
@@ -1008,7 +1023,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 42,
@@ -1025,7 +1040,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 43,
@@ -1042,7 +1057,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 44,
@@ -1059,7 +1074,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 45,
@@ -1076,7 +1091,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 46,
@@ -1093,7 +1108,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 47,
@@ -1110,7 +1125,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 48,
@@ -1127,7 +1142,25 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
+    },
+    {
+      "number": 93,
+      "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-22T11:01:39Z",
+      "closedAt": null,
+      "ageDays": 14
     },
     {
       "number": 49,
@@ -1144,7 +1177,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 50,
@@ -1161,7 +1194,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 51,
@@ -1178,7 +1211,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 52,
@@ -1195,7 +1228,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 53,
@@ -1212,7 +1245,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 54,
@@ -1229,7 +1262,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 55,
@@ -1246,7 +1279,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 56,
@@ -1263,7 +1296,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 57,
@@ -1280,7 +1313,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 58,
@@ -1297,7 +1330,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 59,
@@ -1313,7 +1346,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 60,
@@ -1334,7 +1367,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 64,
@@ -1351,7 +1384,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 63,
@@ -1368,7 +1401,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 65,
@@ -1385,7 +1418,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 66,
@@ -1402,7 +1435,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 67,
@@ -1419,7 +1452,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 68,
@@ -1436,7 +1469,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 70,
@@ -1453,7 +1486,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 71,
@@ -1470,7 +1503,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 72,
@@ -1487,7 +1520,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 73,
@@ -1504,7 +1537,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 75,
@@ -1522,7 +1555,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 76,
@@ -1541,7 +1574,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 78,
@@ -1576,6 +1609,22 @@
       "ageDays": 34
     },
     {
+      "number": 77,
+      "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": "Story",
+      "author": "VeraEzike",
+      "labels": [],
+      "assignees": [
+        "VeraEzike"
+      ],
+      "milestone": null,
+      "createdAt": "2026-04-01T14:22:14Z",
+      "closedAt": null,
+      "ageDays": 34
+    },
+    {
       "number": 80,
       "title": "Automated Call Recording Solutions Research",
       "state": "OPEN",
@@ -1606,7 +1655,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 28
+      "ageDays": 29
     },
     {
       "number": 31,
@@ -1623,7 +1672,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 85,
@@ -1644,22 +1693,6 @@
       "ageDays": 28
     },
     {
-      "number": 77,
-      "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": "Story",
-      "author": "VeraEzike",
-      "labels": [],
-      "assignees": [
-        "VeraEzike"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-01T14:22:14Z",
-      "closedAt": null,
-      "ageDays": 34
-    },
-    {
       "number": 90,
       "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
       "state": "OPEN",
@@ -1676,25 +1709,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 22
-    },
-    {
-      "number": 93,
-      "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-04-22T11:01:39Z",
-      "closedAt": null,
-      "ageDays": 13
+      "ageDays": 23
     },
     {
       "number": 95,
@@ -1732,8 +1747,8 @@
       "ageDays": 0
     },
     {
-      "number": 96,
-      "title": "AI Mentorship with Korede",
+      "number": 97,
+      "title": "Korede AI Mentorship– Coaching Structure Update",
       "state": "OPEN",
       "status": "In progress",
       "kind": null,
@@ -1747,7 +1762,24 @@
         "Iyanumi"
       ],
       "milestone": null,
-      "createdAt": "2026-05-05T15:19:12Z",
+      "createdAt": "2026-05-06T09:07:03Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 98,
+      "title": "Updating the Study Abroad Form",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "Digital marketing",
+        "Coaching/Delivery"
+      ],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-05-06T13:36:59Z",
       "closedAt": null,
       "ageDays": 0
     }
