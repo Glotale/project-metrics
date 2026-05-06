@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T19:13:56.856Z",
+  "lastUpdated": "2026-05-06T02:30:14.037Z",
   "summary": {
     "total": 69,
     "done": 2,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 3,
     "avgCycleDays": 30,
-    "avgAgeDays": 40,
+    "avgAgeDays": 41,
     "unassignedCount": 51
   },
   "byStatus": {
@@ -212,8 +212,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 56,
-        "daysInFlight": 56
+        "currentStatusDays": 57,
+        "daysInFlight": 57
       },
       {
         "number": 27,
@@ -226,8 +226,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 56,
-        "daysInFlight": 56
+        "currentStatusDays": 57,
+        "daysInFlight": 57
       },
       {
         "number": 28,
@@ -237,8 +237,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 56,
-        "daysInFlight": 56
+        "currentStatusDays": 57,
+        "daysInFlight": 57
       },
       {
         "number": 31,
@@ -252,7 +252,7 @@
         ],
         "currentStatus": "In review",
         "currentStatusDays": 0,
-        "daysInFlight": 39
+        "daysInFlight": 40
       },
       {
         "number": 76,
@@ -267,8 +267,21 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 34,
-        "daysInFlight": 34
+        "currentStatusDays": 35,
+        "daysInFlight": 35
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [
+          "VeraEzike"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 35,
+        "daysInFlight": 35
       },
       {
         "number": 79,
@@ -290,19 +303,6 @@
         "kind": "Story",
         "milestone": null,
         "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 34,
-        "daysInFlight": 34
-      },
-      {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "VeraEzike"
-        ],
         "currentStatus": "To Do",
         "currentStatusDays": 34,
         "daysInFlight": 34
@@ -592,7 +592,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": null,
-      "ageDays": 27
+      "ageDays": 28
     },
     {
       "number": 7,
@@ -610,7 +610,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 62
+      "ageDays": 63
     },
     {
       "number": 11,
@@ -1641,7 +1641,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": null,
-      "ageDays": 27
+      "ageDays": 28
     },
     {
       "number": 77,
