@@ -1,57 +1,58 @@
 {
-  "lastUpdated": "2026-05-07T08:28:04.720Z",
+  "lastUpdated": "2026-05-07T13:57:30.596Z",
   "summary": {
-    "total": 70,
+    "total": 73,
     "done": 3,
-    "inProgress": 11,
-    "inReview": 4,
+    "inProgress": 13,
+    "inReview": 5,
     "toDo": 12,
     "unset": 40,
     "completionRate": 4,
     "avgCycleDays": 33,
-    "avgAgeDays": 41,
+    "avgAgeDays": 40,
     "unassignedCount": 52
   },
   "byStatus": {
-    "In review": 4,
+    "In review": 5,
     "To Do": 12,
     "Unset": 40,
-    "In progress": 11,
+    "In progress": 13,
     "Done": 3
   },
   "byKind": {
     "Task": 34,
     "Story": 21,
-    "Unset": 15
+    "Unset": 18
   },
   "byLabel": {
     "Sales": 13,
     "Operations": 20,
-    "Digital marketing": 21,
-    "Coaching/Delivery": 12,
+    "Digital marketing": 23,
+    "Coaching/Delivery": 13,
     "Product": 4,
     "task": 21,
-    "enhancement": 9
+    "enhancement": 9,
+    "documentation": 1
   },
   "byAssignee": {
-    "Marxlyte": 7,
+    "Marxlyte": 9,
     "VeraEzike": 4,
     "OLUWADAMILOLA-24": 1,
     "SemiloreCmd": 5,
-    "Iyanumi": 6,
+    "Iyanumi": 7,
     "Rachaelakoteyon": 1,
-    "MaryleenAmaizu": 3,
+    "MaryleenAmaizu": 5,
     "Ayinkeofnexurra": 1
   },
   "byAuthor": {
-    "Marxlyte": 5,
+    "Marxlyte": 7,
     "Glotale-Project": 16,
     "MaryleenAmaizu": 42,
     "VeraEzike": 5,
-    "Iyanumi": 2
+    "Iyanumi": 3
   },
   "byMilestone": {
-    "None": 14,
+    "None": 17,
     "Q1 2026": 17,
     "Q2 2026": 39
   },
@@ -72,8 +73,8 @@
     },
     "None": {
       "To Do": 5,
-      "In progress": 5,
-      "In review": 3,
+      "In progress": 7,
+      "In review": 4,
       "Done": 1,
       "Unset": 0
     }
@@ -88,7 +89,7 @@
     },
     "Digital marketing": {
       "To Do": 2,
-      "In progress": 6,
+      "In progress": 8,
       "In review": 2,
       "Done": 0,
       "Unset": 11
@@ -103,7 +104,7 @@
     "Coaching/Delivery": {
       "To Do": 3,
       "In progress": 3,
-      "In review": 0,
+      "In review": 1,
       "Done": 2,
       "Unset": 4
     },
@@ -116,9 +117,9 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 4,
-    "8-14 days": 1,
-    "15-30 days": 3,
+    "0-7 days": 7,
+    "8-14 days": 0,
+    "15-30 days": 4,
     "30+ days": 59
   },
   "byDate": {
@@ -131,7 +132,8 @@
     "2026-03-27": 1,
     "2026-04-13": 1,
     "2026-05-05": 2,
-    "2026-05-06": 2
+    "2026-05-06": 2,
+    "2026-05-07": 3
   },
   "cycleStats": {
     "overall": 33,
@@ -590,6 +592,54 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 99,
+        "title": "Enquires on University of Law in Uk",
+        "labels": [
+          "documentation",
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "MaryleenAmaizu",
+          "Iyanumi"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 100,
+        "title": "Update Website Pricing for GBP & NGN",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 101,
+        "title": "Consolidate Forms into One Sheet & Document Challenges",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "MaryleenAmaizu",
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
       }
     ]
   },
@@ -642,7 +692,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 17,
@@ -674,7 +724,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 57
+      "ageDays": 58
     },
     {
       "number": 27,
@@ -691,7 +741,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 57
+      "ageDays": 58
     },
     {
       "number": 28,
@@ -705,7 +755,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 57
+      "ageDays": 58
     },
     {
       "number": 1,
@@ -769,7 +819,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 13,
@@ -785,7 +835,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 18,
@@ -840,7 +890,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 26,
@@ -857,7 +907,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 57
+      "ageDays": 58
     },
     {
       "number": 32,
@@ -873,7 +923,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T12:59:48Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 33,
@@ -889,7 +939,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:00:28Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 34,
@@ -907,7 +957,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:21Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 35,
@@ -923,7 +973,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:35Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 36,
@@ -939,7 +989,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:01:48Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 37,
@@ -958,7 +1008,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:02Z",
       "closedAt": "2026-05-05T13:21:13Z",
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 38,
@@ -974,7 +1024,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:13Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 39,
@@ -990,7 +1040,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:02:23Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 40,
@@ -1007,7 +1057,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:21Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 41,
@@ -1024,7 +1074,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:22Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 42,
@@ -1041,7 +1091,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:23Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 43,
@@ -1058,7 +1108,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:25Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 44,
@@ -1075,7 +1125,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:04:59Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 45,
@@ -1092,7 +1142,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:00Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 46,
@@ -1109,7 +1159,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:02Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 47,
@@ -1126,7 +1176,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:03Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 48,
@@ -1143,7 +1193,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 93,
@@ -1161,7 +1211,7 @@
       "milestone": null,
       "createdAt": "2026-04-22T11:01:39Z",
       "closedAt": null,
-      "ageDays": 14
+      "ageDays": 15
     },
     {
       "number": 49,
@@ -1178,7 +1228,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:26Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 50,
@@ -1195,7 +1245,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:28Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 51,
@@ -1212,7 +1262,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:30Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 52,
@@ -1229,7 +1279,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:57Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 53,
@@ -1246,7 +1296,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:58Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 54,
@@ -1263,7 +1313,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:00Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 55,
@@ -1280,7 +1330,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 56,
@@ -1297,7 +1347,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:30Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 57,
@@ -1314,7 +1364,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:31Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 58,
@@ -1331,7 +1381,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:32Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 59,
@@ -1347,7 +1397,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:34Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 60,
@@ -1368,7 +1418,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:04Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 64,
@@ -1385,7 +1435,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:09Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 63,
@@ -1402,7 +1452,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:08Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 65,
@@ -1419,7 +1469,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:11Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 66,
@@ -1436,7 +1486,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:12Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 67,
@@ -1453,7 +1503,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:52Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 68,
@@ -1470,7 +1520,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:54Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 70,
@@ -1487,7 +1537,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:08:56Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 71,
@@ -1504,7 +1554,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:35Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 72,
@@ -1521,7 +1571,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:36Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 73,
@@ -1538,7 +1588,7 @@
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:09:37Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 75,
@@ -1556,7 +1606,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 76,
@@ -1575,7 +1625,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T13:26:52Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 78,
@@ -1673,7 +1723,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
       "closedAt": "2026-05-07T08:10:55Z",
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 85,
@@ -1710,7 +1760,7 @@
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
       "closedAt": null,
-      "ageDays": 23
+      "ageDays": 24
     },
     {
       "number": 95,
@@ -1765,7 +1815,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": null,
-      "ageDays": 0
+      "ageDays": 1
     },
     {
       "number": 98,
@@ -1781,6 +1831,63 @@
       "assignees": [],
       "milestone": null,
       "createdAt": "2026-05-06T13:36:59Z",
+      "closedAt": null,
+      "ageDays": 1
+    },
+    {
+      "number": 99,
+      "title": "Enquires on University of Law in Uk",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "documentation",
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "MaryleenAmaizu",
+        "Iyanumi"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-07T09:46:20Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 100,
+      "title": "Update Website Pricing for GBP & NGN",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-07T13:49:47Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 101,
+      "title": "Consolidate Forms into One Sheet & Document Challenges",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "MaryleenAmaizu",
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-07T13:51:15Z",
       "closedAt": null,
       "ageDays": 0
     }
