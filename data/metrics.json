@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-05-07T13:57:30.596Z",
+  "lastUpdated": "2026-05-07T19:39:17.783Z",
   "summary": {
-    "total": 73,
+    "total": 75,
     "done": 3,
     "inProgress": 13,
     "inReview": 5,
-    "toDo": 12,
+    "toDo": 14,
     "unset": 40,
     "completionRate": 4,
     "avgCycleDays": 33,
-    "avgAgeDays": 40,
-    "unassignedCount": 52
+    "avgAgeDays": 39,
+    "unassignedCount": 54
   },
   "byStatus": {
     "In review": 5,
-    "To Do": 12,
+    "To Do": 14,
     "Unset": 40,
     "In progress": 13,
     "Done": 3
@@ -22,12 +22,12 @@
   "byKind": {
     "Task": 34,
     "Story": 21,
-    "Unset": 18
+    "Unset": 20
   },
   "byLabel": {
     "Sales": 13,
     "Operations": 20,
-    "Digital marketing": 23,
+    "Digital marketing": 24,
     "Coaching/Delivery": 13,
     "Product": 4,
     "task": 21,
@@ -47,12 +47,12 @@
   "byAuthor": {
     "Marxlyte": 7,
     "Glotale-Project": 16,
-    "MaryleenAmaizu": 42,
-    "VeraEzike": 5,
+    "MaryleenAmaizu": 43,
+    "VeraEzike": 6,
     "Iyanumi": 3
   },
   "byMilestone": {
-    "None": 17,
+    "None": 19,
     "Q1 2026": 17,
     "Q2 2026": 39
   },
@@ -72,7 +72,7 @@
       "Unset": 34
     },
     "None": {
-      "To Do": 5,
+      "To Do": 7,
       "In progress": 7,
       "In review": 4,
       "Done": 1,
@@ -88,7 +88,7 @@
       "Unset": 15
     },
     "Digital marketing": {
-      "To Do": 2,
+      "To Do": 3,
       "In progress": 8,
       "In review": 2,
       "Done": 0,
@@ -117,7 +117,7 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 7,
+    "0-7 days": 9,
     "8-14 days": 0,
     "15-30 days": 4,
     "30+ days": 59
@@ -133,7 +133,7 @@
     "2026-04-13": 1,
     "2026-05-05": 2,
     "2026-05-06": 2,
-    "2026-05-07": 3
+    "2026-05-07": 5
   },
   "cycleStats": {
     "overall": 33,
@@ -640,6 +640,30 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
+      },
+      {
+        "number": 102,
+        "title": "Update our customer service phone number",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
+      },
+      {
+        "number": 103,
+        "title": "Review and Recommend Pricing Structure for Admission Support Services",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 0,
+        "daysInFlight": 0
       }
     ]
   },
@@ -708,7 +732,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 25,
@@ -771,7 +795,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 65
+      "ageDays": 66
     },
     {
       "number": 2,
@@ -787,7 +811,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 65
+      "ageDays": 66
     },
     {
       "number": 3,
@@ -803,7 +827,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 64
+      "ageDays": 65
     },
     {
       "number": 10,
@@ -853,7 +877,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 5,
@@ -871,7 +895,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 64
+      "ageDays": 65
     },
     {
       "number": 12,
@@ -1641,7 +1665,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 79,
@@ -1657,7 +1681,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 77,
@@ -1673,7 +1697,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 80,
@@ -1687,7 +1711,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 35
+      "ageDays": 36
     },
     {
       "number": 81,
@@ -1776,7 +1800,7 @@
       "milestone": null,
       "createdAt": "2026-05-05T14:49:34Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 94,
@@ -1795,7 +1819,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-05-05T14:31:20Z",
       "closedAt": null,
-      "ageDays": 1
+      "ageDays": 2
     },
     {
       "number": 97,
@@ -1888,6 +1912,36 @@
       ],
       "milestone": null,
       "createdAt": "2026-05-07T13:51:15Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 102,
+      "title": "Update our customer service phone number",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-05-07T14:07:38Z",
+      "closedAt": null,
+      "ageDays": 0
+    },
+    {
+      "number": 103,
+      "title": "Review and Recommend Pricing Structure for Admission Support Services",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": null,
+      "author": "VeraEzike",
+      "labels": [],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-05-07T16:04:31Z",
       "closedAt": null,
       "ageDays": 0
     }
