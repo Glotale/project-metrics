@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T19:41:41.033Z",
+  "lastUpdated": "2026-05-07T02:32:22.476Z",
   "summary": {
     "total": 70,
     "done": 2,
@@ -213,8 +213,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 57,
-        "daysInFlight": 57
+        "currentStatusDays": 58,
+        "daysInFlight": 58
       },
       {
         "number": 27,
@@ -227,8 +227,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 57,
-        "daysInFlight": 57
+        "currentStatusDays": 58,
+        "daysInFlight": 58
       },
       {
         "number": 28,
@@ -238,8 +238,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 57,
-        "daysInFlight": 57
+        "currentStatusDays": 58,
+        "daysInFlight": 58
       },
       {
         "number": 31,
@@ -253,7 +253,7 @@
         ],
         "currentStatus": "In review",
         "currentStatusDays": 0,
-        "daysInFlight": 40
+        "daysInFlight": 41
       },
       {
         "number": 76,
@@ -268,21 +268,8 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 35,
-        "daysInFlight": 35
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 35,
-        "daysInFlight": 35
+        "currentStatusDays": 36,
+        "daysInFlight": 36
       },
       {
         "number": 77,
@@ -293,6 +280,19 @@
         "assignees": [
           "VeraEzike"
         ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 36,
+        "daysInFlight": 36
+      },
+      {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
         "currentStatus": "To Do",
         "currentStatusDays": 35,
         "daysInFlight": 35
@@ -320,6 +320,20 @@
           "SemiloreCmd",
           "Iyanumi"
         ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 2,
+        "daysInFlight": 2
+      },
+      {
+        "number": 98,
+        "title": "Updating the Study Abroad Form",
+        "labels": [
+          "Digital marketing",
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
         "currentStatus": "To Do",
         "currentStatusDays": 1,
         "daysInFlight": 1
@@ -575,20 +589,6 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
-      },
-      {
-        "number": 98,
-        "title": "Updating the Study Abroad Form",
-        "labels": [
-          "Digital marketing",
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 0,
-        "daysInFlight": 0
       }
     ]
   },
@@ -607,7 +607,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": null,
-      "ageDays": 28
+      "ageDays": 29
     },
     {
       "number": 7,
@@ -1690,7 +1690,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": null,
-      "ageDays": 28
+      "ageDays": 29
     },
     {
       "number": 90,
