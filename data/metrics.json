@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-05-07T02:32:22.476Z",
+  "lastUpdated": "2026-05-07T08:28:04.720Z",
   "summary": {
     "total": 70,
-    "done": 2,
+    "done": 3,
     "inProgress": 11,
-    "inReview": 5,
+    "inReview": 4,
     "toDo": 12,
     "unset": 40,
-    "completionRate": 3,
-    "avgCycleDays": 30,
+    "completionRate": 4,
+    "avgCycleDays": 33,
     "avgAgeDays": 41,
     "unassignedCount": 52
   },
   "byStatus": {
-    "In review": 5,
+    "In review": 4,
     "To Do": 12,
     "Unset": 40,
     "In progress": 11,
-    "Done": 2
+    "Done": 3
   },
   "byKind": {
     "Task": 34,
@@ -59,8 +59,8 @@
     "Q1 2026": {
       "To Do": 6,
       "In progress": 3,
-      "In review": 2,
-      "Done": 0,
+      "In review": 1,
+      "Done": 1,
       "Unset": 6
     },
     "Q2 2026": {
@@ -119,7 +119,7 @@
     "0-7 days": 4,
     "8-14 days": 1,
     "15-30 days": 3,
-    "30+ days": 60
+    "30+ days": 59
   },
   "byDate": {
     "2026-04-07": 3,
@@ -134,10 +134,10 @@
     "2026-05-06": 2
   },
   "cycleStats": {
-    "overall": 30,
-    "overallHistory": null,
-    "overallClosed": 30,
-    "completedCount": 2,
+    "overall": 33,
+    "overallHistory": 41,
+    "overallClosed": 33,
+    "completedCount": 3,
     "byTeam": {
       "Operations": null,
       "Digital marketing": null,
@@ -150,7 +150,7 @@
       "Story": 38
     },
     "byMilestone": {
-      "Q1 2026": null,
+      "Q1 2026": 41,
       "Q2 2026": 38
     },
     "completed": [
@@ -187,6 +187,21 @@
         "historyDays": null,
         "closedDays": 21,
         "source": "closedAt"
+      },
+      {
+        "number": 31,
+        "title": "Standardise GBP to NGN pricing conversion across all service offerings",
+        "labels": [],
+        "kind": null,
+        "milestone": "Q1 2026",
+        "assignees": [
+          "MaryleenAmaizu",
+          "VeraEzike"
+        ],
+        "cycleDays": 41,
+        "historyDays": 41,
+        "closedDays": 41,
+        "source": "history"
       }
     ],
     "inFlight": [
@@ -200,8 +215,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 63,
-        "daysInFlight": 63
+        "currentStatusDays": 64,
+        "daysInFlight": 64
       },
       {
         "number": 25,
@@ -242,20 +257,6 @@
         "daysInFlight": 58
       },
       {
-        "number": 31,
-        "title": "Standardise GBP to NGN pricing conversion across all service offerings",
-        "labels": [],
-        "kind": null,
-        "milestone": "Q1 2026",
-        "assignees": [
-          "MaryleenAmaizu",
-          "VeraEzike"
-        ],
-        "currentStatus": "In review",
-        "currentStatusDays": 0,
-        "daysInFlight": 41
-      },
-      {
         "number": 76,
         "title": "Sales Qualified Leads Criteria Review and Process Improvement",
         "labels": [
@@ -267,6 +268,19 @@
           "VeraEzike",
           "Rachaelakoteyon"
         ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 36,
+        "daysInFlight": 36
+      },
+      {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
         "currentStatus": "To Do",
         "currentStatusDays": 36,
         "daysInFlight": 36
@@ -285,19 +299,6 @@
         "daysInFlight": 36
       },
       {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 35,
-        "daysInFlight": 35
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
@@ -305,8 +306,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 35,
-        "daysInFlight": 35
+        "currentStatusDays": 36,
+        "daysInFlight": 36
       },
       {
         "number": 94,
@@ -376,7 +377,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 38,
+        "currentStatusDays": 39,
         "daysInFlight": null
       },
       {
@@ -391,7 +392,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 38,
+        "currentStatusDays": 39,
         "daysInFlight": null
       },
       {
@@ -406,7 +407,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 38,
+        "currentStatusDays": 39,
         "daysInFlight": null
       },
       {
@@ -422,7 +423,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 38,
+        "currentStatusDays": 39,
         "daysInFlight": null
       },
       {
@@ -1655,13 +1656,13 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 31,
       "title": "Standardise GBP to NGN pricing conversion across all service offerings",
-      "state": "OPEN",
-      "status": "In review",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "MaryleenAmaizu",
       "labels": [],
@@ -1671,7 +1672,7 @@
       ],
       "milestone": "Q1 2026",
       "createdAt": "2026-03-27T12:43:40Z",
-      "closedAt": null,
+      "closedAt": "2026-05-07T08:10:55Z",
       "ageDays": 40
     },
     {
