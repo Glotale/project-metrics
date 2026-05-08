@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T02:39:10.579Z",
+  "lastUpdated": "2026-05-08T07:24:11.331Z",
   "summary": {
     "total": 75,
     "done": 3,
@@ -217,8 +217,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 64,
-        "daysInFlight": 64
+        "currentStatusDays": 65,
+        "daysInFlight": 65
       },
       {
         "number": 25,
@@ -275,6 +275,19 @@
         "daysInFlight": 37
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 37,
+        "daysInFlight": 37
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
@@ -288,19 +301,6 @@
         "daysInFlight": 37
       },
       {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 36,
-        "daysInFlight": 36
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
@@ -308,8 +308,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 36,
-        "daysInFlight": 36
+        "currentStatusDays": 37,
+        "daysInFlight": 37
       },
       {
         "number": 94,
@@ -355,6 +355,17 @@
         "daysInFlight": 1
       },
       {
+        "number": 103,
+        "title": "Review and Recommend Pricing Structure for Admission Support Services",
+        "labels": [],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 1,
+        "daysInFlight": 1
+      },
+      {
         "number": 82,
         "title": "Review the current lead process across all departments",
         "labels": [],
@@ -392,7 +403,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 39,
+        "currentStatusDays": 40,
         "daysInFlight": null
       },
       {
@@ -407,7 +418,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 39,
+        "currentStatusDays": 40,
         "daysInFlight": null
       },
       {
@@ -422,7 +433,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 39,
+        "currentStatusDays": 40,
         "daysInFlight": null
       },
       {
@@ -438,7 +449,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 39,
+        "currentStatusDays": 40,
         "daysInFlight": null
       },
       {
@@ -653,17 +664,6 @@
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
-      },
-      {
-        "number": 103,
-        "title": "Review and Recommend Pricing Structure for Admission Support Services",
-        "labels": [],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 0,
-        "daysInFlight": 0
       }
     ]
   },
