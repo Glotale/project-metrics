@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T19:39:17.783Z",
+  "lastUpdated": "2026-05-08T02:39:10.579Z",
   "summary": {
     "total": 75,
     "done": 3,
@@ -230,8 +230,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 58,
-        "daysInFlight": 58
+        "currentStatusDays": 59,
+        "daysInFlight": 59
       },
       {
         "number": 27,
@@ -244,8 +244,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 58,
-        "daysInFlight": 58
+        "currentStatusDays": 59,
+        "daysInFlight": 59
       },
       {
         "number": 28,
@@ -255,8 +255,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 58,
-        "daysInFlight": 58
+        "currentStatusDays": 59,
+        "daysInFlight": 59
       },
       {
         "number": 76,
@@ -271,21 +271,8 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 36,
-        "daysInFlight": 36
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 36,
-        "daysInFlight": 36
+        "currentStatusDays": 37,
+        "daysInFlight": 37
       },
       {
         "number": 77,
@@ -296,6 +283,19 @@
         "assignees": [
           "VeraEzike"
         ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 37,
+        "daysInFlight": 37
+      },
+      {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
         "currentStatus": "To Do",
         "currentStatusDays": 36,
         "daysInFlight": 36
@@ -324,8 +324,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 2,
-        "daysInFlight": 2
+        "currentStatusDays": 3,
+        "daysInFlight": 3
       },
       {
         "number": 98,
@@ -333,6 +333,19 @@
         "labels": [
           "Digital marketing",
           "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 2,
+        "daysInFlight": 2
+      },
+      {
+        "number": 102,
+        "title": "Update our customer service phone number",
+        "labels": [
+          "Digital marketing"
         ],
         "kind": null,
         "milestone": null,
@@ -642,19 +655,6 @@
         "daysInFlight": null
       },
       {
-        "number": 102,
-        "title": "Update our customer service phone number",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 0,
-        "daysInFlight": 0
-      },
-      {
         "number": 103,
         "title": "Review and Recommend Pricing Structure for Admission Support Services",
         "labels": [],
@@ -682,7 +682,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 7,
@@ -700,7 +700,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 64
+      "ageDays": 65
     },
     {
       "number": 11,
@@ -1765,7 +1765,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": null,
-      "ageDays": 29
+      "ageDays": 30
     },
     {
       "number": 90,
