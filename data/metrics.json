@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-05-11T14:41:14.102Z",
+  "lastUpdated": "2026-05-11T19:42:09.637Z",
   "summary": {
     "total": 75,
     "done": 3,
-    "inProgress": 12,
-    "inReview": 5,
+    "inProgress": 11,
+    "inReview": 6,
     "toDo": 15,
     "unset": 40,
     "completionRate": 4,
     "avgCycleDays": 33,
     "avgAgeDays": 43,
-    "unassignedCount": 54
+    "unassignedCount": 53
   },
   "byStatus": {
-    "In review": 5,
+    "In review": 6,
     "To Do": 15,
     "Unset": 40,
-    "In progress": 12,
+    "In progress": 11,
     "Done": 3
   },
   "byKind": {
@@ -35,7 +35,7 @@
     "documentation": 1
   },
   "byAssignee": {
-    "Marxlyte": 9,
+    "Marxlyte": 10,
     "VeraEzike": 4,
     "OLUWADAMILOLA-24": 1,
     "SemiloreCmd": 5,
@@ -73,8 +73,8 @@
     },
     "None": {
       "To Do": 8,
-      "In progress": 6,
-      "In review": 4,
+      "In progress": 5,
+      "In review": 5,
       "Done": 1,
       "Unset": 0
     }
@@ -89,8 +89,8 @@
     },
     "Digital marketing": {
       "To Do": 4,
-      "In progress": 7,
-      "In review": 2,
+      "In progress": 6,
+      "In review": 3,
       "Done": 0,
       "Unset": 11
     },
@@ -490,7 +490,9 @@
         ],
         "kind": "Task",
         "milestone": "Q2 2026",
-        "assignees": [],
+        "assignees": [
+          "Marxlyte"
+        ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
@@ -506,7 +508,7 @@
         "assignees": [
           "Marxlyte"
         ],
-        "currentStatus": "In progress",
+        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -699,7 +701,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 68
+      "ageDays": 69
     },
     {
       "number": 11,
@@ -731,7 +733,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 67
+      "ageDays": 68
     },
     {
       "number": 25,
@@ -794,7 +796,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 69
+      "ageDays": 70
     },
     {
       "number": 2,
@@ -810,7 +812,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 69
+      "ageDays": 70
     },
     {
       "number": 3,
@@ -826,7 +828,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 68
+      "ageDays": 69
     },
     {
       "number": 10,
@@ -876,7 +878,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 67
+      "ageDays": 68
     },
     {
       "number": 5,
@@ -894,7 +896,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 68
+      "ageDays": 69
     },
     {
       "number": 12,
@@ -1212,7 +1214,9 @@
         "Digital marketing",
         "task"
       ],
-      "assignees": [],
+      "assignees": [
+        "Marxlyte"
+      ],
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:05:25Z",
       "closedAt": null,
@@ -1222,7 +1226,7 @@
       "number": 93,
       "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
       "state": "OPEN",
-      "status": "In progress",
+      "status": "In review",
       "kind": null,
       "author": "Marxlyte",
       "labels": [
@@ -1680,7 +1684,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 77,
@@ -1710,7 +1714,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 81,
@@ -1799,7 +1803,7 @@
       "milestone": null,
       "createdAt": "2026-05-05T14:49:34Z",
       "closedAt": null,
-      "ageDays": 5
+      "ageDays": 6
     },
     {
       "number": 94,
@@ -1942,7 +1946,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T16:04:31Z",
       "closedAt": null,
-      "ageDays": 3
+      "ageDays": 4
     }
   ]
 }
