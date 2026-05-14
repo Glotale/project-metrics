@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-14T14:00:14.415Z",
+  "lastUpdated": "2026-05-14T19:41:10.277Z",
   "summary": {
     "total": 75,
     "done": 9,
-    "inProgress": 10,
+    "inProgress": 12,
     "inReview": 1,
-    "toDo": 15,
+    "toDo": 13,
     "unset": 40,
     "completionRate": 12,
     "avgCycleDays": 27,
@@ -14,10 +14,10 @@
   },
   "byStatus": {
     "Done": 9,
-    "To Do": 15,
+    "To Do": 13,
     "In review": 1,
     "Unset": 40,
-    "In progress": 10
+    "In progress": 12
   },
   "byKind": {
     "Task": 34,
@@ -72,8 +72,8 @@
       "Unset": 34
     },
     "None": {
-      "To Do": 8,
-      "In progress": 4,
+      "To Do": 6,
+      "In progress": 6,
       "In review": 0,
       "Done": 7,
       "Unset": 0
@@ -88,8 +88,8 @@
       "Unset": 15
     },
     "Digital marketing": {
-      "To Do": 4,
-      "In progress": 6,
+      "To Do": 2,
+      "In progress": 8,
       "In review": 0,
       "Done": 3,
       "Unset": 11
@@ -126,13 +126,13 @@
     "2026-04-07": 3,
     "2026-03-28": 39,
     "2026-04-22": 1,
+    "2026-05-07": 5,
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-03-27": 1,
     "2026-04-13": 1,
     "2026-05-05": 2,
-    "2026-05-06": 2,
-    "2026-05-07": 5
+    "2026-05-06": 2
   },
   "cycleStats": {
     "overall": 27,
@@ -440,34 +440,6 @@
         "daysInFlight": 8
       },
       {
-        "number": 102,
-        "title": "Update our customer service phone number",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 7,
-        "daysInFlight": 7
-      },
-      {
-        "number": 100,
-        "title": "Update Website Pricing for GBP & NGN",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 7,
-        "daysInFlight": 7
-      },
-      {
         "number": 103,
         "title": "Review and Recommend Pricing Structure for Admission Support Services",
         "labels": [],
@@ -616,6 +588,34 @@
         "daysInFlight": null
       },
       {
+        "number": 102,
+        "title": "Update our customer service phone number",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 100,
+        "title": "Update Website Pricing for GBP & NGN",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 75,
         "title": "Optimising Lead Management and Client Workflow Escalation Across Departments",
         "labels": [
@@ -707,7 +707,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 71
+      "ageDays": 72
     },
     {
       "number": 11,
@@ -739,7 +739,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T16:42:00Z",
       "closedAt": null,
-      "ageDays": 70
+      "ageDays": 71
     },
     {
       "number": 25,
@@ -802,7 +802,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:56:22Z",
       "closedAt": null,
-      "ageDays": 72
+      "ageDays": 73
     },
     {
       "number": 2,
@@ -818,7 +818,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-02T18:57:04Z",
       "closedAt": null,
-      "ageDays": 72
+      "ageDays": 73
     },
     {
       "number": 3,
@@ -834,7 +834,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T17:26:27Z",
       "closedAt": null,
-      "ageDays": 71
+      "ageDays": 72
     },
     {
       "number": 10,
@@ -884,7 +884,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T17:02:26Z",
       "closedAt": null,
-      "ageDays": 70
+      "ageDays": 71
     },
     {
       "number": 5,
@@ -902,7 +902,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T18:24:06Z",
       "closedAt": null,
-      "ageDays": 71
+      "ageDays": 72
     },
     {
       "number": 12,
@@ -1454,6 +1454,40 @@
       "ageDays": 47
     },
     {
+      "number": 102,
+      "title": "Update our customer service phone number",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "MaryleenAmaizu",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-05-07T14:07:38Z",
+      "closedAt": null,
+      "ageDays": 7
+    },
+    {
+      "number": 100,
+      "title": "Update Website Pricing for GBP & NGN",
+      "state": "OPEN",
+      "status": "In progress",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-07T13:49:47Z",
+      "closedAt": null,
+      "ageDays": 7
+    },
+    {
       "number": 64,
       "title": "Update the DIY Kit",
       "state": "OPEN",
@@ -1674,7 +1708,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:39:36Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 79,
@@ -1690,7 +1724,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:18:40Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 77,
@@ -1706,7 +1740,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T14:22:14Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 80,
@@ -1720,7 +1754,7 @@
       "milestone": null,
       "createdAt": "2026-04-01T15:55:52Z",
       "closedAt": null,
-      "ageDays": 42
+      "ageDays": 43
     },
     {
       "number": 81,
@@ -1809,7 +1843,7 @@
       "milestone": null,
       "createdAt": "2026-05-05T14:49:34Z",
       "closedAt": null,
-      "ageDays": 8
+      "ageDays": 9
     },
     {
       "number": 94,
@@ -1828,7 +1862,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-05-05T14:31:20Z",
       "closedAt": null,
-      "ageDays": 8
+      "ageDays": 9
     },
     {
       "number": 97,
@@ -1907,40 +1941,6 @@
       "ageDays": 7
     },
     {
-      "number": 102,
-      "title": "Update our customer service phone number",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "MaryleenAmaizu",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-05-07T14:07:38Z",
-      "closedAt": null,
-      "ageDays": 6
-    },
-    {
-      "number": 100,
-      "title": "Update Website Pricing for GBP & NGN",
-      "state": "OPEN",
-      "status": "To Do",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-05-07T13:49:47Z",
-      "closedAt": null,
-      "ageDays": 7
-    },
-    {
       "number": 103,
       "title": "Review and Recommend Pricing Structure for Admission Support Services",
       "state": "OPEN",
@@ -1952,7 +1952,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T16:04:31Z",
       "closedAt": null,
-      "ageDays": 6
+      "ageDays": 7
     }
   ]
 }
