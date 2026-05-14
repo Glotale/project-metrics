@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-05-14T02:45:37.803Z",
+  "lastUpdated": "2026-05-14T08:33:10.537Z",
   "summary": {
     "total": 75,
-    "done": 3,
-    "inProgress": 11,
-    "inReview": 6,
+    "done": 9,
+    "inProgress": 10,
+    "inReview": 1,
     "toDo": 15,
     "unset": 40,
-    "completionRate": 4,
-    "avgCycleDays": 33,
-    "avgAgeDays": 45,
+    "completionRate": 12,
+    "avgCycleDays": 27,
+    "avgAgeDays": 47,
     "unassignedCount": 53
   },
   "byStatus": {
-    "In review": 6,
+    "Done": 9,
     "To Do": 15,
+    "In review": 1,
     "Unset": 40,
-    "In progress": 11,
-    "Done": 3
+    "In progress": 10
   },
   "byKind": {
     "Task": 34,
@@ -73,9 +73,9 @@
     },
     "None": {
       "To Do": 8,
-      "In progress": 5,
-      "In review": 5,
-      "Done": 1,
+      "In progress": 4,
+      "In review": 0,
+      "Done": 7,
       "Unset": 0
     }
   },
@@ -90,8 +90,8 @@
     "Digital marketing": {
       "To Do": 4,
       "In progress": 6,
-      "In review": 3,
-      "Done": 0,
+      "In review": 0,
+      "Done": 3,
       "Unset": 11
     },
     "Sales": {
@@ -103,9 +103,9 @@
     },
     "Coaching/Delivery": {
       "To Do": 3,
-      "In progress": 3,
-      "In review": 1,
-      "Done": 2,
+      "In progress": 2,
+      "In review": 0,
+      "Done": 4,
       "Unset": 4
     },
     "Product": {
@@ -117,10 +117,10 @@
     }
   },
   "ageBuckets": {
-    "0-7 days": 7,
+    "0-7 days": 5,
     "8-14 days": 2,
-    "15-30 days": 2,
-    "30+ days": 61
+    "15-30 days": 0,
+    "30+ days": 59
   },
   "byDate": {
     "2026-04-07": 3,
@@ -135,19 +135,19 @@
     "2026-05-07": 5
   },
   "cycleStats": {
-    "overall": 33,
+    "overall": 27,
     "overallHistory": 41,
-    "overallClosed": 33,
-    "completedCount": 3,
+    "overallClosed": 27,
+    "completedCount": 9,
     "byTeam": {
       "Operations": null,
-      "Digital marketing": null,
+      "Digital marketing": 30,
       "Sales": null,
-      "Coaching/Delivery": 30,
+      "Coaching/Delivery": 19,
       "Product": null
     },
     "byKind": {
-      "Task": null,
+      "Task": 36,
       "Story": 38
     },
     "byMilestone": {
@@ -155,6 +155,20 @@
       "Q2 2026": 38
     },
     "completed": [
+      {
+        "number": 82,
+        "title": "Review the current lead process across all departments",
+        "labels": [],
+        "kind": "Task",
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "cycleDays": 36,
+        "historyDays": null,
+        "closedDays": 36,
+        "source": "closedAt"
+      },
       {
         "number": 37,
         "title": "AGT course wrap up and post-delivery actions",
@@ -170,6 +184,22 @@
         "cycleDays": 38,
         "historyDays": null,
         "closedDays": 38,
+        "source": "closedAt"
+      },
+      {
+        "number": 93,
+        "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "cycleDays": 22,
+        "historyDays": null,
+        "closedDays": 22,
         "source": "closedAt"
       },
       {
@@ -203,6 +233,75 @@
         "historyDays": 41,
         "closedDays": 41,
         "source": "history"
+      },
+      {
+        "number": 85,
+        "title": "Recommend tools and automation",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "cycleDays": 36,
+        "historyDays": null,
+        "closedDays": 36,
+        "source": "closedAt"
+      },
+      {
+        "number": 90,
+        "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte",
+          "Ayinkeofnexurra"
+        ],
+        "cycleDays": 31,
+        "historyDays": null,
+        "closedDays": 31,
+        "source": "closedAt"
+      },
+      {
+        "number": 97,
+        "title": "Korede AI Mentorship– Coaching Structure Update",
+        "labels": [
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "MaryleenAmaizu",
+          "SemiloreCmd",
+          "Iyanumi"
+        ],
+        "cycleDays": 8,
+        "historyDays": null,
+        "closedDays": 8,
+        "source": "closedAt"
+      },
+      {
+        "number": 99,
+        "title": "Enquires on University of Law in Uk",
+        "labels": [
+          "documentation",
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "MaryleenAmaizu",
+          "Iyanumi"
+        ],
+        "cycleDays": 7,
+        "historyDays": null,
+        "closedDays": 7,
+        "source": "closedAt"
       }
     ],
     "inFlight": [
@@ -216,8 +315,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 70,
-        "daysInFlight": 70
+        "currentStatusDays": 71,
+        "daysInFlight": 71
       },
       {
         "number": 25,
@@ -274,6 +373,19 @@
         "daysInFlight": 43
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 43,
+        "daysInFlight": 43
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
@@ -287,19 +399,6 @@
         "daysInFlight": 43
       },
       {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 42,
-        "daysInFlight": 42
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
@@ -307,8 +406,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 42,
-        "daysInFlight": 42
+        "currentStatusDays": 43,
+        "daysInFlight": 43
       },
       {
         "number": 94,
@@ -376,21 +475,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 6,
-        "daysInFlight": 6
-      },
-      {
-        "number": 82,
-        "title": "Review the current lead process across all departments",
-        "labels": [],
-        "kind": "Task",
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In review",
-        "currentStatusDays": 0,
-        "daysInFlight": null
+        "currentStatusDays": 7,
+        "daysInFlight": 7
       },
       {
         "number": 7,
@@ -417,7 +503,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 45,
+        "currentStatusDays": 46,
         "daysInFlight": null
       },
       {
@@ -432,7 +518,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 45,
+        "currentStatusDays": 46,
         "daysInFlight": null
       },
       {
@@ -447,7 +533,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 45,
+        "currentStatusDays": 46,
         "daysInFlight": null
       },
       {
@@ -463,7 +549,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 45,
+        "currentStatusDays": 46,
         "daysInFlight": null
       },
       {
@@ -494,21 +580,6 @@
           "Marxlyte"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 93,
-        "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -573,37 +644,6 @@
         "daysInFlight": null
       },
       {
-        "number": 85,
-        "title": "Recommend tools and automation",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte"
-        ],
-        "currentStatus": "In review",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 90,
-        "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "Marxlyte",
-          "Ayinkeofnexurra"
-        ],
-        "currentStatus": "In review",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
         "number": 95,
         "title": "Set up password manager for the organisation",
         "labels": [],
@@ -613,40 +653,6 @@
           "MaryleenAmaizu"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 97,
-        "title": "Korede AI Mentorship– Coaching Structure Update",
-        "labels": [
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "MaryleenAmaizu",
-          "SemiloreCmd",
-          "Iyanumi"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 99,
-        "title": "Enquires on University of Law in Uk",
-        "labels": [
-          "documentation",
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "MaryleenAmaizu",
-          "Iyanumi"
-        ],
-        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -672,8 +678,8 @@
     {
       "number": 82,
       "title": "Review the current lead process across all departments",
-      "state": "OPEN",
-      "status": "In review",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": "Task",
       "author": "Marxlyte",
       "labels": [],
@@ -682,7 +688,7 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
-      "closedAt": null,
+      "closedAt": "2026-05-14T08:08:05Z",
       "ageDays": 36
     },
     {
@@ -1225,8 +1231,8 @@
     {
       "number": 93,
       "title": "Build & Optimize Global Talent Visa Eligibility Form on Brevo",
-      "state": "OPEN",
-      "status": "In review",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Marxlyte",
       "labels": [
@@ -1237,7 +1243,7 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-22T11:01:39Z",
-      "closedAt": null,
+      "closedAt": "2026-05-14T08:09:41Z",
       "ageDays": 21
     },
     {
@@ -1733,7 +1739,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 36
+      "ageDays": 37
     },
     {
       "number": 31,
@@ -1755,8 +1761,8 @@
     {
       "number": 85,
       "title": "Recommend tools and automation",
-      "state": "OPEN",
-      "status": "In review",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Marxlyte",
       "labels": [
@@ -1767,14 +1773,14 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
-      "closedAt": null,
+      "closedAt": "2026-05-14T08:09:34Z",
       "ageDays": 36
     },
     {
       "number": 90,
       "title": "Work on freebie for marketing - The Global Talent Visa Essentials Guide (PDF)",
-      "state": "OPEN",
-      "status": "In review",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Marxlyte",
       "labels": [
@@ -1786,7 +1792,7 @@
       ],
       "milestone": null,
       "createdAt": "2026-04-13T13:45:53Z",
-      "closedAt": null,
+      "closedAt": "2026-05-14T08:05:59Z",
       "ageDays": 30
     },
     {
@@ -1827,8 +1833,8 @@
     {
       "number": 97,
       "title": "Korede AI Mentorship– Coaching Structure Update",
-      "state": "OPEN",
-      "status": "In progress",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Iyanumi",
       "labels": [
@@ -1841,7 +1847,7 @@
       ],
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
-      "closedAt": null,
+      "closedAt": "2026-05-14T08:12:24Z",
       "ageDays": 7
     },
     {
@@ -1864,8 +1870,8 @@
     {
       "number": 99,
       "title": "Enquires on University of Law in Uk",
-      "state": "OPEN",
-      "status": "In review",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "Iyanumi",
       "labels": [
@@ -1878,7 +1884,7 @@
       ],
       "milestone": null,
       "createdAt": "2026-05-07T09:46:20Z",
-      "closedAt": null,
+      "closedAt": "2026-05-14T08:04:01Z",
       "ageDays": 6
     },
     {
