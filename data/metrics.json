@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T02:43:36.196Z",
+  "lastUpdated": "2026-05-17T08:15:40.898Z",
   "summary": {
     "total": 75,
     "done": 9,
@@ -315,8 +315,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 73,
-        "daysInFlight": 73
+        "currentStatusDays": 74,
+        "daysInFlight": 74
       },
       {
         "number": 25,
@@ -373,6 +373,19 @@
         "daysInFlight": 46
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 46,
+        "daysInFlight": 46
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
@@ -386,19 +399,6 @@
         "daysInFlight": 46
       },
       {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 45,
-        "daysInFlight": 45
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
@@ -406,8 +406,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 45,
-        "daysInFlight": 45
+        "currentStatusDays": 46,
+        "daysInFlight": 46
       },
       {
         "number": 94,
@@ -447,8 +447,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 9,
-        "daysInFlight": 9
+        "currentStatusDays": 10,
+        "daysInFlight": 10
       },
       {
         "number": 7,
@@ -475,7 +475,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 48,
+        "currentStatusDays": 49,
         "daysInFlight": null
       },
       {
@@ -490,7 +490,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 48,
+        "currentStatusDays": 49,
         "daysInFlight": null
       },
       {
@@ -505,7 +505,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 48,
+        "currentStatusDays": 49,
         "daysInFlight": null
       },
       {
@@ -521,7 +521,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 48,
+        "currentStatusDays": 49,
         "daysInFlight": null
       },
       {
@@ -1773,7 +1773,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 31,
