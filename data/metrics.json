@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-18T19:40:32.467Z",
+  "lastUpdated": "2026-05-19T02:50:35.726Z",
   "summary": {
     "total": 75,
     "done": 9,
-    "inProgress": 11,
+    "inProgress": 13,
     "inReview": 2,
-    "toDo": 13,
+    "toDo": 11,
     "unset": 40,
     "completionRate": 12,
     "avgCycleDays": 27,
@@ -15,9 +15,9 @@
   "byStatus": {
     "In review": 2,
     "Done": 9,
-    "To Do": 13,
+    "To Do": 11,
     "Unset": 40,
-    "In progress": 11
+    "In progress": 13
   },
   "byKind": {
     "Task": 34,
@@ -65,15 +65,15 @@
       "Unset": 6
     },
     "Q2 2026": {
-      "To Do": 1,
-      "In progress": 2,
+      "To Do": 0,
+      "In progress": 3,
       "In review": 1,
       "Done": 1,
       "Unset": 34
     },
     "None": {
-      "To Do": 6,
-      "In progress": 6,
+      "To Do": 5,
+      "In progress": 7,
       "In review": 0,
       "Done": 7,
       "Unset": 0
@@ -88,8 +88,8 @@
       "Unset": 15
     },
     "Digital marketing": {
-      "To Do": 2,
-      "In progress": 7,
+      "To Do": 1,
+      "In progress": 8,
       "In review": 1,
       "Done": 3,
       "Unset": 11
@@ -102,8 +102,8 @@
       "Unset": 7
     },
     "Coaching/Delivery": {
-      "To Do": 3,
-      "In progress": 2,
+      "To Do": 1,
+      "In progress": 4,
       "In review": 0,
       "Done": 4,
       "Unset": 4
@@ -328,8 +328,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 69,
-        "daysInFlight": 69
+        "currentStatusDays": 70,
+        "daysInFlight": 70
       },
       {
         "number": 27,
@@ -342,8 +342,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 69,
-        "daysInFlight": 69
+        "currentStatusDays": 70,
+        "daysInFlight": 70
       },
       {
         "number": 28,
@@ -353,8 +353,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 69,
-        "daysInFlight": 69
+        "currentStatusDays": 70,
+        "daysInFlight": 70
       },
       {
         "number": 76,
@@ -369,21 +369,8 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 47,
-        "daysInFlight": 47
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 47,
-        "daysInFlight": 47
+        "currentStatusDays": 48,
+        "daysInFlight": 48
       },
       {
         "number": 77,
@@ -394,6 +381,19 @@
         "assignees": [
           "VeraEzike"
         ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 48,
+        "daysInFlight": 48
+      },
+      {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
         "currentStatus": "To Do",
         "currentStatusDays": 47,
         "daysInFlight": 47
@@ -422,22 +422,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 13,
-        "daysInFlight": 13
-      },
-      {
-        "number": 98,
-        "title": "Updating the Study Abroad Form",
-        "labels": [
-          "Digital marketing",
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 12,
-        "daysInFlight": 12
+        "currentStatusDays": 14,
+        "daysInFlight": 14
       },
       {
         "number": 103,
@@ -565,9 +551,9 @@
         "kind": "Task",
         "milestone": "Q2 2026",
         "assignees": [],
-        "currentStatus": "To Do",
+        "currentStatus": "In progress",
         "currentStatusDays": 0,
-        "daysInFlight": 0
+        "daysInFlight": null
       },
       {
         "number": 60,
@@ -657,6 +643,20 @@
         "daysInFlight": null
       },
       {
+        "number": 98,
+        "title": "Updating the Study Abroad Form",
+        "labels": [
+          "Digital marketing",
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "In progress",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 101,
         "title": "Consolidate Forms into One Sheet & Document Challenges",
         "labels": [
@@ -708,7 +708,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 7,
@@ -1352,7 +1352,7 @@
       "number": 55,
       "title": "Delivery team to contribute one educational content piece per month",
       "state": "OPEN",
-      "status": "To Do",
+      "status": "In progress",
       "kind": "Task",
       "author": "MaryleenAmaizu",
       "labels": [
@@ -1808,7 +1808,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 40
+      "ageDays": 41
     },
     {
       "number": 90,
@@ -1888,7 +1888,7 @@
       "number": 98,
       "title": "Updating the Study Abroad Form",
       "state": "OPEN",
-      "status": "To Do",
+      "status": "In progress",
       "kind": null,
       "author": "Iyanumi",
       "labels": [
