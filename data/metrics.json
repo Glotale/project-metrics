@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-05-25T03:26:35.933Z",
+  "lastUpdated": "2026-05-25T09:58:05.427Z",
   "summary": {
     "total": 75,
     "done": 9,
-    "inProgress": 12,
-    "inReview": 3,
+    "inProgress": 10,
+    "inReview": 5,
     "toDo": 11,
     "unset": 40,
     "completionRate": 12,
     "avgCycleDays": 27,
-    "avgAgeDays": 58,
-    "unassignedCount": 53
+    "avgAgeDays": 59,
+    "unassignedCount": 52
   },
   "byStatus": {
-    "In review": 3,
+    "In review": 5,
     "Done": 9,
     "To Do": 11,
     "Unset": 40,
-    "In progress": 12
+    "In progress": 10
   },
   "byKind": {
     "Task": 34,
@@ -35,21 +35,21 @@
     "documentation": 1
   },
   "byAssignee": {
-    "Marxlyte": 10,
+    "Marxlyte": 11,
     "VeraEzike": 4,
     "OLUWADAMILOLA-24": 1,
     "SemiloreCmd": 5,
     "Iyanumi": 7,
-    "Rachaelakoteyon": 1,
     "MaryleenAmaizu": 5,
+    "Rachaelakoteyon": 1,
     "Ayinkeofnexurra": 1
   },
   "byAuthor": {
     "MaryleenAmaizu": 43,
     "Marxlyte": 7,
     "Glotale-Project": 16,
-    "VeraEzike": 6,
-    "Iyanumi": 3
+    "Iyanumi": 3,
+    "VeraEzike": 6
   },
   "byMilestone": {
     "Q2 2026": 39,
@@ -73,8 +73,8 @@
     },
     "None": {
       "To Do": 5,
-      "In progress": 6,
-      "In review": 1,
+      "In progress": 4,
+      "In review": 3,
       "Done": 7,
       "Unset": 0
     }
@@ -89,8 +89,8 @@
     },
     "Digital marketing": {
       "To Do": 1,
-      "In progress": 7,
-      "In review": 2,
+      "In progress": 5,
+      "In review": 4,
       "Done": 3,
       "Unset": 11
     },
@@ -103,8 +103,8 @@
     },
     "Coaching/Delivery": {
       "To Do": 1,
-      "In progress": 4,
-      "In review": 0,
+      "In progress": 3,
+      "In review": 1,
       "Done": 4,
       "Unset": 4
     },
@@ -127,12 +127,12 @@
     "2026-04-07": 3,
     "2026-04-22": 1,
     "2026-05-07": 5,
+    "2026-05-06": 2,
     "2026-03-31": 1,
     "2026-04-01": 5,
     "2026-03-27": 1,
     "2026-04-13": 1,
-    "2026-05-05": 2,
-    "2026-05-06": 2
+    "2026-05-05": 2
   },
   "cycleStats": {
     "overall": 27,
@@ -315,8 +315,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 81,
-        "daysInFlight": 81
+        "currentStatusDays": 82,
+        "daysInFlight": 82
       },
       {
         "number": 25,
@@ -406,8 +406,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 53,
-        "daysInFlight": 53
+        "currentStatusDays": 54,
+        "daysInFlight": 54
       },
       {
         "number": 94,
@@ -433,8 +433,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 17,
-        "daysInFlight": 17
+        "currentStatusDays": 18,
+        "daysInFlight": 18
       },
       {
         "number": 48,
@@ -477,7 +477,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 56,
+        "currentStatusDays": 57,
         "daysInFlight": null
       },
       {
@@ -492,7 +492,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 56,
+        "currentStatusDays": 57,
         "daysInFlight": null
       },
       {
@@ -507,7 +507,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 56,
+        "currentStatusDays": 57,
         "daysInFlight": null
       },
       {
@@ -523,7 +523,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 56,
+        "currentStatusDays": 57,
         "daysInFlight": null
       },
       {
@@ -587,6 +587,38 @@
         "daysInFlight": null
       },
       {
+        "number": 101,
+        "title": "Consolidate Forms into One Sheet & Document Challenges",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "MaryleenAmaizu",
+          "Marxlyte"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
+        "number": 98,
+        "title": "Updating the Study Abroad Form",
+        "labels": [
+          "Digital marketing",
+          "Coaching/Delivery"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [
+          "Marxlyte"
+        ],
+        "currentStatus": "In review",
+        "currentStatusDays": 0,
+        "daysInFlight": null
+      },
+      {
         "number": 100,
         "title": "Update Website Pricing for GBP & NGN",
         "labels": [
@@ -637,36 +669,6 @@
         "milestone": null,
         "assignees": [
           "MaryleenAmaizu"
-        ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 98,
-        "title": "Updating the Study Abroad Form",
-        "labels": [
-          "Digital marketing",
-          "Coaching/Delivery"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 101,
-        "title": "Consolidate Forms into One Sheet & Document Challenges",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [
-          "MaryleenAmaizu",
-          "Marxlyte"
         ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
@@ -774,7 +776,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 75
+      "ageDays": 76
     },
     {
       "number": 27,
@@ -1470,6 +1472,44 @@
       "ageDays": 17
     },
     {
+      "number": 101,
+      "title": "Consolidate Forms into One Sheet & Document Challenges",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "MaryleenAmaizu",
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-07T13:51:15Z",
+      "closedAt": null,
+      "ageDays": 17
+    },
+    {
+      "number": 98,
+      "title": "Updating the Study Abroad Form",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Iyanumi",
+      "labels": [
+        "Digital marketing",
+        "Coaching/Delivery"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-06T13:36:59Z",
+      "closedAt": null,
+      "ageDays": 18
+    },
+    {
       "number": 100,
       "title": "Update Website Pricing for GBP & NGN",
       "state": "OPEN",
@@ -1773,7 +1813,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 47
+      "ageDays": 48
     },
     {
       "number": 31,
@@ -1882,24 +1922,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 18
-    },
-    {
-      "number": 98,
-      "title": "Updating the Study Abroad Form",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Iyanumi",
-      "labels": [
-        "Digital marketing",
-        "Coaching/Delivery"
-      ],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-05-06T13:36:59Z",
-      "closedAt": null,
-      "ageDays": 18
+      "ageDays": 19
     },
     {
       "number": 99,
@@ -1919,26 +1942,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T09:46:20Z",
       "closedAt": "2026-05-14T08:04:01Z",
-      "ageDays": 17
-    },
-    {
-      "number": 101,
-      "title": "Consolidate Forms into One Sheet & Document Challenges",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "MaryleenAmaizu",
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-05-07T13:51:15Z",
-      "closedAt": null,
-      "ageDays": 17
+      "ageDays": 18
     },
     {
       "number": 103,
