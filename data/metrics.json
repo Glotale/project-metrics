@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-05-26T02:47:20.454Z",
+  "lastUpdated": "2026-05-26T09:44:16.210Z",
   "summary": {
     "total": 75,
-    "done": 9,
-    "inProgress": 10,
-    "inReview": 5,
-    "toDo": 11,
+    "done": 10,
+    "inProgress": 9,
+    "inReview": 4,
+    "toDo": 12,
     "unset": 40,
-    "completionRate": 12,
-    "avgCycleDays": 27,
-    "avgAgeDays": 59,
-    "unassignedCount": 52
+    "completionRate": 13,
+    "avgCycleDays": 26,
+    "avgAgeDays": 60,
+    "unassignedCount": 51
   },
   "byStatus": {
-    "In review": 5,
-    "Done": 9,
-    "To Do": 11,
+    "In review": 4,
+    "Done": 10,
+    "To Do": 12,
     "Unset": 40,
-    "In progress": 10
+    "In progress": 9
   },
   "byKind": {
     "Task": 34,
@@ -39,7 +39,7 @@
     "VeraEzike": 4,
     "OLUWADAMILOLA-24": 1,
     "SemiloreCmd": 5,
-    "Iyanumi": 7,
+    "Iyanumi": 8,
     "MaryleenAmaizu": 5,
     "Rachaelakoteyon": 1,
     "Ayinkeofnexurra": 1
@@ -72,10 +72,10 @@
       "Unset": 34
     },
     "None": {
-      "To Do": 5,
-      "In progress": 4,
-      "In review": 3,
-      "Done": 7,
+      "To Do": 6,
+      "In progress": 3,
+      "In review": 2,
+      "Done": 8,
       "Unset": 0
     }
   },
@@ -90,13 +90,13 @@
     "Digital marketing": {
       "To Do": 1,
       "In progress": 5,
-      "In review": 4,
-      "Done": 3,
+      "In review": 3,
+      "Done": 4,
       "Unset": 11
     },
     "Sales": {
-      "To Do": 4,
-      "In progress": 2,
+      "To Do": 5,
+      "In progress": 1,
       "In review": 0,
       "Done": 0,
       "Unset": 7
@@ -119,7 +119,7 @@
   "ageBuckets": {
     "0-7 days": 0,
     "8-14 days": 0,
-    "15-30 days": 7,
+    "15-30 days": 6,
     "30+ days": 59
   },
   "byDate": {
@@ -135,13 +135,13 @@
     "2026-05-05": 2
   },
   "cycleStats": {
-    "overall": 27,
+    "overall": 26,
     "overallHistory": 41,
-    "overallClosed": 27,
-    "completedCount": 9,
+    "overallClosed": 26,
+    "completedCount": 10,
     "byTeam": {
       "Operations": null,
-      "Digital marketing": 30,
+      "Digital marketing": 27,
       "Sales": null,
       "Coaching/Delivery": 19,
       "Product": null
@@ -200,6 +200,20 @@
         "cycleDays": 22,
         "historyDays": null,
         "closedDays": 22,
+        "source": "closedAt"
+      },
+      {
+        "number": 102,
+        "title": "Update our customer service phone number",
+        "labels": [
+          "Digital marketing"
+        ],
+        "kind": null,
+        "milestone": null,
+        "assignees": [],
+        "cycleDays": 19,
+        "historyDays": null,
+        "closedDays": 19,
         "source": "closedAt"
       },
       {
@@ -315,8 +329,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 82,
-        "daysInFlight": 82
+        "currentStatusDays": 83,
+        "daysInFlight": 83
       },
       {
         "number": 25,
@@ -373,6 +387,19 @@
         "daysInFlight": 55
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 55,
+        "daysInFlight": 55
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
@@ -386,19 +413,6 @@
         "daysInFlight": 55
       },
       {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 54,
-        "daysInFlight": 54
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
@@ -406,8 +420,21 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 54,
-        "daysInFlight": 54
+        "currentStatusDays": 55,
+        "daysInFlight": 55
+      },
+      {
+        "number": 78,
+        "title": "Objection Handling Review and Playbook Update",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Task",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 55,
+        "daysInFlight": 55
       },
       {
         "number": 94,
@@ -433,8 +460,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 18,
-        "daysInFlight": 18
+        "currentStatusDays": 19,
+        "daysInFlight": 19
       },
       {
         "number": 48,
@@ -477,7 +504,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 57,
+        "currentStatusDays": 58,
         "daysInFlight": null
       },
       {
@@ -492,7 +519,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 57,
+        "currentStatusDays": 58,
         "daysInFlight": null
       },
       {
@@ -507,7 +534,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 57,
+        "currentStatusDays": 58,
         "daysInFlight": null
       },
       {
@@ -523,7 +550,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 57,
+        "currentStatusDays": 58,
         "daysInFlight": null
       },
       {
@@ -550,7 +577,9 @@
         ],
         "kind": "Task",
         "milestone": "Q2 2026",
-        "assignees": [],
+        "assignees": [
+          "Iyanumi"
+        ],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
@@ -570,19 +599,6 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 102,
-        "title": "Update our customer service phone number",
-        "labels": [
-          "Digital marketing"
-        ],
-        "kind": null,
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -644,19 +660,6 @@
         "assignees": [
           "Marxlyte"
         ],
-        "currentStatus": "In progress",
-        "currentStatusDays": 0,
-        "daysInFlight": null
-      },
-      {
-        "number": 78,
-        "title": "Objection Handling Review and Playbook Update",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Task",
-        "milestone": null,
-        "assignees": [],
         "currentStatus": "In progress",
         "currentStatusDays": 0,
         "daysInFlight": null
@@ -1361,7 +1364,9 @@
         "Coaching/Delivery",
         "task"
       ],
-      "assignees": [],
+      "assignees": [
+        "Iyanumi"
+      ],
       "milestone": "Q2 2026",
       "createdAt": "2026-03-28T13:06:01Z",
       "closedAt": null,
@@ -1458,8 +1463,8 @@
     {
       "number": 102,
       "title": "Update our customer service phone number",
-      "state": "OPEN",
-      "status": "In review",
+      "state": "CLOSED",
+      "status": "Done",
       "kind": null,
       "author": "MaryleenAmaizu",
       "labels": [
@@ -1468,7 +1473,7 @@
       "assignees": [],
       "milestone": null,
       "createdAt": "2026-05-07T14:07:38Z",
-      "closedAt": null,
+      "closedAt": "2026-05-26T08:17:18Z",
       "ageDays": 18
     },
     {
@@ -1735,22 +1740,6 @@
       "ageDays": 54
     },
     {
-      "number": 78,
-      "title": "Objection Handling Review and Playbook Update",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": "Task",
-      "author": "VeraEzike",
-      "labels": [
-        "Sales"
-      ],
-      "assignees": [],
-      "milestone": null,
-      "createdAt": "2026-04-01T14:39:36Z",
-      "closedAt": null,
-      "ageDays": 54
-    },
-    {
       "number": 79,
       "title": "Follow-Up Tracking System and CRM Data Review",
       "state": "OPEN",
@@ -1813,7 +1802,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 31,
@@ -1922,7 +1911,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 19
+      "ageDays": 20
     },
     {
       "number": 99,
@@ -1957,6 +1946,22 @@
       "createdAt": "2026-05-07T16:04:31Z",
       "closedAt": null,
       "ageDays": 18
+    },
+    {
+      "number": 78,
+      "title": "Objection Handling Review and Playbook Update",
+      "state": "OPEN",
+      "status": "To Do",
+      "kind": "Task",
+      "author": "VeraEzike",
+      "labels": [
+        "Sales"
+      ],
+      "assignees": [],
+      "milestone": null,
+      "createdAt": "2026-04-01T14:39:36Z",
+      "closedAt": null,
+      "ageDays": 54
     }
   ]
 }
