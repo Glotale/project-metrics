@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T20:03:56.777Z",
+  "lastUpdated": "2026-05-27T02:58:26.674Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -358,8 +358,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 77,
-        "daysInFlight": 77
+        "currentStatusDays": 78,
+        "daysInFlight": 78
       },
       {
         "number": 27,
@@ -372,8 +372,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 77,
-        "daysInFlight": 77
+        "currentStatusDays": 78,
+        "daysInFlight": 78
       },
       {
         "number": 28,
@@ -383,8 +383,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 77,
-        "daysInFlight": 77
+        "currentStatusDays": 78,
+        "daysInFlight": 78
       },
       {
         "number": 76,
@@ -399,8 +399,34 @@
           "Rachaelakoteyon"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 55,
-        "daysInFlight": 55
+        "currentStatusDays": 56,
+        "daysInFlight": 56
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [
+          "VeraEzike"
+        ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 56,
+        "daysInFlight": 56
+      },
+      {
+        "number": 78,
+        "title": "Objection Handling Review and Playbook Update",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Task",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 56,
+        "daysInFlight": 56
       },
       {
         "number": 79,
@@ -416,36 +442,10 @@
         "daysInFlight": 55
       },
       {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [
-          "VeraEzike"
-        ],
-        "currentStatus": "To Do",
-        "currentStatusDays": 55,
-        "daysInFlight": 55
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
         "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 55,
-        "daysInFlight": 55
-      },
-      {
-        "number": 78,
-        "title": "Objection Handling Review and Playbook Update",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Task",
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
@@ -465,8 +465,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 21,
-        "daysInFlight": 21
+        "currentStatusDays": 22,
+        "daysInFlight": 22
       },
       {
         "number": 103,
@@ -713,7 +713,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 7,
@@ -1837,7 +1837,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 48
+      "ageDays": 49
     },
     {
       "number": 90,
