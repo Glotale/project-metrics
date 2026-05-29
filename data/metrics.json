@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T02:49:42.719Z",
+  "lastUpdated": "2026-05-29T09:45:44.235Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 63,
+    "avgAgeDays": 64,
     "unassignedCount": 51
   },
   "byStatus": {
@@ -344,8 +344,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 85,
-        "daysInFlight": 85
+        "currentStatusDays": 86,
+        "daysInFlight": 86
       },
       {
         "number": 25,
@@ -402,6 +402,19 @@
         "daysInFlight": 58
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 58,
+        "daysInFlight": 58
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
@@ -410,6 +423,17 @@
         "assignees": [
           "VeraEzike"
         ],
+        "currentStatus": "To Do",
+        "currentStatusDays": 58,
+        "daysInFlight": 58
+      },
+      {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
         "currentStatus": "To Do",
         "currentStatusDays": 58,
         "daysInFlight": 58
@@ -426,30 +450,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 58,
         "daysInFlight": 58
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 57,
-        "daysInFlight": 57
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 57,
-        "daysInFlight": 57
       },
       {
         "number": 94,
@@ -475,8 +475,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 21,
-        "daysInFlight": 21
+        "currentStatusDays": 22,
+        "daysInFlight": 22
       },
       {
         "number": 48,
@@ -519,7 +519,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 60,
+        "currentStatusDays": 61,
         "daysInFlight": null
       },
       {
@@ -534,7 +534,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 60,
+        "currentStatusDays": 61,
         "daysInFlight": null
       },
       {
@@ -549,7 +549,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 60,
+        "currentStatusDays": 61,
         "daysInFlight": null
       },
       {
@@ -565,7 +565,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 60,
+        "currentStatusDays": 61,
         "daysInFlight": null
       },
       {
@@ -1801,7 +1801,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 51
+      "ageDays": 52
     },
     {
       "number": 31,
@@ -1910,7 +1910,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 22
+      "ageDays": 23
     },
     {
       "number": 99,
