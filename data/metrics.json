@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-06-01T03:37:27.079Z",
+  "lastUpdated": "2026-06-01T11:24:24.531Z",
   "summary": {
     "total": 75,
     "done": 11,
-    "inProgress": 9,
-    "inReview": 3,
+    "inProgress": 8,
+    "inReview": 4,
     "toDo": 12,
     "unset": 40,
     "completionRate": 15,
@@ -13,11 +13,11 @@
     "unassignedCount": 54
   },
   "byStatus": {
-    "In review": 3,
+    "In review": 4,
     "Done": 11,
     "To Do": 12,
     "Unset": 40,
-    "In progress": 9
+    "In progress": 8
   },
   "byKind": {
     "Task": 34,
@@ -69,8 +69,8 @@
     },
     "None": {
       "To Do": 6,
-      "In progress": 3,
-      "In review": 1,
+      "In progress": 2,
+      "In review": 2,
       "Done": 9,
       "Unset": 0
     }
@@ -85,8 +85,8 @@
     },
     "Digital marketing": {
       "To Do": 1,
-      "In progress": 5,
-      "In review": 2,
+      "In progress": 4,
+      "In review": 3,
       "Done": 5,
       "Unset": 11
     },
@@ -333,8 +333,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 88,
-        "daysInFlight": 88
+        "currentStatusDays": 89,
+        "daysInFlight": 89
       },
       {
         "number": 25,
@@ -412,6 +412,17 @@
         "daysInFlight": 61
       },
       {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 61,
+        "daysInFlight": 61
+      },
+      {
         "number": 78,
         "title": "Objection Handling Review and Playbook Update",
         "labels": [
@@ -423,17 +434,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 61,
         "daysInFlight": 61
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 60,
-        "daysInFlight": 60
       },
       {
         "number": 94,
@@ -458,8 +458,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 24,
-        "daysInFlight": 24
+        "currentStatusDays": 25,
+        "daysInFlight": 25
       },
       {
         "number": 48,
@@ -500,7 +500,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 63,
+        "currentStatusDays": 64,
         "daysInFlight": null
       },
       {
@@ -515,7 +515,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 63,
+        "currentStatusDays": 64,
         "daysInFlight": null
       },
       {
@@ -530,7 +530,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 63,
+        "currentStatusDays": 64,
         "daysInFlight": null
       },
       {
@@ -545,7 +545,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 63,
+        "currentStatusDays": 64,
         "daysInFlight": null
       },
       {
@@ -624,7 +624,7 @@
         "assignees": [
           "Marxlyte"
         ],
-        "currentStatus": "In progress",
+        "currentStatus": "In review",
         "currentStatusDays": 0,
         "daysInFlight": null
       },
@@ -724,7 +724,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:44:13Z",
       "closedAt": null,
-      "ageDays": 88
+      "ageDays": 89
     },
     {
       "number": 17,
@@ -756,7 +756,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 82
+      "ageDays": 83
     },
     {
       "number": 27,
@@ -773,7 +773,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 82
+      "ageDays": 83
     },
     {
       "number": 28,
@@ -787,7 +787,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 82
+      "ageDays": 83
     },
     {
       "number": 1,
@@ -851,7 +851,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 88
+      "ageDays": 89
     },
     {
       "number": 13,
@@ -867,7 +867,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:55:02Z",
       "closedAt": null,
-      "ageDays": 88
+      "ageDays": 89
     },
     {
       "number": 18,
@@ -921,7 +921,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:47:26Z",
       "closedAt": null,
-      "ageDays": 88
+      "ageDays": 89
     },
     {
       "number": 26,
@@ -938,7 +938,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 82
+      "ageDays": 83
     },
     {
       "number": 32,
@@ -1224,7 +1224,7 @@
       "milestone": null,
       "createdAt": "2026-04-22T11:01:39Z",
       "closedAt": "2026-05-14T08:09:41Z",
-      "ageDays": 39
+      "ageDays": 40
     },
     {
       "number": 49,
@@ -1471,6 +1471,24 @@
       "ageDays": 24
     },
     {
+      "number": 100,
+      "title": "Update Website Pricing for GBP & NGN",
+      "state": "OPEN",
+      "status": "In review",
+      "kind": null,
+      "author": "Marxlyte",
+      "labels": [
+        "Digital marketing"
+      ],
+      "assignees": [
+        "Marxlyte"
+      ],
+      "milestone": null,
+      "createdAt": "2026-05-07T13:49:47Z",
+      "closedAt": null,
+      "ageDays": 24
+    },
+    {
       "number": 98,
       "title": "Updating the Study Abroad Form",
       "state": "CLOSED",
@@ -1488,24 +1506,6 @@
       "createdAt": "2026-05-06T13:36:59Z",
       "closedAt": "2026-05-26T14:46:44Z",
       "ageDays": 25
-    },
-    {
-      "number": 100,
-      "title": "Update Website Pricing for GBP & NGN",
-      "state": "OPEN",
-      "status": "In progress",
-      "kind": null,
-      "author": "Marxlyte",
-      "labels": [
-        "Digital marketing"
-      ],
-      "assignees": [
-        "Marxlyte"
-      ],
-      "milestone": null,
-      "createdAt": "2026-05-07T13:49:47Z",
-      "closedAt": null,
-      "ageDays": 24
     },
     {
       "number": 64,
@@ -1693,7 +1693,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 76,
@@ -1771,7 +1771,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 54
+      "ageDays": 55
     },
     {
       "number": 31,
@@ -1876,7 +1876,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 25
+      "ageDays": 26
     },
     {
       "number": 99,
@@ -1896,7 +1896,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T09:46:20Z",
       "closedAt": "2026-05-14T08:04:01Z",
-      "ageDays": 24
+      "ageDays": 25
     },
     {
       "number": 103,
