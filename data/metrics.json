@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T03:34:39.609Z",
+  "lastUpdated": "2026-06-08T10:29:06.835Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -332,8 +332,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 95,
-        "daysInFlight": 95
+        "currentStatusDays": 96,
+        "daysInFlight": 96
       },
       {
         "number": 25,
@@ -411,6 +411,17 @@
         "daysInFlight": 68
       },
       {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 68,
+        "daysInFlight": 68
+      },
+      {
         "number": 78,
         "title": "Objection Handling Review and Playbook Update",
         "labels": [
@@ -422,17 +433,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 68,
         "daysInFlight": 68
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 67,
-        "daysInFlight": 67
       },
       {
         "number": 94,
@@ -457,8 +457,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 31,
-        "daysInFlight": 31
+        "currentStatusDays": 32,
+        "daysInFlight": 32
       },
       {
         "number": 48,
@@ -499,7 +499,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 70,
+        "currentStatusDays": 71,
         "daysInFlight": null
       },
       {
@@ -514,7 +514,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 70,
+        "currentStatusDays": 71,
         "daysInFlight": null
       },
       {
@@ -529,7 +529,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 70,
+        "currentStatusDays": 71,
         "daysInFlight": null
       },
       {
@@ -544,7 +544,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 70,
+        "currentStatusDays": 71,
         "daysInFlight": null
       },
       {
@@ -755,7 +755,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 89
+      "ageDays": 90
     },
     {
       "number": 27,
@@ -772,7 +772,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 89
+      "ageDays": 90
     },
     {
       "number": 28,
@@ -786,7 +786,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 89
+      "ageDays": 90
     },
     {
       "number": 1,
@@ -850,7 +850,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-04T10:26:15Z",
       "closedAt": null,
-      "ageDays": 95
+      "ageDays": 96
     },
     {
       "number": 13,
@@ -937,7 +937,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 89
+      "ageDays": 90
     },
     {
       "number": 32,
@@ -1692,7 +1692,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 68
+      "ageDays": 69
     },
     {
       "number": 76,
@@ -1770,7 +1770,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 61
+      "ageDays": 62
     },
     {
       "number": 31,
@@ -1875,7 +1875,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 32
+      "ageDays": 33
     },
     {
       "number": 99,
@@ -1895,7 +1895,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T09:46:20Z",
       "closedAt": "2026-05-14T08:04:01Z",
-      "ageDays": 31
+      "ageDays": 32
     },
     {
       "number": 103,
