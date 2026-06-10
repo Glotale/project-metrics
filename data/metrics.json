@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T02:57:44.673Z",
+  "lastUpdated": "2026-06-10T09:51:28.965Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 75,
+    "avgAgeDays": 76,
     "unassignedCount": 54
   },
   "byStatus": {
@@ -332,8 +332,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 97,
-        "daysInFlight": 97
+        "currentStatusDays": 98,
+        "daysInFlight": 98
       },
       {
         "number": 25,
@@ -387,8 +387,32 @@
         "daysInFlight": 70
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 70,
+        "daysInFlight": 70
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 70,
+        "daysInFlight": 70
+      },
+      {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
         "labels": [],
         "kind": "Story",
         "milestone": null,
@@ -409,30 +433,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 70,
         "daysInFlight": 70
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 69,
-        "daysInFlight": 69
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 69,
-        "daysInFlight": 69
       },
       {
         "number": 94,
@@ -457,8 +457,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 33,
-        "daysInFlight": 33
+        "currentStatusDays": 34,
+        "daysInFlight": 34
       },
       {
         "number": 48,
@@ -499,7 +499,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 72,
+        "currentStatusDays": 73,
         "daysInFlight": null
       },
       {
@@ -514,7 +514,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 72,
+        "currentStatusDays": 73,
         "daysInFlight": null
       },
       {
@@ -529,7 +529,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 72,
+        "currentStatusDays": 73,
         "daysInFlight": null
       },
       {
@@ -544,7 +544,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 72,
+        "currentStatusDays": 73,
         "daysInFlight": null
       },
       {
@@ -1770,7 +1770,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 63
+      "ageDays": 64
     },
     {
       "number": 31,
@@ -1875,7 +1875,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 34
+      "ageDays": 35
     },
     {
       "number": 99,
@@ -1895,7 +1895,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T09:46:20Z",
       "closedAt": "2026-05-14T08:04:01Z",
-      "ageDays": 33
+      "ageDays": 34
     },
     {
       "number": 103,
