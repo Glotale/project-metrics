@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T03:35:45.851Z",
+  "lastUpdated": "2026-06-14T09:27:54.052Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -331,8 +331,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 101,
-        "daysInFlight": 101
+        "currentStatusDays": 102,
+        "daysInFlight": 102
       },
       {
         "number": 25,
@@ -410,6 +410,17 @@
         "daysInFlight": 74
       },
       {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 74,
+        "daysInFlight": 74
+      },
+      {
         "number": 78,
         "title": "Objection Handling Review and Playbook Update",
         "labels": [
@@ -421,17 +432,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 74,
         "daysInFlight": 74
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 73,
-        "daysInFlight": 73
       },
       {
         "number": 94,
@@ -456,8 +456,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 37,
-        "daysInFlight": 37
+        "currentStatusDays": 38,
+        "daysInFlight": 38
       },
       {
         "number": 48,
@@ -498,7 +498,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 76,
+        "currentStatusDays": 77,
         "daysInFlight": null
       },
       {
@@ -513,7 +513,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 76,
+        "currentStatusDays": 77,
         "daysInFlight": null
       },
       {
@@ -528,7 +528,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 76,
+        "currentStatusDays": 77,
         "daysInFlight": null
       },
       {
@@ -543,7 +543,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 76,
+        "currentStatusDays": 77,
         "daysInFlight": null
       },
       {
@@ -1769,7 +1769,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 67
+      "ageDays": 68
     },
     {
       "number": 31,
@@ -1874,7 +1874,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 38
+      "ageDays": 39
     },
     {
       "number": 99,
