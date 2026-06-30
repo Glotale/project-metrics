@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T19:50:49.201Z",
+  "lastUpdated": "2026-06-30T02:54:51.609Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -343,8 +343,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 111,
-        "daysInFlight": 111
+        "currentStatusDays": 112,
+        "daysInFlight": 112
       },
       {
         "number": 27,
@@ -357,8 +357,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 111,
-        "daysInFlight": 111
+        "currentStatusDays": 112,
+        "daysInFlight": 112
       },
       {
         "number": 28,
@@ -368,8 +368,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 111,
-        "daysInFlight": 111
+        "currentStatusDays": 112,
+        "daysInFlight": 112
       },
       {
         "number": 76,
@@ -381,8 +381,32 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 89,
-        "daysInFlight": 89
+        "currentStatusDays": 90,
+        "daysInFlight": 90
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 90,
+        "daysInFlight": 90
+      },
+      {
+        "number": 78,
+        "title": "Objection Handling Review and Playbook Update",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Task",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 90,
+        "daysInFlight": 90
       },
       {
         "number": 79,
@@ -390,17 +414,6 @@
         "labels": [
           "Sales"
         ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 89,
-        "daysInFlight": 89
-      },
-      {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
         "kind": "Story",
         "milestone": null,
         "assignees": [],
@@ -420,19 +433,6 @@
         "daysInFlight": 89
       },
       {
-        "number": 78,
-        "title": "Objection Handling Review and Playbook Update",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Task",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 89,
-        "daysInFlight": 89
-      },
-      {
         "number": 94,
         "title": "Turn the EB2-NIW materials into a full course",
         "labels": [
@@ -444,8 +444,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 55,
-        "daysInFlight": 55
+        "currentStatusDays": 56,
+        "daysInFlight": 56
       },
       {
         "number": 103,
@@ -689,7 +689,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 82
+      "ageDays": 83
     },
     {
       "number": 7,
@@ -1802,7 +1802,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 82
+      "ageDays": 83
     },
     {
       "number": 90,
