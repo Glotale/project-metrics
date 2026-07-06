@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T02:46:28.017Z",
+  "lastUpdated": "2026-07-06T10:09:28.469Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 101,
+    "avgAgeDays": 102,
     "unassignedCount": 54
   },
   "byStatus": {
@@ -119,7 +119,7 @@
     "30+ days": 64
   },
   "byDate": {
-    "2026-05-07": 5
+    "2026-05-07": 4
   },
   "cycleStats": {
     "overall": 25,
@@ -328,8 +328,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 123,
-        "daysInFlight": 123
+        "currentStatusDays": 124,
+        "daysInFlight": 124
       },
       {
         "number": 25,
@@ -383,8 +383,32 @@
         "daysInFlight": 96
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 96,
+        "daysInFlight": 96
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 96,
+        "daysInFlight": 96
+      },
+      {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
         "labels": [],
         "kind": "Story",
         "milestone": null,
@@ -405,30 +429,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 96,
         "daysInFlight": 96
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 95,
-        "daysInFlight": 95
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 95,
-        "daysInFlight": 95
       },
       {
         "number": 94,
@@ -453,8 +453,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 59,
-        "daysInFlight": 59
+        "currentStatusDays": 60,
+        "daysInFlight": 60
       },
       {
         "number": 48,
@@ -495,7 +495,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 98,
+        "currentStatusDays": 99,
         "daysInFlight": null
       },
       {
@@ -510,7 +510,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 98,
+        "currentStatusDays": 99,
         "daysInFlight": null
       },
       {
@@ -525,7 +525,7 @@
           "OLUWADAMILOLA-24"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 98,
+        "currentStatusDays": 99,
         "daysInFlight": null
       },
       {
@@ -540,7 +540,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 98,
+        "currentStatusDays": 99,
         "daysInFlight": null
       },
       {
@@ -751,7 +751,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 117
+      "ageDays": 118
     },
     {
       "number": 27,
@@ -768,7 +768,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 117
+      "ageDays": 118
     },
     {
       "number": 28,
@@ -782,7 +782,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 117
+      "ageDays": 118
     },
     {
       "number": 1,
@@ -933,7 +933,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 117
+      "ageDays": 118
     },
     {
       "number": 32,
@@ -1766,7 +1766,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 89
+      "ageDays": 90
     },
     {
       "number": 31,
@@ -1871,7 +1871,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 60
+      "ageDays": 61
     },
     {
       "number": 99,
@@ -1891,7 +1891,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T09:46:20Z",
       "closedAt": "2026-05-14T08:04:01Z",
-      "ageDays": 59
+      "ageDays": 60
     },
     {
       "number": 103,
