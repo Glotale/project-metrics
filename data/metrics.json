@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T19:38:06.915Z",
+  "lastUpdated": "2026-07-10T02:36:06.811Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -338,8 +338,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 121,
-        "daysInFlight": 121
+        "currentStatusDays": 122,
+        "daysInFlight": 122
       },
       {
         "number": 27,
@@ -352,8 +352,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 121,
-        "daysInFlight": 121
+        "currentStatusDays": 122,
+        "daysInFlight": 122
       },
       {
         "number": 28,
@@ -363,8 +363,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 121,
-        "daysInFlight": 121
+        "currentStatusDays": 122,
+        "daysInFlight": 122
       },
       {
         "number": 76,
@@ -376,8 +376,19 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 99,
-        "daysInFlight": 99
+        "currentStatusDays": 100,
+        "daysInFlight": 100
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 100,
+        "daysInFlight": 100
       },
       {
         "number": 79,
@@ -385,17 +396,6 @@
         "labels": [
           "Sales"
         ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 99,
-        "daysInFlight": 99
-      },
-      {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
         "kind": "Story",
         "milestone": null,
         "assignees": [],
@@ -439,8 +439,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 65,
-        "daysInFlight": 65
+        "currentStatusDays": 66,
+        "daysInFlight": 66
       },
       {
         "number": 103,
@@ -682,7 +682,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 92
+      "ageDays": 93
     },
     {
       "number": 7,
@@ -698,7 +698,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 127
+      "ageDays": 128
     },
     {
       "number": 11,
@@ -1793,7 +1793,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 92
+      "ageDays": 93
     },
     {
       "number": 90,
