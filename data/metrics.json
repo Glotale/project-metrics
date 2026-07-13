@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T18:59:10.127Z",
+  "lastUpdated": "2026-07-13T02:24:01.492Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -338,8 +338,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 124,
-        "daysInFlight": 124
+        "currentStatusDays": 125,
+        "daysInFlight": 125
       },
       {
         "number": 27,
@@ -352,8 +352,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 124,
-        "daysInFlight": 124
+        "currentStatusDays": 125,
+        "daysInFlight": 125
       },
       {
         "number": 28,
@@ -363,8 +363,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 124,
-        "daysInFlight": 124
+        "currentStatusDays": 125,
+        "daysInFlight": 125
       },
       {
         "number": 76,
@@ -376,8 +376,19 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 102,
-        "daysInFlight": 102
+        "currentStatusDays": 103,
+        "daysInFlight": 103
+      },
+      {
+        "number": 77,
+        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 103,
+        "daysInFlight": 103
       },
       {
         "number": 79,
@@ -385,17 +396,6 @@
         "labels": [
           "Sales"
         ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 102,
-        "daysInFlight": 102
-      },
-      {
-        "number": 77,
-        "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
-        "labels": [],
         "kind": "Story",
         "milestone": null,
         "assignees": [],
@@ -682,7 +682,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 95
+      "ageDays": 96
     },
     {
       "number": 7,
@@ -698,7 +698,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-03T19:39:49Z",
       "closedAt": null,
-      "ageDays": 130
+      "ageDays": 131
     },
     {
       "number": 11,
@@ -1793,7 +1793,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 95
+      "ageDays": 96
     },
     {
       "number": 90,
