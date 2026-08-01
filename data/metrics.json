@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T02:25:42.589Z",
+  "lastUpdated": "2026-08-01T08:13:09.413Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 127,
+    "avgAgeDays": 128,
     "unassignedCount": 55
   },
   "byStatus": {
@@ -325,8 +325,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 149,
-        "daysInFlight": 149
+        "currentStatusDays": 150,
+        "daysInFlight": 150
       },
       {
         "number": 25,
@@ -343,7 +343,7 @@
       },
       {
         "number": 27,
-        "title": "STORY: Launch “The Global Talent Simulation Experience” (The Eligibility Tool)",
+        "title": "STORY: Launch ���The Global Talent Simulation Experience” (The Eligibility Tool)",
         "labels": [
           "Digital marketing",
           "Sales"
@@ -380,6 +380,19 @@
         "daysInFlight": 122
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 122,
+        "daysInFlight": 122
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
         "labels": [],
@@ -391,19 +404,6 @@
         "daysInFlight": 122
       },
       {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 121,
-        "daysInFlight": 121
-      },
-      {
         "number": 80,
         "title": "Automated Call Recording Solutions Research",
         "labels": [],
@@ -411,8 +411,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 121,
-        "daysInFlight": 121
+        "currentStatusDays": 122,
+        "daysInFlight": 122
       },
       {
         "number": 78,
@@ -424,8 +424,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 121,
-        "daysInFlight": 121
+        "currentStatusDays": 122,
+        "daysInFlight": 122
       },
       {
         "number": 94,
@@ -439,8 +439,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 87,
-        "daysInFlight": 87
+        "currentStatusDays": 88,
+        "daysInFlight": 88
       },
       {
         "number": 103,
@@ -450,8 +450,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 85,
-        "daysInFlight": 85
+        "currentStatusDays": 86,
+        "daysInFlight": 86
       },
       {
         "number": 48,
@@ -492,7 +492,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 124,
+        "currentStatusDays": 125,
         "daysInFlight": null
       },
       {
@@ -507,7 +507,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 124,
+        "currentStatusDays": 125,
         "daysInFlight": null
       },
       {
@@ -520,7 +520,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 124,
+        "currentStatusDays": 125,
         "daysInFlight": null
       },
       {
@@ -535,7 +535,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 124,
+        "currentStatusDays": 125,
         "daysInFlight": null
       },
       {
@@ -750,7 +750,7 @@
     },
     {
       "number": 27,
-      "title": "STORY: Launch “The Global Talent Simulation Experience” (The Eligibility Tool)",
+      "title": "STORY: Launch ���The Global Talent Simulation Experience” (The Eligibility Tool)",
       "state": "OPEN",
       "status": "To Do",
       "kind": "Story",
@@ -1759,7 +1759,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 115
+      "ageDays": 116
     },
     {
       "number": 31,
