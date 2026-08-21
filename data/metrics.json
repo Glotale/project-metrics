@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T01:01:47.148Z",
+  "lastUpdated": "2026-08-21T06:37:51.512Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 147,
+    "avgAgeDays": 148,
     "unassignedCount": 55
   },
   "byStatus": {
@@ -325,8 +325,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 169,
-        "daysInFlight": 169
+        "currentStatusDays": 170,
+        "daysInFlight": 170
       },
       {
         "number": 25,
@@ -343,7 +343,7 @@
       },
       {
         "number": 27,
-        "title": "STORY: Launch “The Global Talent Simulation Experience” (The Eligibility Tool)",
+        "title": "STORY: Launch ���The Global Talent Simulation Experience” (The Eligibility Tool)",
         "labels": [
           "Digital marketing",
           "Sales"
@@ -376,8 +376,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 141,
-        "daysInFlight": 141
+        "currentStatusDays": 142,
+        "daysInFlight": 142
       },
       {
         "number": 79,
@@ -389,8 +389,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 141,
-        "daysInFlight": 141
+        "currentStatusDays": 142,
+        "daysInFlight": 142
       },
       {
         "number": 77,
@@ -400,8 +400,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 141,
-        "daysInFlight": 141
+        "currentStatusDays": 142,
+        "daysInFlight": 142
       },
       {
         "number": 80,
@@ -411,8 +411,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 141,
-        "daysInFlight": 141
+        "currentStatusDays": 142,
+        "daysInFlight": 142
       },
       {
         "number": 78,
@@ -424,8 +424,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 141,
-        "daysInFlight": 141
+        "currentStatusDays": 142,
+        "daysInFlight": 142
       },
       {
         "number": 94,
@@ -439,8 +439,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 107,
-        "daysInFlight": 107
+        "currentStatusDays": 108,
+        "daysInFlight": 108
       },
       {
         "number": 103,
@@ -450,8 +450,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 105,
-        "daysInFlight": 105
+        "currentStatusDays": 106,
+        "daysInFlight": 106
       },
       {
         "number": 48,
@@ -750,7 +750,7 @@
     },
     {
       "number": 27,
-      "title": "STORY: Launch “The Global Talent Simulation Experience” (The Eligibility Tool)",
+      "title": "STORY: Launch ���The Global Talent Simulation Experience” (The Eligibility Tool)",
       "state": "OPEN",
       "status": "To Do",
       "kind": "Story",
