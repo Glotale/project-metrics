@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T20:35:00.048Z",
+  "lastUpdated": "2026-09-27T03:21:50.767Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 184,
+    "avgAgeDays": 185,
     "unassignedCount": 55
   },
   "byStatus": {
@@ -338,8 +338,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 200,
-        "daysInFlight": 200
+        "currentStatusDays": 201,
+        "daysInFlight": 201
       },
       {
         "number": 27,
@@ -352,8 +352,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 200,
-        "daysInFlight": 200
+        "currentStatusDays": 201,
+        "daysInFlight": 201
       },
       {
         "number": 28,
@@ -363,8 +363,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 200,
-        "daysInFlight": 200
+        "currentStatusDays": 201,
+        "daysInFlight": 201
       },
       {
         "number": 76,
@@ -376,8 +376,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 178,
-        "daysInFlight": 178
+        "currentStatusDays": 179,
+        "daysInFlight": 179
       },
       {
         "number": 79,
@@ -389,8 +389,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 178,
-        "daysInFlight": 178
+        "currentStatusDays": 179,
+        "daysInFlight": 179
       },
       {
         "number": 77,
@@ -400,19 +400,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 178,
-        "daysInFlight": 178
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 178,
-        "daysInFlight": 178
+        "currentStatusDays": 179,
+        "daysInFlight": 179
       },
       {
         "number": 78,
@@ -421,6 +410,17 @@
           "Sales"
         ],
         "kind": "Task",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 179,
+        "daysInFlight": 179
+      },
+      {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
+        "labels": [],
+        "kind": "Story",
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
@@ -439,8 +439,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 144,
-        "daysInFlight": 144
+        "currentStatusDays": 145,
+        "daysInFlight": 145
       },
       {
         "number": 103,
@@ -682,7 +682,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 171
+      "ageDays": 172
     },
     {
       "number": 7,
@@ -1793,7 +1793,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 171
+      "ageDays": 172
     },
     {
       "number": 90,
