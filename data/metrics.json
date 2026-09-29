@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T22:53:15.257Z",
+  "lastUpdated": "2026-09-29T03:56:25.825Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 186,
+    "avgAgeDays": 187,
     "unassignedCount": 55
   },
   "byStatus": {
@@ -376,8 +376,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 180,
-        "daysInFlight": 180
+        "currentStatusDays": 181,
+        "daysInFlight": 181
       },
       {
         "number": 79,
@@ -389,8 +389,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 180,
-        "daysInFlight": 180
+        "currentStatusDays": 181,
+        "daysInFlight": 181
       },
       {
         "number": 77,
@@ -400,8 +400,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 180,
-        "daysInFlight": 180
+        "currentStatusDays": 181,
+        "daysInFlight": 181
       },
       {
         "number": 80,
@@ -411,8 +411,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 180,
-        "daysInFlight": 180
+        "currentStatusDays": 181,
+        "daysInFlight": 181
       },
       {
         "number": 78,
@@ -424,8 +424,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 180,
-        "daysInFlight": 180
+        "currentStatusDays": 181,
+        "daysInFlight": 181
       },
       {
         "number": 94,
@@ -439,8 +439,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 146,
-        "daysInFlight": 146
+        "currentStatusDays": 147,
+        "daysInFlight": 147
       },
       {
         "number": 103,
@@ -682,7 +682,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 173
+      "ageDays": 174
     },
     {
       "number": 7,
@@ -1793,7 +1793,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 173
+      "ageDays": 174
     },
     {
       "number": 90,
