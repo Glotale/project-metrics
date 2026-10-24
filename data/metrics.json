@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T03:03:10.568Z",
+  "lastUpdated": "2026-10-24T10:11:00.329Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -325,8 +325,8 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 233,
-        "daysInFlight": 233
+        "currentStatusDays": 234,
+        "daysInFlight": 234
       },
       {
         "number": 25,
@@ -380,8 +380,32 @@
         "daysInFlight": 206
       },
       {
+        "number": 79,
+        "title": "Follow-Up Tracking System and CRM Data Review",
+        "labels": [
+          "Sales"
+        ],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 206,
+        "daysInFlight": 206
+      },
+      {
         "number": 77,
         "title": "Conversion Rate Tracking Expansion Across All Lead Sources",
+        "labels": [],
+        "kind": "Story",
+        "milestone": null,
+        "assignees": [],
+        "currentStatus": "To Do",
+        "currentStatusDays": 206,
+        "daysInFlight": 206
+      },
+      {
+        "number": 80,
+        "title": "Automated Call Recording Solutions Research",
         "labels": [],
         "kind": "Story",
         "milestone": null,
@@ -402,30 +426,6 @@
         "currentStatus": "To Do",
         "currentStatusDays": 206,
         "daysInFlight": 206
-      },
-      {
-        "number": 79,
-        "title": "Follow-Up Tracking System and CRM Data Review",
-        "labels": [
-          "Sales"
-        ],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 205,
-        "daysInFlight": 205
-      },
-      {
-        "number": 80,
-        "title": "Automated Call Recording Solutions Research",
-        "labels": [],
-        "kind": "Story",
-        "milestone": null,
-        "assignees": [],
-        "currentStatus": "To Do",
-        "currentStatusDays": 205,
-        "daysInFlight": 205
       },
       {
         "number": 94,
@@ -450,8 +450,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 169,
-        "daysInFlight": 169
+        "currentStatusDays": 170,
+        "daysInFlight": 170
       },
       {
         "number": 48,
@@ -492,7 +492,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In review",
-        "currentStatusDays": 208,
+        "currentStatusDays": 209,
         "daysInFlight": null
       },
       {
@@ -507,7 +507,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 208,
+        "currentStatusDays": 209,
         "daysInFlight": null
       },
       {
@@ -520,7 +520,7 @@
         "milestone": "Q1 2026",
         "assignees": [],
         "currentStatus": "In progress",
-        "currentStatusDays": 208,
+        "currentStatusDays": 209,
         "daysInFlight": null
       },
       {
@@ -535,7 +535,7 @@
           "Iyanumi"
         ],
         "currentStatus": "In progress",
-        "currentStatusDays": 208,
+        "currentStatusDays": 209,
         "daysInFlight": null
       },
       {
@@ -746,7 +746,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T09:55:11Z",
       "closedAt": null,
-      "ageDays": 227
+      "ageDays": 228
     },
     {
       "number": 27,
@@ -763,7 +763,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:06:35Z",
       "closedAt": null,
-      "ageDays": 227
+      "ageDays": 228
     },
     {
       "number": 28,
@@ -777,7 +777,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:08:56Z",
       "closedAt": null,
-      "ageDays": 227
+      "ageDays": 228
     },
     {
       "number": 1,
@@ -926,7 +926,7 @@
       "milestone": "Q1 2026",
       "createdAt": "2026-03-10T10:02:12Z",
       "closedAt": null,
-      "ageDays": 227
+      "ageDays": 228
     },
     {
       "number": 32,
@@ -1681,7 +1681,7 @@
       "milestone": null,
       "createdAt": "2026-03-31T10:09:49Z",
       "closedAt": null,
-      "ageDays": 206
+      "ageDays": 207
     },
     {
       "number": 76,
@@ -1759,7 +1759,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T07:44:24Z",
       "closedAt": "2026-04-28T07:58:12Z",
-      "ageDays": 199
+      "ageDays": 200
     },
     {
       "number": 31,
@@ -1864,7 +1864,7 @@
       "milestone": null,
       "createdAt": "2026-05-06T09:07:03Z",
       "closedAt": "2026-05-14T08:12:24Z",
-      "ageDays": 170
+      "ageDays": 171
     },
     {
       "number": 99,
@@ -1884,7 +1884,7 @@
       "milestone": null,
       "createdAt": "2026-05-07T09:46:20Z",
       "closedAt": "2026-05-14T08:04:01Z",
-      "ageDays": 169
+      "ageDays": 170
     },
     {
       "number": 103,
