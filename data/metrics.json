@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T22:25:27.103Z",
+  "lastUpdated": "2026-11-16T04:30:39.556Z",
   "summary": {
     "total": 75,
     "done": 11,
@@ -9,7 +9,7 @@
     "unset": 40,
     "completionRate": 15,
     "avgCycleDays": 25,
-    "avgAgeDays": 234,
+    "avgAgeDays": 235,
     "unassignedCount": 55
   },
   "byStatus": {
@@ -376,8 +376,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 228,
-        "daysInFlight": 228
+        "currentStatusDays": 229,
+        "daysInFlight": 229
       },
       {
         "number": 79,
@@ -389,8 +389,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 228,
-        "daysInFlight": 228
+        "currentStatusDays": 229,
+        "daysInFlight": 229
       },
       {
         "number": 77,
@@ -400,8 +400,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 228,
-        "daysInFlight": 228
+        "currentStatusDays": 229,
+        "daysInFlight": 229
       },
       {
         "number": 80,
@@ -411,8 +411,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 228,
-        "daysInFlight": 228
+        "currentStatusDays": 229,
+        "daysInFlight": 229
       },
       {
         "number": 78,
@@ -424,8 +424,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 228,
-        "daysInFlight": 228
+        "currentStatusDays": 229,
+        "daysInFlight": 229
       },
       {
         "number": 94,
@@ -439,8 +439,8 @@
           "Iyanumi"
         ],
         "currentStatus": "To Do",
-        "currentStatusDays": 194,
-        "daysInFlight": 194
+        "currentStatusDays": 195,
+        "daysInFlight": 195
       },
       {
         "number": 103,
@@ -450,8 +450,8 @@
         "milestone": null,
         "assignees": [],
         "currentStatus": "To Do",
-        "currentStatusDays": 192,
-        "daysInFlight": 192
+        "currentStatusDays": 193,
+        "daysInFlight": 193
       },
       {
         "number": 48,
@@ -682,7 +682,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:47:40Z",
       "closedAt": "2026-05-14T08:08:05Z",
-      "ageDays": 221
+      "ageDays": 222
     },
     {
       "number": 7,
@@ -1793,7 +1793,7 @@
       "milestone": null,
       "createdAt": "2026-04-07T23:51:07Z",
       "closedAt": "2026-05-14T08:09:34Z",
-      "ageDays": 221
+      "ageDays": 222
     },
     {
       "number": 90,
